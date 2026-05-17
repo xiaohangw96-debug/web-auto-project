@@ -1,0 +1,19 @@
+{
+  "name": "英语从句 · English Clauses",
+  "short_name": "英语从句",
+  "description": "英语定语从句、名词性从句、状语从句语法参考",
+  "start_url": ".",
+  "display": "standalone",
+  "background_color": "#fafafa",
+  "theme_color": "#1a1a2e",
+  "orientation": "portrait-primary",
+  "lang": "zh-CN",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "120x120",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,961 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1a1a2e">
+  <meta name="description" content="英语从句语法参考与刷题">
+  <title>英语从句</title>
+  <link rel="manifest" href="manifest.json">
+
+  <!-- KaTeX CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
+
+  <style>
+    *,*::before,*::after{margin:0;padding:0;box-sizing:border-box}
+    :root{--bg:#fafafa;--surface:#fff;--text:#2c2c2c;--text-secondary:#6b6b6b;--accent:#1a1a2e;--accent-light:#16213e;--border:#e8e8e8;--highlight:#f0f0f0;--radius:10px;--shadow:0 1px 3px rgba(0,0,0,.06);--green:#16a34a;--green-bg:#f0fdf4;--red:#dc2626;--red-bg:#fef2f2}
+    @media(prefers-color-scheme:dark){:root{--bg:#111118;--surface:#1a1a24;--text:#e4e4e4;--text-secondary:#9a9a9a;--accent:#e4e4e4;--accent-light:#2a2a3a;--border:#2a2a3a;--highlight:#22222e;--green:#4ade80;--green-bg:rgba(74,222,128,.08);--red:#f87171;--red-bg:rgba(248,113,113,.08)}}
+    body{font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Segoe UI",system-ui,sans-serif;background:var(--bg);color:var(--text);line-height:1.6;min-height:100vh;display:flex;flex-direction:column;-webkit-font-smoothing:antialiased}
+    header{text-align:center;padding:48px 20px 32px}
+    header h1{font-size:28px;font-weight:600;letter-spacing:-0.5px}
+    .subtitle{margin-top:6px;font-size:15px;color:var(--text-secondary)}
+
+    .tabs{display:flex;justify-content:center;gap:4px;padding:0 16px;margin-bottom:32px}
+    .tab{padding:10px 22px;border:none;background:transparent;color:var(--text-secondary);font-size:15px;font-weight:500;cursor:pointer;border-radius:8px;transition:all .2s;-webkit-tap-highlight-color:transparent;outline:none}
+    .tab:hover{background:var(--highlight);color:var(--text)}
+    .tab.active{background:var(--accent-light);color:#fff}
+    @media(prefers-color-scheme:dark){.tab.active{background:#3a3a55}}
+
+    main{flex:1;max-width:720px;width:100%;margin:0 auto;padding:0 20px 60px}
+    .tab-content{display:none;animation:fadeIn .3s ease}
+    .tab-content.active{display:block}
+    @keyframes fadeIn{from{opacity:0;transform:translateY(6px)}to{opacity:1;transform:translateY(0)}}
+    .tab-content h2{font-size:22px;font-weight:600;margin-bottom:8px}
+    .tab-content h2 span{font-weight:400;color:var(--text-secondary);font-size:16px;margin-left:8px}
+    .intro{color:var(--text-secondary);font-size:15px;margin-bottom:24px;line-height:1.7}
+    .quiz-heading{margin-bottom:16px}
+    .quiz-heading span{font-weight:400;color:var(--text-secondary);font-size:15px}
+    .quiz-heading span em{font-style:normal;font-weight:600}
+    /* ─── 刷题折叠按钮 ─── */
+    .quiz-toggle{display:flex;align-items:center;gap:10px;width:100%;padding:14px 18px;margin-bottom:0;border:1px solid var(--border);border-radius:var(--radius);background:var(--surface);color:var(--text);font-size:16px;font-weight:600;cursor:pointer;transition:all .2s;font-family:inherit;text-align:left;box-shadow:var(--shadow)}
+    .quiz-toggle:hover{background:var(--highlight);border-color:var(--accent-light)}
+    .quiz-toggle.open{border-radius:var(--radius) var(--radius) 0 0;border-bottom-color:transparent;margin-bottom:0}
+    .quiz-toggle-icon{display:inline-block;font-size:12px;transition:transform .25s;color:var(--text-secondary)}
+    .quiz-toggle.open .quiz-toggle-icon{transform:rotate(90deg)}
+    .quiz-toggle-count{font-weight:400;color:var(--text-secondary);font-size:14px;margin-left:auto}
+    .quiz-toggle-count em{font-style:normal;font-weight:600}
+    /* ─── 翻译 ─── */
+    .q-stem-row{display:flex;align-items:flex-start;gap:8px}
+    .q-stem-text{flex:1}
+    .q-trans-btn{flex-shrink:0;padding:2px 8px;border:1px solid var(--border);border-radius:4px;background:transparent;color:var(--text-secondary);font-size:12px;cursor:pointer;font-family:inherit;transition:all .15s;white-space:nowrap}
+    .q-trans-btn:hover{border-color:#6366f1;color:#6366f1;background:rgba(99,102,241,.04)}
+    .q-trans-btn.active{border-color:#6366f1;color:#6366f1;background:rgba(99,102,241,.08);font-weight:500}
+    .q-trans{display:none;margin-top:8px;padding:10px 14px;background:rgba(99,102,241,.04);border-left:3px solid #6366f1;border-radius:4px;font-size:14px;color:var(--text);line-height:1.7}
+    .q-trans.show{display:block;animation:slideIn .2s ease}
+    @media(prefers-color-scheme:dark){
+      .q-trans{background:rgba(129,140,248,.06)}
+      .q-trans-btn:hover{color:#818cf8;border-color:#818cf8}
+      .q-trans-btn.active{color:#818cf8;border-color:#818cf8;background:rgba(129,140,248,.1)}
+    }
+
+    .card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;margin-bottom:16px;box-shadow:var(--shadow)}
+    .card h3{font-size:16px;font-weight:600;margin-bottom:14px}
+    .formula{font-size:14px;line-height:2;padding:4px 0;overflow-x:auto}
+/* ─── 纯 HTML 公式块（替代 KaTeX） ─── */
+	    .fm-block{background:var(--highlight);border-radius:8px;padding:14px 18px;margin-bottom:10px}
+	    .fm-block:last-child{margin-bottom:0}
+	    .fm-main{font-size:15px;line-height:1.8;color:var(--text)}
+	    .fm-main em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 5px;border-radius:3px}
+	    .fm-brace{border-left:3px solid #6366f1;margin:8px 0 2px 12px;padding:6px 0 6px 14px}
+	    .fm-brace-inner{font-size:14px;line-height:1.9;color:var(--text)}
+	    .fm-brace-inner em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 5px;border-radius:3px}
+	    .fm-sub{font-size:13px;color:var(--text-secondary);margin-top:4px;padding-left:12px;border-left:2px solid var(--border)}
+	    .fm-tag{display:inline-block;font-size:12px;font-weight:600;color:#fff;background:#6366f1;padding:1px 8px;border-radius:3px;margin-right:6px;vertical-align:middle}
+	    .fm-warn{color:#e67e00;font-weight:600;font-size:14px}
+	    @media(prefers-color-scheme:dark){
+	      .fm-main em{color:#5ea3d9;background:rgba(94,163,217,.12)}
+	      .fm-brace-inner em{color:#5ea3d9;background:rgba(94,163,217,.12)}
+	      .fm-warn{color:#f0a040}
+	      .fm-brace{border-left-color:#818cf8}
+	    }
+    table{width:100%;border-collapse:collapse;font-size:14px}
+    thead th{text-align:left;padding:8px 12px;font-weight:500;color:var(--text-secondary);font-size:13px;text-transform:uppercase;letter-spacing:.3px;border-bottom:1px solid var(--border)}
+    tbody td{padding:10px 12px;border-bottom:1px solid var(--border)}
+    tbody tr:last-child td{border-bottom:none}
+        /* ─── 关系代词功能对照表 ─── */
+        .ref-table-wrap{overflow-x:auto;-webkit-overflow-scrolling:touch}
+        .ref-table{width:100%;border-collapse:collapse;font-size:14px;min-width:480px}
+        .ref-table thead th{text-align:center;padding:10px 8px;font-weight:600;font-size:13px;color:var(--text);background:var(--highlight);border-bottom:2px solid var(--border);white-space:nowrap}
+        .ref-table thead th:first-child{text-align:left;padding-left:14px;border-radius:6px 0 0 0}
+        .ref-table thead th:last-child{border-radius:0 6px 0 0}
+        .ref-table tbody td{text-align:center;padding:12px 8px;border-bottom:1px solid var(--border);font-size:14px}
+        .ref-table tbody td:first-child{text-align:left;padding-left:14px;font-weight:600;color:var(--text)}
+        .ref-table tbody tr:last-child td{border-bottom:none}
+        .ref-table em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 5px;border-radius:3px}
+        @media(prefers-color-scheme:dark){.ref-table em{color:#5ea3d9;background:rgba(94,163,217,.12)}}
+        /* ─── 关系副词 ─── */
+        .adv-item{padding-bottom:18px;border-bottom:1px solid var(--border)}
+        .adv-item:last-child{border-bottom:none;padding-bottom:0}
+        .adv-item dt{margin-bottom:4px}
+        .adv-item dd{margin-top:10px;font-size:15px;line-height:1.7;color:var(--text)}
+        .adv-item dd p{margin:0}
+        .adv-item dd strong{color:var(--accent);font-weight:600}
+        .formula-hl{background:rgba(99,102,241,.06);border:1px solid rgba(99,102,241,.18);border-radius:8px;padding:12px 16px;margin-top:4px;font-size:15px;line-height:1.8}
+        .formula-hl strong{color:#6366f1;font-weight:700}
+        .formula-note{display:block;font-size:13px;color:var(--text-secondary);margin-top:2px}
+        .compare-group{margin-top:4px;display:flex;flex-direction:column;gap:8px}
+        .compare-item{padding:10px 14px;border-radius:6px;font-size:14px;line-height:1.7}
+        .compare-base{background:var(--highlight);border:1px solid var(--border)}
+        .compare-alt{background:rgba(99,102,241,.04);border:1px solid rgba(99,102,241,.15)}
+        .compare-label{display:inline-block;font-size:12px;font-weight:600;padding:1px 8px;border-radius:3px;margin-right:6px;vertical-align:middle}
+        .compare-base .compare-label{background:var(--accent-light);color:#fff}
+        .compare-alt .compare-label{background:#6366f1;color:#fff}
+        .compare-cn{color:var(--text-secondary);font-size:13px}
+        .compare-item em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 5px;border-radius:3px}
+        @media(prefers-color-scheme:dark){
+          .formula-hl{background:rgba(129,140,248,.06);border-color:rgba(129,140,248,.15)}
+          .formula-hl strong{color:#818cf8}
+          .compare-alt{background:rgba(129,140,248,.04);border-color:rgba(129,140,248,.12)}
+          .compare-alt .compare-label{background:#818cf8}
+          .compare-item em{color:#5ea3d9;background:rgba(94,163,217,.12)}
+        }
+        /* ─── 只能使用 that 的 8 种情况 ─── */
+        .that-callout{background:rgba(230,126,0,.05);border:1px solid rgba(230,126,0,.2);border-left:4px solid #e67e00;border-radius:8px;padding:20px 24px;margin-top:20px}
+        .that-callout h4{font-size:16px;font-weight:700;color:#c45e00;margin:0}
+        .that-rule-list{list-style:none;padding:0;display:flex;flex-direction:column;gap:14px}
+        .that-rule{font-size:14px;line-height:1.8}
+        .that-rule-num{display:inline-flex;align-items:center;justify-content:center;width:20px;height:20px;border-radius:50%;background:#e67e00;color:#fff;font-size:11px;font-weight:700;margin-right:6px;vertical-align:middle;flex-shrink:0}
+        .that-rule strong{color:var(--text);font-weight:700}
+        .that-rule-detail{margin-top:4px;margin-left:26px;padding-left:12px;border-left:2px solid rgba(230,126,0,.2);font-size:13px;line-height:1.8;color:var(--text-secondary)}
+        .that-rule-detail .trig{color:#c45e00;font-weight:600}
+        .ex-group{display:flex;flex-direction:column;gap:2px;margin-top:2px}
+        .ex-group li{list-style:none;font-style:italic}
+        .ex-group li em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 4px;border-radius:3px}
+        @media(prefers-color-scheme:dark){
+          .that-callout{background:rgba(230,126,0,.06);border-color:rgba(230,126,0,.2)}
+          .that-callout h4{color:#f0a040}
+          .that-rule-num{background:#f0a040}
+          .that-rule-detail{border-left-color:rgba(230,126,0,.25)}
+          .that-rule-detail .trig{color:#f0a040}
+          .ex-group li em{color:#5ea3d9;background:rgba(94,163,217,.12)}
+        }
+
+        /* ─── something 特殊考点 ─── */
+        .sm-callout{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:22px 24px;margin-top:18px;box-shadow:var(--shadow)}
+        .sm-callout h4{font-size:16px;font-weight:700;color:var(--text);margin:0}
+        .sm-intro{font-size:14px;color:var(--text-secondary);margin-bottom:18px;line-height:1.7}
+        .sm-grid{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px}
+        @media(max-width:640px){.sm-grid{grid-template-columns:1fr}}
+        .sm-block{border-radius:8px;padding:16px 18px;border:1px solid transparent}
+        .sm-block-must{background:rgba(22,163,74,.04);border-color:rgba(22,163,74,.2)}
+        .sm-block-no{background:rgba(220,38,38,.04);border-color:rgba(220,38,38,.2)}
+        .sm-block-both{background:rgba(99,102,241,.04);border-color:rgba(99,102,241,.2)}
+        .sm-tag{display:inline-block;font-size:12px;font-weight:700;padding:3px 10px;border-radius:4px;margin-bottom:10px;letter-spacing:.3px}
+        .sm-block-must .sm-tag{background:#16a34a;color:#fff}
+        .sm-block-no .sm-tag{background:#dc2626;color:#fff}
+        .sm-block-both .sm-tag{background:#6366f1;color:#fff}
+        .sm-block h5{font-size:14px;font-weight:700;color:var(--text);margin:0 0 8px 0}
+        .sm-block p{font-size:13px;line-height:1.75;color:var(--text-secondary);margin:0}
+        .sm-block p strong{color:var(--text);font-weight:600}
+        .sm-ex-list{list-style:none;padding:0;margin-top:8px;display:flex;flex-direction:column;gap:6px}
+        .sm-ex-list li{font-size:13px;line-height:1.7;font-style:italic;padding:8px 10px;background:var(--bg);border-radius:4px}
+        .sm-ex-list li em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 4px;border-radius:3px}
+        .sm-ex-list li .no-that{font-style:normal;font-weight:700;color:#dc2626;text-decoration:line-through;margin-right:4px}
+        .sm-ex-list li .must-form{font-style:normal;font-weight:700;color:#16a34a}
+        @media(prefers-color-scheme:dark){
+          .sm-block-must{background:rgba(74,222,128,.06);border-color:rgba(74,222,128,.2)}
+          .sm-block-no{background:rgba(248,113,113,.06);border-color:rgba(248,113,113,.2)}
+          .sm-block-both{background:rgba(129,140,248,.06);border-color:rgba(129,140,248,.2)}
+          .sm-block-must .sm-tag{background:#4ade80;color:#111}
+          .sm-block-no .sm-tag{background:#f87171;color:#fff}
+          .sm-block-both .sm-tag{background:#818cf8;color:#fff}
+          .sm-ex-list li em{color:#5ea3d9;background:rgba(94,163,217,.12)}
+          .sm-ex-list li .no-that{color:#f87171}
+          .sm-ex-list li .must-form{color:#4ade80}
+
+        }
+        /* ─── callout 折叠按钮 ─── */
+        .callout-header{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-bottom:14px}
+        .callout-header h4{margin:0 !important}
+        .callout-toggle-btn{flex-shrink:0;width:30px;height:30px;border:1px solid var(--border);border-radius:6px;background:var(--bg);color:var(--text-secondary);font-size:12px;cursor:pointer;display:flex;align-items:center;justify-content:center;transition:all .2s;font-family:inherit;padding:0}
+        .callout-toggle-btn:hover{border-color:var(--accent-light);color:var(--text);background:var(--highlight)}
+        .callout-toggle-icon{display:inline-block;transition:transform .25s;font-size:10px;line-height:1}
+        .callout-toggle-btn.open .callout-toggle-icon{transform:rotate(90deg)}
+        .callout-body{overflow:hidden}
+        .callout-body.collapsed{display:none}
+
+    .example-list{list-style:none;padding:0}
+    .example-list li{padding:10px 0;border-bottom:1px solid var(--border);font-size:15px}
+    .example-list li:last-child{border-bottom:none}
+    .example-list em{font-style:normal;color:#0077cc;background:rgba(0,119,204,.06);padding:1px 4px;border-radius:3px}
+    .divider{border:none;border-top:1px solid var(--border);margin:36px 0 28px}
+
+    .quiz-card{background:var(--surface);border:1px solid var(--border);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow)}
+    .q-number{font-size:12px;font-weight:600;color:var(--text-secondary);margin-bottom:12px}
+    .q-stem{font-size:16px;font-weight:500;margin-bottom:18px}
+    .q-options{display:flex;flex-direction:column;gap:8px}
+    .opt{width:100%;text-align:left;padding:14px 16px;border:1.5px solid var(--border);border-radius:8px;background:var(--surface);color:var(--text);font-size:15px;cursor:pointer;transition:all .15s;outline:none}
+    .opt:hover:not(.opt-disabled){border-color:var(--accent-light);background:var(--highlight)}
+    .opt-correct{border-color:var(--green)!important;background:var(--green-bg)!important;color:var(--green)!important;font-weight:600}
+    .opt-wrong{border-color:var(--red)!important;background:var(--red-bg)!important;color:var(--red)!important;font-weight:600}
+    .opt-disabled{cursor:default;opacity:.75}
+    .opt-correct.opt-disabled,.opt-wrong.opt-disabled{opacity:1}
+    .q-explanation{margin-top:16px;padding:14px 16px;background:#f8fafc;border-left:3px solid #6366f1;border-radius:6px;font-size:14px;line-height:1.75;animation:slideIn .25s ease}
+    @media(prefers-color-scheme:dark){.q-explanation{background:#1e1e30;border-left-color:#818cf8}}
+    .q-explanation strong{color:#6366f1}
+    @keyframes slideIn{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:translateY(0)}}
+    .q-retry{margin-top:14px;padding:8px 18px;border:1px solid var(--border);border-radius:6px;background:var(--surface);color:var(--text-secondary);font-size:13px;cursor:pointer}
+    .q-retry:hover{border-color:var(--text-secondary);color:var(--text);background:var(--highlight)}
+    .q-note{margin-top:20px;border-top:1px solid var(--border);padding-top:16px}
+    .q-note label{display:block;font-size:13px;font-weight:500;color:var(--text-secondary);margin-bottom:8px}
+    .note-area{width:100%;min-height:72px;padding:12px;border:1px solid var(--border);border-radius:8px;background:var(--bg);color:var(--text);font-size:14px;font-family:inherit;resize:vertical}
+    .note-area:focus{outline:none;border-color:#6366f1;box-shadow:0 0 0 3px rgba(99,102,241,.1)}
+    footer{text-align:center;padding:24px 20px;font-size:13px;color:var(--text-secondary);border-top:1px solid var(--border)}
+    /* ─── 关系代词列表 ─── */
+    .pronoun-list{display:flex;flex-direction:column;gap:20px}
+    .pronoun-item{padding-bottom:18px;border-bottom:1px solid var(--border)}
+    .pronoun-item:last-child{border-bottom:none;padding-bottom:0}
+    .pronoun-num{display:inline-flex;align-items:center;justify-content:center;width:22px;height:22px;border-radius:50%;background:var(--accent-light);color:#fff;font-size:12px;font-weight:600;margin-right:6px;vertical-align:middle}
+    .pronoun-name{font-size:18px;font-weight:700;color:#0077cc;vertical-align:middle}
+    .pronoun-item dd{margin-top:6px;font-size:15px;line-height:1.7;color:var(--text)}
+    .pronoun-item dd strong{color:var(--accent);font-weight:600}
+    .pronoun-example{font-size:14px;color:var(--text-secondary);padding-left:4px}
+    .pronoun-example em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 5px;border-radius:3px}
+    .hl{color:#e67e00;font-weight:600;background:rgba(230,126,0,.06);padding:1px 4px;border-radius:3px}
+    /* ─── 名词性从句区块 ─── */
+    .clause-num{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--accent-light);color:#fff;font-size:13px;font-weight:600;margin-right:6px;vertical-align:middle}
+    .en-label{font-weight:400;color:var(--text-secondary);font-size:14px;margin-left:6px}
+    .clause-block{margin-top:16px}
+    .clause-block .tag{display:inline-block;font-size:13px;font-weight:600;color:#fff;background:#6366f1;padding:2px 10px;border-radius:4px;margin-bottom:8px}
+    .clause-block p{font-size:15px;line-height:1.8;margin-top:4px;color:var(--text)}
+    .clause-block p strong{color:var(--accent);font-weight:600}
+    .clause-section h4{font-size:16px;font-weight:600;margin-bottom:4px}
+    .clause-sep{border:none;border-top:1px dashed var(--border);margin:20px 0}
+    .cat-note{margin-bottom:16px;font-size:14px;color:var(--text-secondary)}
+    .cat-note strong{color:var(--accent);font-weight:600}
+    .gw-item{padding:16px 0;border-bottom:1px solid var(--border)}
+    .gw-item:last-child{border-bottom:none;padding-bottom:0}
+    .gw-item h5{font-size:16px;font-weight:700;margin-bottom:8px;color:var(--text)}
+    .gw-num{font-size:18px;margin-right:4px}
+    .gw-item .tag{margin-right:0}
+    .gw-item p{font-size:14px;line-height:1.8;margin-top:3px;color:var(--text)}
+    .gw-item p strong{color:var(--accent);font-weight:600}
+    .gw-example{font-size:14px;color:var(--text-secondary);padding-left:0}
+    .gw-example em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 5px;border-radius:3px}
+    .cn-tag{font-size:12px;color:var(--text-secondary);margin-left:4px}
+    @media(prefers-color-scheme:dark){.gw-example em{color:#5ea3d9;background:rgba(94,163,217,.12)}}
+    @media(prefers-color-scheme:dark){.pronoun-name{color:#5ea3d9}.pronoun-example em{color:#5ea3d9;background:rgba(94,163,217,.12)}.hl{color:#f0a040;background:rgba(240,160,64,.1)}}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>English Clauses</h1>
+    <p class="subtitle">英语从句语法强化</p>
+  </header>
+
+  <nav class="tabs">
+    <button class="tab active" data-tab="attributive" onclick="switchTab('attributive')">定语从句</button>
+    <button class="tab" data-tab="noun" onclick="switchTab('noun')">名词性从句</button>
+    <button class="tab" data-tab="adverbial" onclick="switchTab('adverbial')">状语从句</button>
+  </nav>
+
+  <main>
+    <!-- ========== 定语从句(形容词性从句) ========== -->
+    <section id="attributive" class="tab-content active">
+      <h2>定语从句 (形容词性从句)<span>Attributive Clauses</span></h2>
+      <p class="intro">定语从句在句中作定语，修饰名词或代词。被修饰的名词/代词称为<strong>先行词</strong>。</p>
+
+      <div class="card">
+        <h3>核心公式</h3>
+	        <div class="fm-block">
+	          <div class="fm-main"><strong>先行词</strong> + 关系词 + 从句</div>
+	          <div class="fm-brace">
+	            <div class="fm-brace-inner">
+	              <div>关系代词：<em>who, whom, whose, which, that, as</em></div>
+	              <div>关系副词：<em>when, where, why</em></div>
+	            </div>
+	          </div>
+	        </div>
+	        <div class="fm-block" style="margin-top:18px">
+	          <div class="fm-main"><strong>非限制性定语从句：</strong>..., which/who/whom/whose ... &nbsp;<span class="fm-warn">（禁止使用 that）</span></div>
+	        </div>
+      </div>
+      <div class="card">
+        <h3>六种关系代词详解</h3>
+        <dl class="pronoun-list">
+          <div class="pronoun-item">
+            <dt><span class="pronoun-num">1</span> <span class="pronoun-name">who</span></dt>
+            <dd><strong>先行词：</strong>指人</dd>
+            <dd><strong>从句成分：</strong>充当主语，作宾语时可以省略</dd>
+            <dd class="pronoun-example">A job interview is an important chance for people <em>who</em> want to get hired.</dd>
+          </div>
+          <div class="pronoun-item">
+            <dt><span class="pronoun-num">2</span> <span class="pronoun-name">whom</span></dt>
+            <dd><strong>先行词：</strong>指人</dd>
+            <dd><strong>从句成分：</strong>充当宾语，作宾语时可以省略</dd>
+            <dd class="pronoun-example">That is the technician <em>whom</em> we called to fix our internet connection.</dd>
+          </div>
+          <div class="pronoun-item">
+            <dt><span class="pronoun-num">3</span> <span class="pronoun-name">which</span></dt>
+            <dd><strong>先行词：</strong>指物</dd>
+            <dd><strong>从句成分：</strong>充当主语或宾语，作宾语时可以省略</dd>
+            <dd class="pronoun-example">The system <em>which</em> controls the building's temperature failed last night.</dd>
+          </div>
+          <div class="pronoun-item">
+            <dt><span class="pronoun-num">4</span> <span class="pronoun-name">that</span></dt>
+            <dd><strong>先行词：</strong>既可以指人，也可以指物</dd>
+            <dd><strong>从句成分：</strong>充当主语、宾语、表语，作宾语时可以省略</dd>
+            <dd class="pronoun-example">Practice answering common questions, focusing on stories <em>that</em> prove your abilities.</dd>
+          </div>
+          <div class="pronoun-item">
+            <dt><span class="pronoun-num">5</span> <span class="pronoun-name">whose</span></dt>
+            <dd><strong>先行词：</strong>既可以指人，也可以指物</dd>
+            <dd><strong>从句成分：</strong>充当定语</dd>
+            <dd class="pronoun-example">Employers also like people <em>whose</em> attitudes match the job's needs.</dd>
+          </div>
+          <div class="pronoun-item">
+            <dt><span class="pronoun-num">6</span> <span class="pronoun-name">as</span></dt>
+            <dd><strong>先行词：</strong>指代整个主句的内容</dd>
+            <dd>
+              <p><strong>引导限制性定语从句</strong>，常用于 4 种固定搭配：<span class="hl">① such…as</span>　<span class="hl">② so…as</span>　<span class="hl">③ the same…as</span>　<span class="hl">④ as…as</span></p>
+              <p class="pronoun-example">Such people <em>as</em> have made great contributions should be respected.</p>
+            </dd>
+            <dd>
+              <p><strong>引导非限制性定语从句</strong>，代表主句的整个内容，常见结构：</p>
+              <p class="pronoun-example">As we all know, / As is known to all, / As we all can see,<br>As has been said above, / As might be expected, / As is often the case.</p>
+              <p class="pronoun-example">As is known to all, China is a country with the largest population.</p>
+            </dd>
+          </div>
+        </dl>
+        <div class="that-callout">
+          <div class="callout-header">
+            <h4>🚨 核心考点：只能使用 that 的 8 种情况</h4>
+            <button class="callout-toggle-btn" onclick="toggleCallout('that-rules', this)" aria-label="展开/收起">
+              <span class="callout-toggle-icon">▶</span>
+            </button>
+          </div>
+          <div class="callout-body" id="that-rules">
+          <ol class="that-rule-list">
+            <li class="that-rule">
+              <span class="that-rule-num">1</span> <strong>当先行词是不定代词时（something 除外），或被不定代词修饰时</strong>
+              <div class="that-rule-detail">
+                <span class="trig">触发词：</span>everything, nothing, all, none, little, few, some, any 等<br>
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>All <em>that</em> can be done has been done.</li>
+                  <li>There is little <em>that</em> I can do for you.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="that-rule">
+              <span class="that-rule-num">2</span> <strong>当先行词被序数词修饰时</strong>
+              <div class="that-rule-detail">
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>The first place <em>that</em> they visited in London was the Big Ben.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="that-rule">
+              <span class="that-rule-num">3</span> <strong>当先行词被形容词最高级修饰时</strong>
+              <div class="that-rule-detail">
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>This is the best film <em>that</em> I have seen.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="that-rule">
+              <span class="that-rule-num">4</span> <strong>当主句以疑问词 who 或 which 开头时</strong>（为了避免重复）
+              <div class="that-rule-detail">
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>Who is the man <em>that</em> is standing there?</li>
+                  <li>Which is the T-shirt <em>that</em> fits me most?</li>
+                </ul>
+              </div>
+            </li>
+            <li class="that-rule">
+              <span class="that-rule-num">5</span> <strong>当先行词被 the very（恰恰，正是）或 the only（唯一的）修饰时</strong>
+              <div class="that-rule-detail">
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>This is the very dictionary <em>that</em> I want to buy.</li>
+                  <li>The old car is the only thing <em>that</em> he owned.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="that-rule">
+              <span class="that-rule-num">6</span> <strong>当先行词在定语从句中充当表语时</strong>
+              <div class="that-rule-detail">
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>China is not the country <em>that</em> it was.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="that-rule">
+              <span class="that-rule-num">7</span> <strong>在 There be 句型中，先行词指物时</strong>
+              <div class="that-rule-detail">
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>There are two novels <em>that</em> I want to read.</li>
+                </ul>
+              </div>
+            </li>
+            <li class="that-rule">
+              <span class="that-rule-num">8</span> <strong>当先行词的并列结构中既有人，也有动物或物体时</strong>
+              <div class="that-rule-detail">
+                <span class="trig">例句：</span>
+                <ul class="ex-group">
+                  <li>Can you remember the scientist and his theory <em>that</em> we have learned?</li>
+                </ul>
+              </div>
+            </li>
+          </ol>
+          </div>
+        </div>
+        <div class="sm-callout">
+          <div class="callout-header">
+            <h4>💡 进阶避坑：关于 something 的特殊考点</h4>
+            <button class="callout-toggle-btn" onclick="toggleCallout('sm-rules', this)" aria-label="展开/收起">
+              <span class="callout-toggle-icon">▶</span>
+            </button>
+          </div>
+          <div class="callout-body" id="sm-rules">
+          <p class="sm-intro">something 虽是复合不定代词，但在以下 3 种情形中规则截然不同。专升本/四级极易在此设置干扰项。</p>
+          <div class="sm-grid">
+
+            <div class="sm-block sm-block-must">
+              <span class="sm-tag">✓ 必须用 that</span>
+              <h5>当 something 撞上<br>最高级 / 序数词 / 表语时</h5>
+              <p>此时定语从句的<strong>限定性极强</strong>，即使先行词是 something，也<strong>强制使用 that</strong>，不可用 which 替换。</p>
+              <ul class="sm-ex-list">
+                <li>This is <em>something that</em> is the <strong>most</strong> valuable in his life.</li>
+                <li>It was <em>something that</em> was the <strong>first</strong> thing I noticed.</li>
+                <li>He is not <em>something that</em> he appears to be.</li>
+              </ul>
+            </div>
+
+            <div class="sm-block sm-block-no">
+              <span class="sm-tag">✗ 绝不能用 that</span>
+              <h5>非限制性逗号 · 介词提前</h5>
+              <p>非限制性定语从句中<strong>一律禁止 that</strong>；介词直接提到关系词前时，也<strong>只能用 which</strong>。</p>
+              <ul class="sm-ex-list">
+                <li>Something, <em>which</em> I forgot to mention, is vital.</li>
+                <li>It was something <strong>on</strong> <em>which</em> he totally depended.</li>
+                <li>There is something <strong>about</strong> <em>which</em> we need to talk.</li>
+              </ul>
+            </div>
+
+            <div class="sm-block sm-block-both">
+              <span class="sm-tag">≈ 两者皆可</span>
+              <h5>普通独立状态下<br>something + 定语从句</h5>
+              <p>当 something 单独作先行词，<strong>没有</strong>最高级/序数词等特殊限定词，也<strong>没有</strong>逗号或介词提前时，that 与 which <strong>均可使用</strong>。</p>
+              <ul class="sm-ex-list">
+                <li>There is <em>something that / which</em> I want to tell you.</li>
+                <li>I found <em>something that / which</em> belongs to you.</li>
+                <li>She said <em>something that / which</em> made everyone laugh.</li>
+              </ul>
+            </div>
+
+          </div>
+          </div>
+        </div>
+
+
+
+        <hr class="clause-sep">
+        <h3>关系代词功能对照表</h3>
+        <p class="intro" style="margin-bottom:14px">下表总结：先行词指人/指物时，从句缺失不同成分所对应的关系代词选择(一般不选择that，除非专门考那些情况)</p>
+        <div class="ref-table-wrap">
+          <table class="ref-table">
+            <thead>
+              <tr>
+                <th>先行词种类</th>
+                <th>从句缺主语</th>
+                <th>从句缺宾语</th>
+                <th>从句缺表语</th>
+                <th>从句缺定语</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>指人 <span style="font-weight:400;color:var(--text-secondary);font-size:13px">(People)</span></td>
+                <td><em>who</em> / <em>that</em></td>
+                <td><em>whom</em> / <em>who</em> / <em>that</em></td>
+                <td><em>that</em></td>
+                <td><em>whose</em></td>
+              </tr>
+              <tr>
+                <td>指物 <span style="font-weight:400;color:var(--text-secondary);font-size:13px">(Things)</span></td>
+                <td><em>which</em> / <em>that</em></td>
+                <td><em>which</em> / <em>that</em></td>
+                <td><em>that</em></td>
+                <td><em>whose</em></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+      </div>
+      <div class="card">
+        <h3>关系副词详解 <span style="font-weight:400;color:var(--text-secondary);font-size:14px">Relative Adverbs</span></h3>
+        <dl class="pronoun-list">
+
+          <div class="adv-item">
+            <dt><span class="pronoun-num">①</span> <span class="pronoun-name">when</span></dt>
+            <dd>
+              <span class="tag">基本概念</span>
+              <p>先行词表示<strong>时间</strong>，关系副词在从句中充当<strong>时间状语</strong>。</p>
+            </dd>
+            <dd>
+              <span class="tag">等价替换公式</span>
+              <div class="formula-hl">
+                <strong>when</strong> = <strong>介词 + which</strong>
+                <span class="formula-note">（如 during which, at which, in which 等，根据先行词搭配决定）</span>
+              </div>
+            </dd>
+            <dd>
+              <span class="tag">对比练习句组</span>
+              <div class="compare-group">
+                <div class="compare-item compare-base">
+                  <span class="compare-label">基础句</span>
+                  There was a period <em>when</em> I didn't hear from him at all.
+                  <span class="compare-cn">（有一段时间我根本没有他的消息。）</span>
+                </div>
+                <div class="compare-item compare-alt">
+                  <span class="compare-label">替换句</span>
+                  There was a period <em>during which</em> I didn't hear from him at all.
+                </div>
+              </div>
+            </dd>
+          </div>
+
+          <div class="adv-item">
+            <dt><span class="pronoun-num">②</span> <span class="pronoun-name">where</span></dt>
+            <dd>
+              <span class="tag">基本概念</span>
+              <p>先行词表示<strong>地点</strong>，关系副词在从句中充当<strong>地点状语</strong>。</p>
+            </dd>
+            <dd>
+              <span class="tag">等价替换公式</span>
+              <div class="formula-hl">
+                <strong>where</strong> = <strong>介词 + which</strong>
+                <span class="formula-note">（如 in which, at which 等）</span>
+              </div>
+            </dd>
+            <dd>
+              <span class="tag">对比练习句组</span>
+              <div class="compare-group">
+                <div class="compare-item compare-base">
+                  <span class="compare-label">基础句</span>
+                  The small town <em>where</em> I grew up has become a popular tourist destination.
+                  <span class="compare-cn">（我长大的那个小镇已经成为一个热门的旅游目的地。）</span>
+                </div>
+                <div class="compare-item compare-alt">
+                  <span class="compare-label">替换句</span>
+                  The small town <em>in which</em> I grew up has become a popular tourist destination.
+                </div>
+              </div>
+            </dd>
+          </div>
+
+          <div class="adv-item">
+            <dt><span class="pronoun-num">③</span> <span class="pronoun-name">why</span></dt>
+            <dd>
+              <span class="tag">基本概念</span>
+              <p>先行词通常为<strong>reason(s) / 原因</strong>，关系副词在从句中充当<strong>原因状语</strong>。</p>
+            </dd>
+            <dd>
+              <span class="tag">等价替换公式</span>
+              <div class="formula-hl">
+                <strong>why</strong> = <strong>for which</strong>
+                <span class="formula-note">★ 专升本/四级极高频考点</span>
+              </div>
+            </dd>
+            <dd>
+              <span class="tag">对比练习句组</span>
+              <div class="compare-group">
+                <div class="compare-item compare-base">
+                  <span class="compare-label">基础句</span>
+                  Could you explain the main reason <em>why</em> you decided to quit your stable job?
+                  <span class="compare-cn">（你能解释一下你决定辞去稳定工作的核心原因吗？）</span>
+                </div>
+                <div class="compare-item compare-alt">
+                  <span class="compare-label">替换句</span>
+                  Could you explain the main reason <em>for which</em> you decided to quit your stable job?
+                </div>
+              </div>
+            </dd>
+          </div>
+        </dl>
+
+        <hr class="clause-sep">
+        <h3 style="font-size:16px">关系副词功能与可换成分对照表</h3>
+        <p class="intro" style="margin-bottom:14px">下表总结：三种关系副词对应的先行词类型、从句成分及等价替换形式。</p>
+        <div class="ref-table-wrap">
+          <table class="ref-table">
+            <thead>
+              <tr>
+                <th>先行词种类</th>
+                <th>从句中所缺状语</th>
+                <th>可换成</th>
+                <th>备注 / 常见介词</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>时间 <span style="font-weight:400;color:var(--text-secondary);font-size:13px">(Time)</span></td>
+                <td>缺时间状语</td>
+                <td><em>介词 + which</em></td>
+                <td>during / on / in / at + which</td>
+              </tr>
+              <tr>
+                <td>地点 <span style="font-weight:400;color:var(--text-secondary);font-size:13px">(Place)</span></td>
+                <td>缺地点状语</td>
+                <td><em>介词 + which</em></td>
+                <td>in / at + which</td>
+              </tr>
+              <tr>
+                <td>reason(s) <span style="font-weight:400;color:var(--text-secondary);font-size:13px">(原因)</span></td>
+                <td>缺原因状语</td>
+                <td><em>for which</em></td>
+                <td>常考固定搭配 <strong style="color:#e67e00">★</strong></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+
+      <hr class="divider">
+      <button class="quiz-toggle" data-target="attr-quiz" onclick="toggleQuiz('attr-quiz', this)">
+	        <span class="quiz-toggle-icon">▶</span> 刷题练习
+	        <span class="quiz-toggle-count">共 <em class="count-em" data-bank="attributive">0</em> 题</span>
+	      </button>
+      <div id="attr-quiz" class="quiz-container" style="display:none"></div>
+    </section>
+
+    <!-- ========== 名词性从句 ========== -->
+    <section id="noun" class="tab-content">
+      <h2>名词性从句 <span>Noun Clauses</span></h2>
+      <p class="intro">名词性从句在复合句中起<strong>名词</strong>作用，可作主语、宾语、表语、同位语。</p>
+
+      <div class="card">
+        <h3>名词性从句四大分类</h3>
+
+        <!-- 1 -->
+        <div class="clause-section">
+          <h4><span class="clause-num">1</span> 主语从句 <span class="en-label">Subject Clause</span></h4>
+          <div class="clause-block">
+            <span class="tag">概念解释</span>
+            <p>在复合句中，充当<strong>主语</strong>的从句。</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">常见结构</span>
+            <p>① 引导词 + 从句 + 主句谓语动词.</p>
+            <p>② It is / was + adj. / n. 或短语 / 过去分词（如 said / reported / believed / suggested 等）+ 引导词 + 从句.（此时 It 为<strong>形式主语</strong>）</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">经典例句</span>
+            <ul class="example-list">
+              <li><em>That Mixuebingcheng has opened stores in the US</em> is true.</li>
+              <li>Over time, it becomes clear <em>that our way of thinking will gradually transform</em>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="clause-sep">
+
+        <!-- 2 -->
+        <div class="clause-section">
+          <h4><span class="clause-num">2</span> 宾语从句 <span class="en-label">Object Clause</span></h4>
+          <div class="clause-block">
+            <span class="tag">概念解释</span>
+            <p>在复合句中，充当<strong>宾语</strong>的从句。</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">常见结构</span>
+            <p>① 及物动词 / 介词 + 引导词 + 从句.</p>
+            <p>② 及物动词 + sb (某人) + 引导词 + 从句.</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">经典例句</span>
+            <ul class="example-list">
+              <li>Recent research has explained <em>why this change occurs</em>.</li>
+              <li>We all focus on <em>whether we can pass the exam smoothly</em>.</li>
+              <li>Experts tell us <em>that every stage in the development of the Chinese nation is significant</em>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="clause-sep">
+
+        <!-- 3 -->
+        <div class="clause-section">
+          <h4><span class="clause-num">3</span> 表语从句 <span class="en-label">Predicative Clause</span></h4>
+          <div class="clause-block">
+            <span class="tag">概念解释</span>
+            <p>在复合句中，充当<strong>表语</strong>的从句，通常放在<strong>系动词</strong>之后。</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">常见结构</span>
+            <p>系动词 + 引导词 + 从句.</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">经典例句</span>
+            <ul class="example-list">
+              <li>The truth is <em>that we must work hard</em>.</li>
+              <li>What is mainly remarkable is <em>how a new language can reshape our mental habits</em>.</li>
+            </ul>
+          </div>
+        </div>
+
+        <hr class="clause-sep">
+
+        <!-- 4 -->
+        <div class="clause-section">
+          <h4><span class="clause-num">4</span> 同位语从句 <span class="en-label">Appositive Clause</span></h4>
+          <div class="clause-block">
+            <span class="tag">概念解释</span>
+            <p>在复合句中，用来<strong>解释说明"抽象名词"具体内容</strong>的从句。</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">关于抽象名词</span>
+            <p>这里的抽象名词是指<strong>没有具体形状，无法用视觉、触觉触及到实物</strong>的名词，常用表达情感、想法、愿望、概念、品质等。</p>
+            <p>常见词汇：hope (希望), wish (愿望), doubt (怀疑), belief (信念), dream (梦想), idea (想法), faith (信仰), thought (思想), fact (事实), result (结果) 等。</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">常见结构</span>
+            <p>抽象名词 + 引导词 + 从句.</p>
+          </div>
+          <div class="clause-block">
+            <span class="tag">经典例句</span>
+            <ul class="example-list">
+              <li>The fact <em>that we all like English</em> is undoubted.</li>
+              <li>Many learners know the fact <em>that as their skills improve, their way of thinking also changes</em>.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 15个核心引导词 -->
+      <div class="card">
+        <h3>名词性从句 15 个核心引导词</h3>
+
+        <!-- 一、普通连词 -->
+        <div class="clause-section">
+          <h4>一、 普通连词 <span class="en-label">Subordinating Conjunctions</span></h4>
+          <p class="cat-note"><em>特点：只起连接主句和从句的作用，<strong>不作从句中的任何句子成分</strong>。</em></p>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❶</span> that</h5>
+            <p><span class="tag">核心词义</span> 没有实在意义</p>
+            <p><span class="tag">从句成分</span> <strong>不充当任何成分</strong></p>
+            <p><span class="tag">名词从分类</span> 引导各类名词性从句</p>
+            <p class="gw-example">Our teacher suggested <em>that we should read more books</em>. <span class="cn-tag">(老师建议我们应该多读书)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❷</span> whether</h5>
+            <p><span class="tag">核心词义</span> 翻译为"是否"</p>
+            <p><span class="tag">从句成分</span> <strong>不充当任何成分</strong></p>
+            <p><span class="tag">名词从分类</span> 引导各类名词性从句</p>
+            <p><span class="tag">补充注意</span> 常可以与 or 或 or not 连用</p>
+            <p class="gw-example"><em>Whether we can finish the project on time</em> is a big challenge. <span class="cn-tag">(我们能否按时完成这个项目是一个巨大的挑战)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❸</span> if</h5>
+            <p><span class="tag">核心词义</span> 翻译为"是否"</p>
+            <p><span class="tag">从句成分</span> <strong>不充当任何成分</strong></p>
+            <p><span class="tag">名词从分类</span> 主要引导<strong>宾语从句</strong></p>
+            <p><span class="tag">补充注意</span> 还可以引导<strong>条件状语从句</strong>（意为"如果"）</p>
+            <p class="gw-example">Could you tell me <em>if the library is open on weekends</em>? <span class="cn-tag">(你能告诉我图书馆周末是否开放吗)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❹</span> as if / as though</h5>
+            <p><span class="tag">核心词义</span> 翻译为"好像"</p>
+            <p><span class="tag">从句成分</span> <strong>不充当任何成分</strong></p>
+            <p><span class="tag">名词从分类</span> 在名词性从句中<strong>只能引导表语从句</strong></p>
+            <p><span class="tag">补充注意</span> 还可以引导<strong>方式状语从句</strong></p>
+            <p class="gw-example">It looks <em>as if they have already solved the problem</em>. <span class="cn-tag">(看起来好像他们已经解决了这个问题)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❺</span> because</h5>
+            <p><span class="tag">核心词义</span> 翻译为"因为"</p>
+            <p><span class="tag">从句成分</span> <strong>不充当任何成分</strong></p>
+            <p><span class="tag">名词从分类</span> 在名词性从句中<strong>只能引导表语从句</strong></p>
+            <p><span class="tag">补充注意</span> 还可以引导<strong>原因状语从句</strong></p>
+            <p class="gw-example">The reason for his success is <em>because he never gives up</em>. <span class="cn-tag">(他成功的原因是因为他从未放弃)</span></p>
+          </div>
+        </div>
+
+        <hr class="clause-sep">
+
+        <!-- 二、连接代词 -->
+        <div class="clause-section">
+          <h4>二、 连接代词 <span class="en-label">Conjunctive Pronouns</span></h4>
+          <p class="cat-note"><em>特点：既起连接作用，<strong>又在从句中充当句子成分</strong>，且都有各自的含义。</em></p>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❻</span> who</h5>
+            <p><span class="tag">核心词义</span> "谁"（有疑问含义）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>主语、表语</strong></p>
+            <p><span class="tag">名词从分类</span> 可引导各类名词性从句</p>
+            <p class="gw-example"><em>Who will attend the international conference</em> is still a secret. <span class="cn-tag">(谁将参加这次国际会议仍然是个秘密)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❼</span> whom</h5>
+            <p><span class="tag">核心词义</span> "谁"（有疑问含义）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>宾语</strong></p>
+            <p><span class="tag">名词从分类</span> 可引导各类名词性从句</p>
+            <p class="gw-example">The manager hasn't decided <em>whom he should promote to the position</em>. <span class="cn-tag">(经理还没有决定他应该提拔谁来担任这个职位)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❽</span> which</h5>
+            <p><span class="tag">核心词义</span> "（特定范围内的）哪一个 / 哪些"（有疑问含义）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>主语、宾语、定语</strong></p>
+            <p><span class="tag">补充注意</span> <strong>不引导同位语从句</strong></p>
+            <p class="gw-example">I am not sure <em>which route is the shortest</em>. <span class="cn-tag">(我不确定哪条路线是最短的)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❾</span> what <span class="en-label">(疑问义)</span></h5>
+            <p><span class="tag">核心词义</span> "什么"、"什么样的"（有疑问含义，多用于提问价格、人口等）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>主语、表语、宾语、定语</strong></p>
+            <p><span class="tag">名词从分类</span> 可引导各类名词性从句</p>
+            <p class="gw-example">The interviewer asked me <em>what my major was in university</em>. <span class="cn-tag">(面试官问我大学的专业是什么)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">❿</span> what <span class="en-label">(原型义)</span></h5>
+            <p><span class="tag">核心词义</span> "所……的" 或 "……的事物/东西/人/样子/地方等"（<strong>无疑问含义</strong>）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>主语、宾语、表语</strong></p>
+            <p><span class="tag">补充注意</span> <strong>一般不引导同位语从句</strong></p>
+            <p class="gw-example"><em>What he said at the graduation ceremony</em> inspired all of us. <span class="cn-tag">(他在毕业典礼上所说的话激励了我们所有人)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">⓫</span> whose</h5>
+            <p><span class="tag">核心词义</span> "谁的"</p>
+            <p><span class="tag">从句成分</span> 充当<strong>定语</strong></p>
+            <p><span class="tag">名词从分类</span> 多引导宾语从句</p>
+            <p class="gw-example">The teacher asked <em>whose dictionary this was</em>. <span class="cn-tag">(老师问这是谁的词典)</span></p>
+          </div>
+        </div>
+
+        <hr class="clause-sep">
+
+        <!-- 三、复合连接代词 -->
+        <div class="clause-section">
+          <h4>三、 复合连接代词 <span class="en-label">-ever 核心系列</span></h4>
+          <p class="cat-note"><em>特点：表示"<strong>无论……</strong>"，<strong>无疑问含义</strong>。</em></p>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">⓬</span> whoever</h5>
+            <p><span class="tag">核心词义</span> "无论谁"（含义上相当于 anyone who）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>主语、表语</strong></p>
+            <p><span class="tag">名词从分类</span> 引导名词性从句</p>
+            <p><span class="tag">补充注意</span> 还可以引导<strong>让步状语从句</strong>（此时可与 no matter who 互换）</p>
+            <p class="gw-example"><em>Whoever wins the competition</em> will receive a valuable prize. <span class="cn-tag">(无论谁赢得比赛都将获得一份珍贵的奖品)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">⓭</span> whomever</h5>
+            <p><span class="tag">核心词义</span> "无论谁"（含义上相当于 anyone who/whom）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>宾语</strong></p>
+            <p><span class="tag">名词从分类</span> 引导名词性从句</p>
+            <p class="gw-example">You can give the extra ticket to <em>whomever you like</em>. <span class="cn-tag">(你可以把多余的票给你喜欢的任何人)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">⓮</span> whichever</h5>
+            <p><span class="tag">核心词义</span> "（特定范围内的）无论哪一个 / 哪些"</p>
+            <p><span class="tag">从句成分</span> 充当<strong>宾语、定语</strong></p>
+            <p class="gw-example">Our team will accept <em>whichever plan is more practical</em>. <span class="cn-tag">(我们团队将接受无论哪一个更务实的计划)</span></p>
+          </div>
+
+          <div class="gw-item">
+            <h5><span class="gw-num">⓯</span> whatever</h5>
+            <p><span class="tag">核心词义</span> "无论什么"（含义上相当于 anything that）</p>
+            <p><span class="tag">从句成分</span> 充当<strong>主语、表语、宾语、定语</strong></p>
+            <p><span class="tag">名词从分类</span> 引导名词性从句</p>
+            <p><span class="tag">补充注意</span> 还可以引导<strong>让步状语从句</strong>（此时可与 no matter what 互换）</p>
+            <p class="gw-example"><em>Whatever you choose to do</em> should be done with care. <span class="cn-tag">(无论你选择做什么，都应该认真对待)</span></p>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider">
+      <button class="quiz-toggle" data-target="noun-quiz" onclick="toggleQuiz('noun-quiz', this)">
+	        <span class="quiz-toggle-icon">▶</span> 刷题练习
+	        <span class="quiz-toggle-count">共 <em class="count-em" data-bank="noun">0</em> 题</span>
+	      </button>
+      <div id="noun-quiz" class="quiz-container" style="display:none"></div>
+    </section>
+
+    <!-- ========== 状语从句 ========== -->
+    <section id="adverbial" class="tab-content">
+      <h2>状语从句 <span>Adverbial Clauses</span></h2>
+      <p class="intro">状语从句在句中作状语，修饰动词、形容词、副词或整个句子。</p>
+
+      <div class="card">
+        <h3>六大核心类型</h3>
+	        <div class="fm-block">
+	          <div class="fm-main"><span class="fm-tag">时间</span> <strong>when / while / as / until / since</strong> + S + V，主句</div>
+	          <div class="fm-sub">主从时态配合是关键</div>
+	        </div>
+	        <div class="fm-block">
+	          <div class="fm-main"><span class="fm-tag">条件</span> <strong>if / unless / as long as</strong> + S + V（一般现在），主句（will do）</div>
+	          <div class="fm-sub">从句不用将来时</div>
+	        </div>
+	        <div class="fm-block">
+	          <div class="fm-main"><span class="fm-tag">让步</span> <strong>although / though / even if</strong> + S + V，主句</div>
+	          <div class="fm-sub">不与 but 连用</div>
+	        </div>
+	        <div class="fm-block">
+	          <div class="fm-main"><span class="fm-tag">结果</span> <strong>so + adj. + that</strong> 或 <strong>such + n. + that</strong> + 从句</div>
+	          <div class="fm-sub">so 修饰形容词/副词，such 修饰名词</div>
+	        </div>
+      </div>
+
+      <div class="card">
+        <h3>主将从现</h3>
+	        <div class="fm-block">
+	          <div class="fm-main"><strong>时间 / 条件状语从句中：</strong>从句用一般现在时，主句用一般将来时</div>
+	        </div>
+      </div>
+
+      <hr class="divider">
+      <button class="quiz-toggle" data-target="adv-quiz" onclick="toggleQuiz('adv-quiz', this)">
+	        <span class="quiz-toggle-icon">▶</span> 刷题练习
+	        <span class="quiz-toggle-count">共 <em class="count-em" data-bank="adverbial">0</em> 题</span>
+	      </button>
+      <div id="adv-quiz" class="quiz-container" style="display:none"></div>
+    </section>
+  </main>
+
+  <footer>
+    <p>离线可用 · 笔记自动保存 · 添加到主屏幕即可像 App 一样使用</p>
+  </footer>
+
+  <!-- 强制清空所有 SW 缓存 -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.getRegistrations().then(function(regs) {
+        regs.forEach(function(r) { r.unregister(); });
+      });
+    }
+  </script>
+  <!-- KaTeX 三件套：核心 JS + 自动渲染扩展 -->
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/contrib/auto-render.min.js"></script>
+  <script src="app.js?v=2"></script>
+</body>
+</html>
