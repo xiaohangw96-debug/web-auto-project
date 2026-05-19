@@ -1,0 +1,17 @@
+{
+  "name": "词根词缀记单词",
+  "short_name": "记单词",
+  "description": "专升本高频词汇 · 科学记忆法",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#f8fafc",
+  "theme_color": "#4f46e5",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
