@@ -394,6 +394,158 @@ document.addEventListener('DOMContentLoaded', () => {
         answer: 1,
         translation: "如果明天下雨，我们将推迟运动会。",
         explanation: "<strong>If</strong> 引导条件状语从句。<strong>主将从现</strong>：从句用一般现在时 (rains)，主句用将来时 (will put off)。"
+      },
+      {
+        id: "adv-2",
+        stem: "______ the police came into the room, the criminal escaped from the window.",
+        options: ["While", "When", "As soon as", "Until"],
+        answer: 1,
+        translation: "当警察进入房间时，罪犯从窗户逃走了。",
+        explanation: "<strong>When</strong> 引导时间状语从句。came into 是瞬间动作，只能用 when，<strong>不能用 while</strong>。while 只能用于延续性动作。"
+      },
+      {
+        id: "adv-3",
+        stem: "______ I was waiting for the bus, it began to rain.",
+        options: ["When", "After", "While", "Before"],
+        answer: 2,
+        translation: "当我在等公交的时候，开始下雨了。",
+        explanation: "<strong>While</strong> 引导时间状语从句，强调两个动作同时进行。was waiting 是延续性动作，while 和 when 都可以用，但 while 更强调「在……期间」。"
+      },
+      {
+        id: "adv-4",
+        stem: "______ I understand your point, I can't agree with you.",
+        options: ["Because", "If", "While", "Unless"],
+        answer: 2,
+        translation: "虽然我理解你的观点，但我不能同意你。",
+        explanation: "<strong>While</strong> 引导让步状语从句，意为「虽然、尽管」，表转折。此处 while 不是「当……时候」的意思。"
+      },
+      {
+        id: "adv-5",
+        stem: "______ time went by, the girl became stronger and more confident.",
+        options: ["While", "When", "As", "Before"],
+        answer: 2,
+        translation: "随着时间的推移，这个女孩变得更强壮、更自信。",
+        explanation: "<strong>As</strong> 引导时间状语从句，意为「随着」。强调两个变化同时发生：时间推移 + 女孩变强。"
+      },
+      {
+        id: "adv-6",
+        stem: "He won't leave the classroom ______ the lights are turned off.",
+        options: ["until", "after", "when", "unless"],
+        answer: 0,
+        translation: "直到灯都关了，他才会离开教室。",
+        explanation: "<strong>not...until...</strong> 句型，意为「直到……才」。won't leave 是否定形式，与 until 搭配使用。"
+      },
+      {
+        id: "adv-7",
+        stem: "I was lying awake for hours ______ the first hint of dawn appeared in the sky.",
+        options: ["after", "until", "before", "when"],
+        answer: 2,
+        translation: "我在床上醒了几个小时，直到第一缕曙光出现在天空。",
+        explanation: "<strong>before</strong> 引导时间状语从句，意为「在……之前」。这里意为「在第一缕曙光出现之前，我已经醒了几个小时」。"
+      },
+      {
+        id: "adv-8",
+        stem: "______ the children had finished their breakfast, they were told to read books.",
+        options: ["Before", "While", "After", "Until"],
+        answer: 2,
+        translation: "孩子们吃完早饭后，被要求去读书。",
+        explanation: "<strong>After</strong> 引导时间状语从句。had finished 用过去完成时，表示「吃完早饭」发生在「被要求读书」之前。"
+      },
+      {
+        id: "adv-9",
+        stem: "______ I get home, my father will start nagging me about homework.",
+        options: ["As long as", "Until", "As soon as", "While"],
+        answer: 2,
+        translation: "我一到家，我爸就会开始唠叨我的作业。",
+        explanation: "<strong>As soon as</strong> 引导时间状语从句，意为「一……就……」，表示两个动作几乎同时发生。"
+      },
+      {
+        id: "adv-10",
+        stem: "______ you are already here, you should study hard and make the most of it.",
+        options: ["Although", "Unless", "Since", "Until"],
+        answer: 2,
+        translation: "既然你已经在这里了，就应该努力学习，充分利用它。",
+        explanation: "<strong>Since</strong> 引导原因状语从句，意为「既然、因为」。与 because 相比，since 语气较弱，表示已知的或显然的原因。"
+      },
+      {
+        id: "adv-11",
+        stem: "______ there is a will, there is a way.",
+        options: ["When", "If", "Where", "Unless"],
+        answer: 2,
+        translation: "有志者，事竟成。（在有意志的地方，就有路。）",
+        explanation: "<strong>Where</strong> 引导地点状语从句，意为「在……地方」。这是一句著名的英语谚语。"
+      },
+      {
+        id: "adv-12",
+        stem: "You will miss the last bus ______ you hurry up right now.",
+        options: ["if", "unless", "because", "although"],
+        answer: 1,
+        translation: "除非你现在赶快，否则你会错过末班车。",
+        explanation: "<strong>unless</strong> 引导条件状语从句，意为「除非……；如果不……」。unless = if not，此处相当于 if you don't hurry up。"
+      },
+      {
+        id: "adv-13",
+        stem: "You can borrow my book ______ you return it on time.",
+        options: ["as long as", "unless", "until", "before"],
+        answer: 0,
+        translation: "只要你按时归还，你就可以借我的书。",
+        explanation: "<strong>as long as</strong> 引导条件状语从句，意为「只要」。等同于 so long as，表示唯一的条件。"
+      },
+      {
+        id: "adv-14",
+        stem: "______ she is young, she is very responsible and hardworking.",
+        options: ["Because", "Although", "Unless", "Since"],
+        answer: 1,
+        translation: "虽然她很年轻，但她很有责任心而且很努力。",
+        explanation: "<strong>Although</strong> 引导让步状语从句，意为「虽然、尽管」。although 和 though 通常可以互换，但 although 更正式。<strong>不能与 but 连用</strong>。"
+      },
+      {
+        id: "adv-15",
+        stem: "______ I fail this time, I will try again and never give up.",
+        options: ["As if", "Only if", "Even if", "So that"],
+        answer: 2,
+        translation: "即使我这次失败了，我也会再试一次，永不放弃。",
+        explanation: "<strong>Even if</strong> 引导让步状语从句，意为「即使、虽然」。even if 和 even though 通常可以互换，even though 更侧重「尽管已有的事实」。"
+      },
+      {
+        id: "adv-16",
+        stem: "The box is ______ heavy ______ I can't lift it by myself.",
+        options: ["such...that...", "so...that...", "too...to...", "as...as..."],
+        answer: 1,
+        translation: "这个箱子如此重，以至于我一个人搬不动。",
+        explanation: "<strong>so...that...</strong> 引导结果状语从句，意为「如此……以至于……」。so + 形容词/副词 + that 从句。比较 such...that...：such + 名词短语 + that 从句。"
+      },
+      {
+        id: "adv-17",
+        stem: "It was ______ a funny story ______ everyone in the room laughed loudly.",
+        options: ["so...that...", "such...that...", "too...to...", "as...as..."],
+        answer: 1,
+        translation: "这是一个如此有趣的故事，以至于房间里每个人都大笑起来。",
+        explanation: "<strong>such...that...</strong> 引导结果状语从句。such + a/an + 形容词 + 名词 + that 从句。如果只有形容词（无名词），用 so...that...。"
+      },
+      {
+        id: "adv-18",
+        stem: "He got up very early ______ he could catch the first bus to school.",
+        options: ["even if", "as if", "so that", "as soon as"],
+        answer: 2,
+        translation: "他起得很早，以便能赶上第一班去学校的公交车。",
+        explanation: "<strong>so that</strong> 引导目的状语从句，意为「以便……、为了……」。等同于 in order that。目的状语从句中常用情态动词 (can/could/will/would)。"
+      },
+      {
+        id: "adv-19",
+        stem: "The ______ you practice speaking English, the ______ your oral English will be.",
+        options: ["more...better...", "much...good...", "more...best...", "many...well..."],
+        answer: 0,
+        translation: "你练习英语口语越多，你的口语就会越好。",
+        explanation: "<strong>the + 比较级, the + 比较级</strong> 引导比较状语从句，意为「越……越……」。前半句相当于条件，后半句相当于结果。"
+      },
+      {
+        id: "adv-20",
+        stem: "She cried ______ she had lost something very precious to her.",
+        options: ["so that", "even if", "as if", "now that"],
+        answer: 2,
+        translation: "她哭得好像丢了什么非常珍贵的东西一样。",
+        explanation: "<strong>as if / as though</strong> 引导方式状语从句，意为「好像、仿佛」。当从句表示与事实相反的情况时，常用虚拟语气。"
       }
     ]
   };
