@@ -100,6 +100,8 @@
         .adv-item dd{margin-top:10px;font-size:15px;line-height:1.7;color:var(--text)}
         .adv-item dd p{margin:0}
         .adv-item dd strong{color:var(--accent);font-weight:600}
+        .adv-item dd em{font-style:normal;font-weight:600;color:#0077cc;background:rgba(0,119,204,.08);padding:1px 5px;border-radius:3px}
+        @media(prefers-color-scheme:dark){.adv-item dd em{color:#5ea3d9;background:rgba(94,163,217,.12)}}
         .formula-hl{background:rgba(99,102,241,.06);border:1px solid rgba(99,102,241,.18);border-radius:8px;padding:12px 16px;margin-top:4px;font-size:15px;line-height:1.8}
         .formula-hl strong{color:#6366f1;font-weight:700}
         .formula-note{display:block;font-size:13px;color:var(--text-secondary);margin-top:2px}
@@ -914,7 +916,7 @@
         </div>
         <div class="clause-block">
           <span class="tag">例句</span>
-          <p style="font-style:italic">I play basketball <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">on the playground</span> <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">after school</span> <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">every day</span>.</p>
+          <p style="font-style:italic">I play basketball <em>on the playground</em> <em>after school</em> <em>every day</em>.</p>
           <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我在操场上打篮球。（划线部分分别表示地点、时间、频率，均为状语）</p>
         </div>
 
@@ -926,13 +928,13 @@
         </div>
         <div class="clause-block">
           <span class="tag">例句 1</span>
-          <p style="font-style:italic"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">If you work harder</span>, you will succeed.</p>
+          <p style="font-style:italic"><em>If you work harder</em>, you will succeed.</p>
           <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">如果你更努力，你就会成功。</p>
           <p style="font-size:13px;color:var(--text-muted)">（If 引导条件状语从句，为"成功"提供条件背景）</p>
         </div>
         <div class="clause-block">
           <span class="tag">例句 2</span>
-          <p style="font-style:italic">You'd better make a mark <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">where you have any question</span>.</p>
+          <p style="font-style:italic">You'd better make a mark <em>where you have any question</em>.</p>
           <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">你最好在有问题的地方做个记号。</p>
           <p style="font-size:13px;color:var(--text-muted)">（where 引导地点状语从句，为"做标记"提供地点背景）</p>
         </div>
@@ -964,9 +966,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">当……时候</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（时间状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">When the police came into the room</span>, the criminal escaped from the window.</p>
+            <p style="font-style:italic;font-size:14px"><em>When the police came into the room</em>, the criminal escaped from the window.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">当警察进入房间时，罪犯从窗户逃走了。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">When the sun finally rose</span>, painting the clouds in soft pinks and golds, I jumped out of bed and dressed as quickly as I could.</p>
+            <p style="font-style:italic;font-size:14px"><em>When the sun finally rose</em>, painting the clouds in soft pinks and golds, I jumped out of bed and dressed as quickly as I could.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">当太阳终于升起，把云朵染成了柔和的粉色和金色，我从床上跳起来，以最快的速度穿好衣服。</p>
           </div>
         </div>
@@ -991,9 +993,9 @@
             <span style="font-size:12px;color:var(--text-muted)">（时间状语从句）</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">While I was waiting for the bus</span>, it began to rain.</p>
+            <p style="font-style:italic;font-size:14px"><em>While I was waiting for the bus</em>, it began to rain.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">当我在等公交车的时候，开始下雨了。</p>
-            <p style="font-style:italic;font-size:14px">Bob felt his heart beating very fast <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">while he was waiting for the final result</span>.</p>
+            <p style="font-style:italic;font-size:14px">Bob felt his heart beating very fast <em>while he was waiting for the final result</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">鲍勃在等待最终结果时，感觉自己的心跳得很快。</p>
           </div>
           <div style="margin-top:8px">
@@ -1002,9 +1004,9 @@
             <span style="font-size:12px;color:var(--text-muted)">（让步状语从句，表转折）</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">While I understand your point</span>, I can't agree with you.</p>
+            <p style="font-style:italic;font-size:14px"><em>While I understand your point</em>, I can't agree with you.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">虽然我理解你的观点，但我不能同意你。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">While the plan sounds perfect</span>, it lacks practical details.</p>
+            <p style="font-style:italic;font-size:14px"><em>While the plan sounds perfect</em>, it lacks practical details.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">虽然这个计划听起来很完美，但它缺乏实际细节。</p>
           </div>
         </div>
@@ -1018,9 +1020,9 @@
             <span style="color:#d97706;font-weight:700">当……时候（一边……一边……）；随着</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">As time went by</span>, the girl became stronger.</p>
+            <p style="font-style:italic;font-size:14px"><em>As time went by</em>, the girl became stronger.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">随着时间的推移，女孩变得更强壮了。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">As I walked through the quiet streets</span>, I noticed that the air smelled fresh and clean.</p>
+            <p style="font-style:italic;font-size:14px"><em>As I walked through the quiet streets</em>, I noticed that the air smelled fresh and clean.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">当我走过安静的街道时，我注意到空气闻起来清新干净。</p>
           </div>
           <div style="margin-top:8px">
@@ -1029,9 +1031,9 @@
             <span style="font-size:12px;color:var(--text-muted)">（原因状语从句）</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">As the rain kept pouring</span>, we had to cancel the outdoor picnic.</p>
+            <p style="font-style:italic;font-size:14px"><em>As the rain kept pouring</em>, we had to cancel the outdoor picnic.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">由于雨一直下，我们不得不取消户外野餐。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">As regular exercise strengthens the heart</span>, it is widely recommended for long-term health.</p>
+            <p style="font-style:italic;font-size:14px"><em>As regular exercise strengthens the heart</em>, it is widely recommended for long-term health.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">由于定期锻炼能增强心脏功能，它被广泛推荐用于长期健康。</p>
           </div>
           <div style="margin-top:8px">
@@ -1040,9 +1042,9 @@
             <span style="font-size:12px;color:var(--text-muted)">（让步状语从句，且需倒装）</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Child as he is</span>, he knows perfectly about social skills.</p>
+            <p style="font-style:italic;font-size:14px"><em>Child as he is</em>, he knows perfectly about social skills.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">尽管他是个孩子，他对社交技巧了如指掌。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Difficult as the question is</span>, we should work together to overcome it.</p>
+            <p style="font-style:italic;font-size:14px"><em>Difficult as the question is</em>, we should work together to overcome it.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">尽管这个问题很难，我们应该齐心协力克服它。</p>
           </div>
           <div style="margin-top:8px">
@@ -1051,9 +1053,9 @@
             <span style="font-size:12px;color:var(--text-muted)">（方式状语从句）</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">Do <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">as the Romans do</span> when in Rome.</p>
+            <p style="font-style:italic;font-size:14px">Do <em>as the Romans do</em> when in Rome.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">入乡随俗。（在罗马时，就像罗马人那样做。）</p>
-            <p style="font-style:italic;font-size:14px">I noticed that the air smelled fresh and clean <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">as it always did after a light rain</span>.</p>
+            <p style="font-style:italic;font-size:14px">I noticed that the air smelled fresh and clean <em>as it always did after a light rain</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我注意到空气闻起来清新干净，就像小雨过后一贯的那样。</p>
           </div>
         </div>
@@ -1065,9 +1067,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">直到……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（时间状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">I was happy <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">until / till I saw my grades</span>.</p>
+            <p style="font-style:italic;font-size:14px">I was happy <em>until / till I saw my grades</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我一直很开心，直到我看到我的成绩。</p>
-            <p style="font-style:italic;font-size:14px">The community kept the ancient festival alive <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">until the war started in 1940</span>.</p>
+            <p style="font-style:italic;font-size:14px">The community kept the ancient festival alive <em>until the war started in 1940</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这个社区一直保留着这个古老的节日，直到1940年战争爆发。</p>
           </div>
         </div>
@@ -1078,9 +1080,9 @@
           <strong style="color:var(--primary);font-size:16px">5. not...until...</strong>
           <span style="color:#d97706;font-weight:700;margin-left:6px">直到……才</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">He <strong style="color:var(--primary)">won't</strong> leave the classroom <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">until the lights are turned off</span>.</p>
+            <p style="font-style:italic;font-size:14px">He <strong style="color:var(--primary)">won't</strong> leave the classroom <em>until the lights are turned off</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">直到灯都关了，他才会离开教室。</p>
-            <p style="font-style:italic;font-size:14px">She <strong style="color:var(--primary)">didn't</strong> realize that she was too loud <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">until she saw everyone was staring at her</span>.</p>
+            <p style="font-style:italic;font-size:14px">She <strong style="color:var(--primary)">didn't</strong> realize that she was too loud <em>until she saw everyone was staring at her</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">直到她看到所有人都在盯着她看，她才意识到自己太大声了。</p>
           </div>
         </div>
@@ -1091,9 +1093,9 @@
           <strong style="color:var(--primary);font-size:16px">6. before</strong>
           <span style="color:#d97706;font-weight:700;margin-left:6px">在……之前</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Before we finish class</span>, I would like to say something.</p>
+            <p style="font-style:italic;font-size:14px"><em>Before we finish class</em>, I would like to say something.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">在我们下课前，我想说几句。</p>
-            <p style="font-style:italic;font-size:14px">I was lying awake for hours <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">before the first hint of dawn appeared in the sky</span>.</p>
+            <p style="font-style:italic;font-size:14px">I was lying awake for hours <em>before the first hint of dawn appeared in the sky</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我醒着躺了好几个小时，直到第一缕曙光出现在天空中。</p>
           </div>
         </div>
@@ -1104,9 +1106,9 @@
           <strong style="color:var(--primary);font-size:16px">7. after</strong>
           <span style="color:#d97706;font-weight:700;margin-left:6px">在……之后</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">After the children had finished their breakfast</span>, they were told to read books.</p>
+            <p style="font-style:italic;font-size:14px"><em>After the children had finished their breakfast</em>, they were told to read books.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">孩子们吃完早饭后，被告知要去读书。</p>
-            <p style="font-style:italic;font-size:14px">The thief came back to steal more things <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">after he had spent all the money</span>.</p>
+            <p style="font-style:italic;font-size:14px">The thief came back to steal more things <em>after he had spent all the money</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">小偷花光了所有钱之后，又回来偷更多东西。</p>
           </div>
         </div>
@@ -1118,7 +1120,7 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">一……就……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（时间状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">As soon as I get home</span>, my father will start nagging me.</p>
+            <p style="font-style:italic;font-size:14px"><em>As soon as I get home</em>, my father will start nagging me.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我一到家，我爸就会开始唠叨我。</p>
           </div>
         </div>
@@ -1133,9 +1135,9 @@
             <span style="font-size:12px;color:var(--text-muted)">（时间状语从句）</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">It has been ten years <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">since she left</span>.</p>
+            <p style="font-style:italic;font-size:14px">It has been ten years <em>since she left</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">自从她离开已经十年了。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Since he took charge of the office</span>, we have experienced many changes.</p>
+            <p style="font-style:italic;font-size:14px"><em>Since he took charge of the office</em>, we have experienced many changes.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">自从他负责这个办公室以来，我们经历了许多变化。</p>
           </div>
           <div style="margin-top:8px">
@@ -1144,9 +1146,9 @@
             <span style="font-size:12px;color:var(--text-muted)">（原因状语从句）</span>
           </div>
           <div style="margin-top:4px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Since you are already here</span>, you should study hard.</p>
+            <p style="font-style:italic;font-size:14px"><em>Since you are already here</em>, you should study hard.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">既然你已经在这里了，你就应该努力学习。</p>
-            <p style="font-style:italic;font-size:14px">We should protect the environment <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">since climate change is a serious problem</span>.</p>
+            <p style="font-style:italic;font-size:14px">We should protect the environment <em>since climate change is a serious problem</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我们应该保护环境，因为气候变化是一个严重的问题。</p>
           </div>
         </div>
@@ -1158,9 +1160,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">在……地方</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（地点状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Where there is a will</span>, there is a way.</p>
+            <p style="font-style:italic;font-size:14px"><em>Where there is a will</em>, there is a way.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">有志者，事竟成。（在有意志的地方，就有路。）</p>
-            <p style="font-style:italic;font-size:14px">Researchers often go <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">where they can find clean water samples to conduct their tests</span>.</p>
+            <p style="font-style:italic;font-size:14px">Researchers often go <em>where they can find clean water samples to conduct their tests</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">研究人员经常去那些能找到干净水样来进行测试的地方。</p>
           </div>
         </div>
@@ -1172,7 +1174,7 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">如果</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（条件状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">I knew that I had to hurry <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">if I wanted to reach the village before the shop opened</span>.</p>
+            <p style="font-style:italic;font-size:14px">I knew that I had to hurry <em>if I wanted to reach the village before the shop opened</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我知道如果我想在商店开门前赶到村子，我就得赶快。</p>
           </div>
         </div>
@@ -1184,9 +1186,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">除非……；如果不……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（条件状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">You will miss the bus <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">unless you hurry up</span>.</p>
+            <p style="font-style:italic;font-size:14px">You will miss the bus <em>unless you hurry up</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">你会错过公交车，除非你赶快。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Unless measures are taken immediately</span>, the situation will get even worse.</p>
+            <p style="font-style:italic;font-size:14px"><em>Unless measures are taken immediately</em>, the situation will get even worse.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">除非立即采取措施，否则情况会变得更糟。</p>
           </div>
         </div>
@@ -1198,9 +1200,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">只要</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（条件状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">You can borrow my book <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">as / so long as you return it on time</span>.</p>
+            <p style="font-style:italic;font-size:14px">You can borrow my book <em>as / so long as you return it on time</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">你可以借我的书，只要你按时归还。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">As / So long as we have a strong will</span>, we will be able to get over any difficulty.</p>
+            <p style="font-style:italic;font-size:14px"><em>As / So long as we have a strong will</em>, we will be able to get over any difficulty.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">只要我们有坚强的意志，我们就能克服任何困难。</p>
           </div>
         </div>
@@ -1212,9 +1214,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">虽然，尽管</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（让步状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Although / Though she is young</span>, she is very responsible.</p>
+            <p style="font-style:italic;font-size:14px"><em>Although / Though she is young</em>, she is very responsible.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">虽然她很年轻，但她很负责任。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Difficult though the experiment was</span>, she concentrated on it and did well at last.</p>
+            <p style="font-style:italic;font-size:14px"><em>Difficult though the experiment was</em>, she concentrated on it and did well at last.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">尽管这个实验很难，她全神贯注，最终做得很好。</p>
           </div>
         </div>
@@ -1226,9 +1228,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">无论……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（让步状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">I will always be your friend <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">no matter what / whatever happens</span>.</p>
+            <p style="font-style:italic;font-size:14px">I will always be your friend <em>no matter what / whatever happens</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">无论发生什么，我永远是你的朋友。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">No matter where / Wherever you go</span>, keep in touch with me.</p>
+            <p style="font-style:italic;font-size:14px"><em>No matter where / Wherever you go</em>, keep in touch with me.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">无论你去哪里，和我保持联系。</p>
           </div>
         </div>
@@ -1240,9 +1242,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">即使，虽然</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（让步状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Even if / Even though I fail this time</span>, I will try again.</p>
+            <p style="font-style:italic;font-size:14px"><em>Even if / Even though I fail this time</em>, I will try again.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">即使我这次失败了，我也会再试一次。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Even if / Even though he had made good preparations for the job interview</span>, he failed to answer some questions raised by the interviewer.</p>
+            <p style="font-style:italic;font-size:14px"><em>Even if / Even though he had made good preparations for the job interview</em>, he failed to answer some questions raised by the interviewer.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">即使他为面试做了充分准备，他还是没能回答面试官提出的一些问题。</p>
           </div>
         </div>
@@ -1253,7 +1255,7 @@
           <strong style="color:var(--primary);font-size:16px">17. because</strong>
           <span style="color:#d97706;font-weight:700;margin-left:6px">因为</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">He succeeded <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">because he worked very hard</span>.</p>
+            <p style="font-style:italic;font-size:14px">He succeeded <em>because he worked very hard</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">他成功了，因为他非常努力。</p>
           </div>
         </div>
@@ -1265,9 +1267,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">因为，原因在于</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（原因状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">This plan is better <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">in that it costs less and takes less time</span>.</p>
+            <p style="font-style:italic;font-size:14px">This plan is better <em>in that it costs less and takes less time</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这个计划更好，因为它花费更少、耗时更短。</p>
-            <p style="font-style:italic;font-size:14px">The theory is valuable <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">in that it provides a new framework for analyzing historical events</span>.</p>
+            <p style="font-style:italic;font-size:14px">The theory is valuable <em>in that it provides a new framework for analyzing historical events</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这个理论很有价值，因为它为分析历史事件提供了一个新框架。</p>
           </div>
         </div>
@@ -1279,9 +1281,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">既然</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（原因状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Now that the exam is over</span>, we can relax for a while.</p>
+            <p style="font-style:italic;font-size:14px"><em>Now that the exam is over</em>, we can relax for a while.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">既然考试结束了，我们可以放松一下了。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Now that you are interested in traditional Chinese culture</span>, this festival is worth experiencing.</p>
+            <p style="font-style:italic;font-size:14px"><em>Now that you are interested in traditional Chinese culture</em>, this festival is worth experiencing.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">既然你对中国传统文化感兴趣，这个节日值得体验一下。</p>
           </div>
         </div>
@@ -1293,9 +1295,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">如此……以至于……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（结果状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">The box is <strong style="color:var(--primary)">so</strong> heavy <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">that I can't lift it</span>.</p>
+            <p style="font-style:italic;font-size:14px">The box is <strong style="color:var(--primary)">so</strong> heavy <em>that I can't lift it</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这个箱子如此重，以至于我搬不动它。</p>
-            <p style="font-style:italic;font-size:14px">The news was <strong style="color:var(--primary)">so</strong> shocking <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">that it spread across the campus within minutes</span>.</p>
+            <p style="font-style:italic;font-size:14px">The news was <strong style="color:var(--primary)">so</strong> shocking <em>that it spread across the campus within minutes</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这个消息如此令人震惊，以至于几分钟内就传遍了整个校园。</p>
           </div>
         </div>
@@ -1307,9 +1309,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">如此……以至于……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（结果状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">It was <strong style="color:var(--primary)">such</strong> a funny story <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">that everyone laughed</span>.</p>
+            <p style="font-style:italic;font-size:14px">It was <strong style="color:var(--primary)">such</strong> a funny story <em>that everyone laughed</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这是一个如此有趣的故事，以至于每个人都笑了。</p>
-            <p style="font-style:italic;font-size:14px">These are <strong style="color:var(--primary)">such</strong> beautiful flowers <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">that everyone stops to admire them</span>.</p>
+            <p style="font-style:italic;font-size:14px">These are <strong style="color:var(--primary)">such</strong> beautiful flowers <em>that everyone stops to admire them</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这些是如此美丽的花，以至于每个人都停下来欣赏它们。</p>
           </div>
         </div>
@@ -1321,9 +1323,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">以便……，为了……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（目的状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">He got up early <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">so that / in order that he could catch the first bus</span>.</p>
+            <p style="font-style:italic;font-size:14px">He got up early <em>so that / in order that he could catch the first bus</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">他起得很早，以便能赶上第一班公交车。</p>
-            <p style="font-style:italic;font-size:14px">We need to collect more evidence <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">so that / in order that our argument will be convincing</span>.</p>
+            <p style="font-style:italic;font-size:14px">We need to collect more evidence <em>so that / in order that our argument will be convincing</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我们需要收集更多证据，以便我们的论证更有说服力。</p>
           </div>
         </div>
@@ -1335,9 +1337,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">和……一样</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（比较状语从句，表同等比较）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">The fruit salad looks <strong style="color:var(--primary)">as</strong> delicious <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">as it tastes</span>.</p>
+            <p style="font-style:italic;font-size:14px">The fruit salad looks <strong style="color:var(--primary)">as</strong> delicious <em>as it tastes</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">这个水果沙拉看起来和吃起来一样美味。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">When we arrived at Erhai Lake</span>, it proved to be <strong style="color:var(--primary)">as</strong> beautiful <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">as I had imagined</span>.</p>
+            <p style="font-style:italic;font-size:14px"><em>When we arrived at Erhai Lake</em>, it proved to be <strong style="color:var(--primary)">as</strong> beautiful <em>as I had imagined</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">当我们到达洱海时，它证明和我想象的一样美丽。</p>
           </div>
         </div>
@@ -1349,9 +1351,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">比……更……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（比较状语从句，表不同等比较）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">I paid for it and left, feeling <strong style="color:var(--primary)">happier</strong> <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">than I had felt in weeks</span>.</p>
+            <p style="font-style:italic;font-size:14px">I paid for it and left, feeling <strong style="color:var(--primary)">happier</strong> <em>than I had felt in weeks</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">我付了钱离开了，感觉比这几周以来的任何时候都更开心。</p>
-            <p style="font-style:italic;font-size:14px">The scientists found that the way the brain works is far <strong style="color:var(--primary)">more complicated</strong> <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">than they had thought</span>.</p>
+            <p style="font-style:italic;font-size:14px">The scientists found that the way the brain works is far <strong style="color:var(--primary)">more complicated</strong> <em>than they had thought</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">科学家们发现大脑的工作方式远比他们想象的要复杂。</p>
           </div>
         </div>
@@ -1363,9 +1365,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">越……越……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（比较状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">The more you practice</span>, <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">the better your English will be</span>.</p>
+            <p style="font-style:italic;font-size:14px"><em>The more you practice</em>, <em>the better your English will be</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">你练习得越多，你的英语就会越好。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">The more challenging the task is</span>, <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">the more satisfaction you will gain</span> from completing it.</p>
+            <p style="font-style:italic;font-size:14px"><em>The more challenging the task is</em>, <em>the more satisfaction you will gain</em> from completing it.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">任务越有挑战性，完成它时你获得的满足感就越大。</p>
           </div>
         </div>
@@ -1377,9 +1379,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">只有……才……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（条件状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">You will pass the exam <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">only if you study hard</span>.</p>
+            <p style="font-style:italic;font-size:14px">You will pass the exam <em>only if you study hard</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">只有努力学习，你才能通过考试。</p>
-            <p style="font-style:italic;font-size:14px">A country can achieve sustainable development <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">only if it balances economic growth with environmental protection</span>.</p>
+            <p style="font-style:italic;font-size:14px">A country can achieve sustainable development <em>only if it balances economic growth with environmental protection</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">一个国家只有平衡经济增长与环境保护，才能实现可持续发展。</p>
           </div>
         </div>
@@ -1391,9 +1393,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">一旦……就……</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（时间状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Once you make a promise</span>, you should keep it.</p>
+            <p style="font-style:italic;font-size:14px"><em>Once you make a promise</em>, you should keep it.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">一旦你许下承诺，你就应该遵守它。</p>
-            <p style="font-style:italic;font-size:14px"><span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">Once you have finished the task</span>, you can take a break.</p>
+            <p style="font-style:italic;font-size:14px"><em>Once you have finished the task</em>, you can take a break.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">一旦你完成了任务，你就可以休息一下。</p>
           </div>
         </div>
@@ -1405,9 +1407,9 @@
           <span style="color:#d97706;font-weight:700;margin-left:6px">好像，仿佛</span>
           <span style="font-size:12px;color:var(--text-muted);margin-left:4px">（方式状语从句）</span>
           <div style="margin-top:6px;padding-left:12px;border-left:3px solid var(--border)">
-            <p style="font-style:italic;font-size:14px">It looks <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">as if / as though it is going to rain</span>.</p>
+            <p style="font-style:italic;font-size:14px">It looks <em>as if / as though it is going to rain</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">看起来好像要下雨了。</p>
-            <p style="font-style:italic;font-size:14px">She cried <span style="background:#f1f5f9;font-weight:500;padding:1px 4px;border-radius:2px">as if / as though she had lost something precious</span>.</p>
+            <p style="font-style:italic;font-size:14px">She cried <em>as if / as though she had lost something precious</em>.</p>
             <p style="font-size:13px;color:var(--text-secondary);margin-top:3px">她哭得好像丢了什么珍贵的东西一样。</p>
           </div>
         </div>
