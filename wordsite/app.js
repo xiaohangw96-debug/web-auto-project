@@ -407,6 +407,7 @@ function handleCardClick(e) {
             revealWord(word);
             showWordContent(idx, word);
             refreshCardActions(idx, word);
+            speakWord(word);
         }
         return;
     }
@@ -420,6 +421,7 @@ function handleCardClick(e) {
             showWordContent(idx, word);
             refreshCardActions(idx, word);
             updateReviewBadge();
+            speakWord(word);
         }
         return;
     }
