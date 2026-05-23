@@ -201,10 +201,8 @@ function revealWord(word) {
     persist();
 }
 function showWordContent(idx, word) {
-    const hidden = document.getElementById('hidden-' + idx);
     const content = document.getElementById('content-' + idx);
     const card = document.getElementById('card-' + word.replace(/\s/g, '_'));
-    if (hidden) hidden.style.display = 'none';
     if (content) content.classList.add('show');
     if (card) card.classList.add('revealed');
 }
@@ -328,10 +326,6 @@ function renderCurrentRoot() {
                 </div>
                 <div class="card-phonetic">${w.phonetic}</div>
 
-                <div class="card-hidden-area" id="hidden-${idx}" style="${revealed ? 'display:none' : ''}">
-                    <div class="reveal-hint">👆 点击"我认识"查看释义</div>
-                </div>
-
                 <div class="card-revealed-content ${revealed ? 'show' : ''}" id="content-${idx}">
                     <div class="card-meaning">${w.meaning}</div>
                     <div class="card-analysis">
@@ -349,15 +343,18 @@ function renderCurrentRoot() {
 
                 <div class="card-actions">
                     ${!revealed ? `
-                        <button class="btn small primary reveal-btn" data-idx="${idx}" data-word="${w.word}">我认识</button>
-                        <button class="btn small danger dontknow-btn" data-idx="${idx}" data-word="${w.word}">不认识</button>
+                        <button class="btn primary reveal-btn" data-idx="${idx}" data-word="${w.word}">我认识</button>
+                        <button class="btn danger dontknow-btn" data-idx="${idx}" data-word="${w.word}">不认识</button>
                     ` : ''}
-                    ${revealed && !mastered ? `
-                        <button class="btn small success mastered-btn" data-idx="${idx}" data-word="${w.word}">记住了</button>
-                        <button class="btn small outline unmastered-btn" data-idx="${idx}" data-word="${w.word}">没记住</button>
+                    ${revealed && !mastered && !(w.word in state.review) ? `
+                        <button class="btn success mastered-btn" data-idx="${idx}" data-word="${w.word}">记住了</button>
+                        <button class="btn outline unmastered-btn" data-idx="${idx}" data-word="${w.word}">没记住</button>
+                    ` : ''}
+                    ${revealed && !mastered && (w.word in state.review) ? `
+                        <span style="font-size:13px;color:var(--text-muted);padding:8px 0;">📌 将在24小时后加入复习</span>
                     ` : ''}
                     ${mastered ? `
-                        <button class="btn small secondary mastered-btn" data-idx="${idx}" data-word="${w.word}">取消掌握</button>
+                        <button class="btn secondary mastered-btn" data-idx="${idx}" data-word="${w.word}">取消掌握</button>
                     ` : ''}
                 </div>
             </div>
@@ -414,7 +411,7 @@ function handleCardClick(e) {
         return;
     }
 
-    // "不认识" 按钮
+    // "不认识" 按钮 — 直接加入24h复习，不显示二级确认
     if (btn.classList.contains('dontknow-btn')) {
         e.stopPropagation();
         if (!isRevealed(word)) {
@@ -455,10 +452,8 @@ function handleCardClick(e) {
         state.revealed.delete(word);
         persist();
 
-        const hidden = document.getElementById('hidden-' + idx);
         const content = document.getElementById('content-' + idx);
         const card = document.getElementById('card-' + word.replace(/\s/g, '_'));
-        if (hidden) hidden.style.display = '';
         if (content) content.classList.remove('show');
         if (card) {
             card.classList.remove('revealed', 'mastered');
@@ -517,18 +512,22 @@ function refreshCardActions(idx, word) {
 
     const mastered = isMastered(word);
     const revealed = isRevealed(word);
+    const inReview = word in state.review;
 
     actions.innerHTML = `
         ${!revealed ? `
-            <button class="btn small primary reveal-btn" data-idx="${idx}" data-word="${word}">我认识</button>
-            <button class="btn small danger dontknow-btn" data-idx="${idx}" data-word="${word}">不认识</button>
+            <button class="btn primary reveal-btn" data-idx="${idx}" data-word="${word}">我认识</button>
+            <button class="btn danger dontknow-btn" data-idx="${idx}" data-word="${word}">不认识</button>
         ` : ''}
-        ${revealed && !mastered ? `
-            <button class="btn small success mastered-btn" data-idx="${idx}" data-word="${word}">记住了</button>
-            <button class="btn small outline unmastered-btn" data-idx="${idx}" data-word="${word}">没记住</button>
+        ${revealed && !mastered && !inReview ? `
+            <button class="btn success mastered-btn" data-idx="${idx}" data-word="${word}">记住了</button>
+            <button class="btn outline unmastered-btn" data-idx="${idx}" data-word="${word}">没记住</button>
+        ` : ''}
+        ${revealed && !mastered && inReview ? `
+            <span style="font-size:13px;color:var(--text-muted);padding:8px 0;">📌 将在24小时后加入复习</span>
         ` : ''}
         ${mastered ? `
-            <button class="btn small secondary mastered-btn" data-idx="${idx}" data-word="${word}">取消掌握</button>
+            <button class="btn secondary mastered-btn" data-idx="${idx}" data-word="${word}">取消掌握</button>
         ` : ''}
     `;
 
@@ -847,7 +846,7 @@ function renderSearch(query) {
                 <div class="card-example">${w.example}</div>
                 <div class="card-example-cn">${w.exampleCn}</div>
                 <div class="card-actions">
-                    <button class="btn small ${isMastered(w.word) ? 'secondary' : 'success'} search-master-btn" data-word="${w.word}">
+                    <button class="btn ${isMastered(w.word) ? 'secondary' : 'success'} search-master-btn" data-word="${w.word}">
                         ${isMastered(w.word) ? '取消掌握' : '记住了'}
                     </button>
                 </div>
@@ -910,8 +909,8 @@ function renderReviewPanel() {
                     <div class="card-example">${w.example}</div>
                     <div class="card-example-cn">${w.exampleCn}</div>
                     <div class="card-actions">
-                        <button class="btn small success review-master-btn" data-idx="${idx}" data-word="${w.word}">记住了</button>
-                        <button class="btn small outline review-retry-btn" data-idx="${idx}" data-word="${w.word}">还是没记住</button>
+                        <button class="btn success review-master-btn" data-idx="${idx}" data-word="${w.word}">记住了</button>
+                        <button class="btn outline review-retry-btn" data-idx="${idx}" data-word="${w.word}">还是没记住</button>
                     </div>
                 </div>
             `;

@@ -134,35 +134,21 @@ header .subtitle { font-size: 13px; opacity: .8; margin-top: 4px; }
     position: absolute; top: 12px; right: 14px;
     font-size: 11px; color: var(--success); font-weight: 700;
 }
-.card-main { padding: 18px; position: relative; }
+.card-main { padding: 18px; position: relative; display: flex; flex-direction: column; min-height: 100%; }
 .card-word-row {
     display: flex; align-items: center; gap: 10px; margin-bottom: 4px;
+    justify-content: center;
 }
 .card-word {
-    font-size: 24px; font-weight: 700; color: var(--primary); letter-spacing: .3px;
+    font-size: 48px; font-weight: 700; color: var(--primary); letter-spacing: .3px;
+    text-align: center;
 }
 .card-pos {
     font-size: 11px; color: var(--text-muted);
     background: var(--bg); padding: 2px 8px; border-radius: 8px;
     font-weight: 500;
 }
-.card-phonetic { font-size: 13px; color: var(--text-secondary); margin-bottom: 10px; }
-.card-hidden-area {
-    background: var(--primary-bg);
-    border-radius: var(--radius-sm);
-    padding: 16px;
-    text-align: center;
-    cursor: pointer;
-    transition: all .2s;
-    margin-top: 4px;
-}
-.card-hidden-area:hover { background: #e0e7ff; }
-.card-hidden-area .reveal-hint {
-    font-size: 14px; color: var(--primary); font-weight: 600;
-}
-.card-hidden-area .reveal-sub {
-    font-size: 12px; color: var(--text-muted); margin-top: 2px;
-}
+.card-phonetic { font-size: 13px; color: var(--text-secondary); margin-bottom: 10px; text-align: center; }
 .card-revealed-content { display: none; }
 .card-revealed-content.show { display: block; }
 .card-meaning {
@@ -190,9 +176,9 @@ header .subtitle { font-size: 13px; opacity: .8; margin-top: 4px; }
 }
 .verb-form strong { color: var(--text); }
 .card-actions {
-    display: flex; gap: 8px; margin-top: 14px; flex-wrap: wrap;
+    display: flex; gap: 8px; margin-top: auto; padding-top: 14px;
 }
-.card-actions .btn { font-size: 13px; }
+.card-actions .btn { flex: 1; padding: 12px 20px; font-size: 15px; }
 
 /* Sound button */
 .btn-sound {
@@ -336,7 +322,7 @@ header .subtitle { font-size: 13px; opacity: .8; margin-top: 4px; }
 @media (max-width: 640px) {
     .word-cards { grid-template-columns: 1fr; padding: 0 10px 20px; }
     .quiz-options-grid { grid-template-columns: 1fr; }
-    .card-word { font-size: 20px; }
+    .card-word { font-size: 32px; }
     header h1 { font-size: 20px; }
     .root-chip { font-size: 12px; padding: 8px 10px; }
     .bnav { font-size: 12px; padding: 10px 6px; }
