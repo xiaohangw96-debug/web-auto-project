@@ -1,9 +1,9 @@
 'use client'
 
-import { useEffect, useMemo, useCallback } from 'react'
+import { useEffect, useMemo, useCallback, useState, useRef } from 'react'
 import Link from 'next/link'
 import { useRouter } from 'next/navigation'
-import { motion } from 'framer-motion'
+import { motion, AnimatePresence } from 'framer-motion'
 import { searchWord, getWordsByRoot } from '@/data/vocabulary'
 import { getRoot } from '@/data/roots'
 import { useStudyRecord } from '@/hooks/useStudyRecord'
@@ -19,8 +19,8 @@ export default function WordDetailClient({ word: wordText }: { word: string }) {
   const word = useMemo(() => searchWord(wordText), [wordText])
   const router = useRouter()
   const {
-    markCorrect,
-    markWrong,
+    markCorrect: markCorrectStorage,
+    markWrong: markWrongStorage,
     toggleFavorite,
     isFavorite,
     getStatus,
@@ -32,6 +32,37 @@ export default function WordDetailClient({ word: wordText }: { word: string }) {
 
   const rootData = word?.root ? getRoot(word.root) : undefined
   const rootWords = word?.root ? getWordsByRoot(word.root) : []
+
+  // Button feedback state
+  const [feedback, setFeedback] = useState<'correct' | 'wrong' | null>(null)
+  const [toast, setToast] = useState<string | null>(null)
+  const toastTimer = useRef<ReturnType<typeof setTimeout> | null>(null)
+
+  const showToast = useCallback((message: string) => {
+    if (toastTimer.current) clearTimeout(toastTimer.current)
+    setToast(message)
+    toastTimer.current = setTimeout(() => setToast(null), 1500)
+  }, [])
+
+  useEffect(() => {
+    return () => {
+      if (toastTimer.current) clearTimeout(toastTimer.current)
+    }
+  }, [])
+
+  const handleMarkCorrect = useCallback(() => {
+    markCorrectStorage(wordText)
+    setFeedback('correct')
+    showToast('已标记为认识')
+    setTimeout(() => setFeedback(null), 600)
+  }, [markCorrectStorage, wordText, showToast])
+
+  const handleMarkWrong = useCallback(() => {
+    markWrongStorage(wordText)
+    setFeedback('wrong')
+    showToast('已标记为不认识')
+    setTimeout(() => setFeedback(null), 600)
+  }, [markWrongStorage, wordText, showToast])
 
   useEffect(() => {
     if (word) {
@@ -77,7 +108,7 @@ export default function WordDetailClient({ word: wordText }: { word: string }) {
   }
 
   return (
-    <div className="max-w-3xl mx-auto px-4 py-8">
+    <div className="max-w-3xl mx-auto px-4 py-8 pb-28">
       <motion.div initial={{ opacity: 0, transform: 'translateY(20px)' }} animate={{ opacity: 1, transform: 'translateY(0px)' }}>
         <Link href="/" className="inline-flex items-center gap-1 text-sm text-gray-400 hover:text-gray-600 dark:hover:text-gray-300 transition-colors mb-4">
           <svg className="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" strokeWidth={2}>
@@ -86,6 +117,7 @@ export default function WordDetailClient({ word: wordText }: { word: string }) {
           返回词库
         </Link>
 
+        {/* ── Word header ── */}
         <div className="mt-6 mb-8">
           <div className="flex items-start justify-between">
             <div>
@@ -121,35 +153,73 @@ export default function WordDetailClient({ word: wordText }: { word: string }) {
           </div>
         </div>
 
-        {(word.prefix || word.root || word.suffix) && (
-          <section className="mb-8 p-5 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800">
-            <h2 className="text-sm font-semibold text-gray-900 dark:text-white mb-4">词根词缀拆解</h2>
-            <div className="flex flex-wrap items-center gap-2 text-lg font-mono mb-3">
-              {word.prefix && (
-                <>
-                  <Link href={`/affixes/${word.prefix}`} className="text-primary-600 dark:text-primary-400 font-semibold hover:underline">{word.prefix}</Link>
-                  <span className="text-gray-300 dark:text-gray-600">+</span>
-                </>
-              )}
-              {word.root && (
-                <>
-                  <Link href={`/roots/${word.root}`} className="text-purple-600 dark:text-purple-400 font-semibold hover:underline">{word.root}</Link>
-                  {word.suffix && <span className="text-gray-300 dark:text-gray-600">+</span>}
-                </>
-              )}
-              {word.suffix && (
-                <Link href={`/affixes/${word.suffix}`} className="text-green-600 dark:text-green-400 font-semibold hover:underline">{word.suffix}</Link>
+        {/* ── Etymology + Examples card ── */}
+        <section className="mb-8 p-5 rounded-2xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800">
+          {(word.prefix || word.root || word.suffix) && (
+            <div className="mb-6">
+              <h2 className="text-sm font-semibold text-gray-900 dark:text-white mb-4">词根词缀拆解</h2>
+              <div className="flex flex-wrap items-center gap-2 text-lg font-mono mb-3">
+                {word.prefix && (
+                  <>
+                    <Link href={`/affixes/${word.prefix}`} className="text-primary-600 dark:text-primary-400 font-semibold hover:underline">{word.prefix}</Link>
+                    <span className="text-gray-300 dark:text-gray-600">+</span>
+                  </>
+                )}
+                {word.root && (
+                  <>
+                    <Link href={`/roots/${word.root}`} className="text-purple-600 dark:text-purple-400 font-semibold hover:underline">{word.root}</Link>
+                    {word.suffix && <span className="text-gray-300 dark:text-gray-600">+</span>}
+                  </>
+                )}
+                {word.suffix && (
+                  <Link href={`/affixes/${word.suffix}`} className="text-green-600 dark:text-green-400 font-semibold hover:underline">{word.suffix}</Link>
+                )}
+              </div>
+              <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{word.etymology}</p>
+              {word.memory && (
+                <div className="mt-3 p-3 rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-900/30">
+                  <p className="text-sm text-amber-800 dark:text-amber-200"><span className="font-medium">记忆技巧：</span>{word.memory}</p>
+                </div>
               )}
             </div>
-            <p className="text-sm text-gray-600 dark:text-gray-400 leading-relaxed">{word.etymology}</p>
-            {word.memory && (
-              <div className="mt-3 p-3 rounded-xl bg-amber-50 dark:bg-amber-900/20 border border-amber-100 dark:border-amber-900/30">
-                <p className="text-sm text-amber-800 dark:text-amber-200"><span className="font-medium">记忆技巧：</span>{word.memory}</p>
-              </div>
-            )}
-          </section>
-        )}
+          )}
 
+          {/* ── Examples — inside the card, right after etymology ── */}
+          {examples.length > 0 && (
+            <div>
+              <h2 className="text-sm font-semibold text-gray-900 dark:text-white mb-4">
+                例句
+                <span className="text-gray-400 font-normal ml-1">（{examples.length}）</span>
+              </h2>
+              <div className="space-y-4">
+                {examples.map((ex, i) => {
+                  const english = translatedExamples ? (ex as WordExample).english : (ex as string)
+                  const chinese = translatedExamples ? (ex as WordExample).chinese : undefined
+                  return (
+                    <div key={i} className="p-4 rounded-xl bg-gray-50 dark:bg-gray-800/50 border border-gray-100 dark:border-gray-800">
+                      <div className="flex items-start gap-3">
+                        <span className="text-xs text-gray-300 dark:text-gray-600 mt-0.5 shrink-0 font-mono">{i + 1}</span>
+                        <p className="flex-1 text-base text-gray-800 dark:text-gray-200 leading-relaxed">{english}</p>
+                        <button onClick={() => speakWithTTS(english, 'en-US')} className="p-1.5 rounded-lg text-gray-300 hover:text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors shrink-0" title="朗读例句">
+                          <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
+                            <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
+                          </svg>
+                        </button>
+                      </div>
+                      {chinese && (
+                        <p className="text-sm text-gray-500 dark:text-gray-400 mt-2 leading-relaxed pl-7">
+                          {chinese}
+                        </p>
+                      )}
+                    </div>
+                  )
+                })}
+              </div>
+            </div>
+          )}
+        </section>
+
+        {/* ── Root family ── */}
         {rootData && rootWords.length > 1 && (
           <section className="mb-8">
             <div className="flex items-center justify-between mb-3">
@@ -179,31 +249,7 @@ export default function WordDetailClient({ word: wordText }: { word: string }) {
           </section>
         )}
 
-        {examples.length > 0 && (
-          <section className="mb-8">
-            <h2 className="text-sm font-semibold text-gray-900 dark:text-white mb-3">例句</h2>
-            <div className="space-y-3">
-              {examples.map((ex, i) => {
-                const english = translatedExamples ? (ex as WordExample).english : (ex as string)
-                const chinese = translatedExamples ? (ex as WordExample).chinese : undefined
-                return (
-                  <div key={i} className="p-4 rounded-xl bg-white dark:bg-gray-900 border border-gray-100 dark:border-gray-800">
-                    <div className="flex items-start gap-2">
-                      <p className="flex-1 text-sm text-gray-800 dark:text-gray-200 leading-relaxed">{english}</p>
-                      <button onClick={() => speakWithTTS(english, 'en-US')} className="p-1.5 rounded-lg text-gray-300 hover:text-primary-500 hover:bg-primary-50 dark:hover:bg-primary-900/20 transition-colors shrink-0" title="朗读例句">
-                        <svg className="w-4 h-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth={1.5}>
-                          <path strokeLinecap="round" strokeLinejoin="round" d="M19.114 5.636a9 9 0 010 12.728M16.463 8.288a5.25 5.25 0 010 7.424M6.75 8.25l4.72-4.72a.75.75 0 011.28.53v15.88a.75.75 0 01-1.28.53l-4.72-4.72H4.51c-.88 0-1.704-.507-1.938-1.354A9.01 9.01 0 012.25 12c0-.83.112-1.633.322-2.396C2.806 8.756 3.63 8.25 4.51 8.25H6.75z" />
-                        </svg>
-                      </button>
-                    </div>
-                    {chinese && <p className="text-xs text-gray-400 dark:text-gray-500 mt-1.5 leading-relaxed">{chinese}</p>}
-                  </div>
-                )
-              })}
-            </div>
-          </section>
-        )}
-
+        {/* ── Synonyms ── */}
         {word.synonyms && word.synonyms.length > 0 && (
           <section className="mb-8">
             <h2 className="text-sm font-semibold text-gray-900 dark:text-white mb-3">近义词</h2>
@@ -214,12 +260,76 @@ export default function WordDetailClient({ word: wordText }: { word: string }) {
             </div>
           </section>
         )}
-
-        <section className="flex items-center gap-3 pt-4 border-t border-gray-100 dark:border-gray-800">
-          <button onClick={() => markCorrect(wordText)} className="flex-1 py-2.5 rounded-xl bg-green-500 text-white font-medium text-sm hover:bg-green-600 transition-colors">我认识</button>
-          <button onClick={() => markWrong(wordText)} className="flex-1 py-2.5 rounded-xl bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 font-medium text-sm hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors">不认识</button>
-        </section>
       </motion.div>
+
+      {/* ── Toast notification ── */}
+      <AnimatePresence>
+        {toast && (
+          <motion.div
+            initial={{ opacity: 0, y: 20, scale: 0.95 }}
+            animate={{ opacity: 1, y: 0, scale: 1 }}
+            exit={{ opacity: 0, y: 10, scale: 0.95 }}
+            className="fixed bottom-24 left-1/2 -translate-x-1/2 z-50 px-4 py-2 rounded-full bg-gray-900 dark:bg-white text-white dark:text-gray-900 text-sm font-medium shadow-lg"
+          >
+            {toast}
+          </motion.div>
+        )}
+      </AnimatePresence>
+
+      {/* ── Sticky bottom action bar ── */}
+      <div className="fixed bottom-0 left-0 right-0 z-40 bg-white/80 dark:bg-gray-950/80 backdrop-blur-lg border-t border-gray-100 dark:border-gray-800">
+        <div className="max-w-3xl mx-auto px-4 py-3 flex items-center gap-3">
+          <button
+            onClick={handleMarkCorrect}
+            className={`flex-1 py-3 rounded-xl font-medium text-sm transition-all duration-150 active:scale-95
+              ${feedback === 'correct'
+                ? 'bg-green-600 text-white scale-95 shadow-lg shadow-green-500/25'
+                : 'bg-green-500 text-white hover:bg-green-600 hover:shadow-md'
+              }
+              ${feedback === 'correct' ? 'animate-btn-pop' : ''}
+            `}
+          >
+            {feedback === 'correct' ? '✓ 已标记' : '我认识'}
+          </button>
+          <button
+            onClick={handleMarkWrong}
+            className={`flex-1 py-3 rounded-xl font-medium text-sm transition-all duration-150 active:scale-95
+              ${feedback === 'wrong'
+                ? 'bg-gray-300 dark:bg-gray-600 text-gray-500 dark:text-gray-300 scale-95 shadow-lg shadow-gray-300/25'
+                : 'bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:bg-gray-200 dark:hover:bg-gray-700'
+              }
+              ${feedback === 'wrong' ? 'animate-btn-shake' : ''}
+            `}
+          >
+            {feedback === 'wrong' ? '✗ 已标记' : '不认识'}
+          </button>
+        </div>
+      </div>
+
+      {/* ── Button animation keyframes ── */}
+      <style jsx global>{`
+        @keyframes btn-pop {
+          0% { transform: scale(1); }
+          40% { transform: scale(0.92); }
+          70% { transform: scale(1.04); }
+          100% { transform: scale(1); }
+        }
+        @keyframes btn-shake {
+          0%, 100% { transform: translateX(0); }
+          15% { transform: translateX(-3px); }
+          30% { transform: translateX(3px); }
+          45% { transform: translateX(-2px); }
+          60% { transform: translateX(2px); }
+          75% { transform: translateX(-1px); }
+          90% { transform: translateX(0); }
+        }
+        .animate-btn-pop {
+          animation: btn-pop 0.4s ease-out;
+        }
+        .animate-btn-shake {
+          animation: btn-shake 0.4s ease-out;
+        }
+      `}</style>
     </div>
   )
 }
