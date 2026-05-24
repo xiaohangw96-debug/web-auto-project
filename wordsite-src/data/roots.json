@@ -1,0 +1,4236 @@
+[
+  {
+    "root": "spect",
+    "meaning": "看",
+    "origin": "拉丁语 specere",
+    "description": "表示看、观察、审视的动作",
+    "memoryTip": "想象眼镜(spectacles)帮你'看'得更清楚",
+    "words": [
+      "inspect",
+      "respect",
+      "suspect",
+      "prospect",
+      "spectator",
+      "expect",
+      "retrospect",
+      "spectacle"
+    ]
+  },
+  {
+    "root": "vid/vis",
+    "meaning": "看",
+    "origin": "拉丁语 videre",
+    "description": "表示看见、视觉、外观",
+    "memoryTip": "video(视频)就是用来'看'的，vis 和 vid 同源",
+    "words": [
+      "video",
+      "visible",
+      "vision",
+      "visit",
+      "visual",
+      "revise",
+      "supervise",
+      "evidence"
+    ]
+  },
+  {
+    "root": "scop",
+    "meaning": "看、观察",
+    "origin": "希腊语 skopein",
+    "description": "表示观察、审视、检查",
+    "memoryTip": "microscope(显微镜)帮你'看'微观世界，telescope(望远镜)帮你看远处",
+    "words": [
+      "telescope",
+      "microscope",
+      "scope",
+      "kaleidoscope",
+      "periscope",
+      "stethoscope"
+    ]
+  },
+  {
+    "root": "opt",
+    "meaning": "看、视力",
+    "origin": "希腊语 optos/opsis",
+    "description": "与视觉、光学、选择和最佳相关",
+    "memoryTip": "optic(光学的)与眼睛有关，option(选择)就是你'看'中的那个",
+    "words": [
+      "optic",
+      "optical",
+      "option",
+      "adopt",
+      "optimist",
+      "optimum"
+    ]
+  },
+  {
+    "root": "view",
+    "meaning": "看",
+    "origin": "拉丁语 videre (经由古法语)",
+    "description": "表示观看、观察、观点",
+    "memoryTip": "在Windows系统里，view就是查看文件的方式",
+    "words": [
+      "view",
+      "review",
+      "preview",
+      "interview",
+      "overview",
+      "viewpoint",
+      "viewer"
+    ]
+  },
+  {
+    "root": "the/theo",
+    "meaning": "看、观察",
+    "origin": "希腊语 thea",
+    "description": "表示观看、理论推测",
+    "memoryTip": "theory(理论)源于对事物的'观察'和思考",
+    "words": [
+      "theory",
+      "theater",
+      "theme",
+      "theorem",
+      "thesis",
+      "hypothesis"
+    ]
+  },
+  {
+    "root": "audi/audit/aud",
+    "meaning": "听",
+    "origin": "拉丁语 audire",
+    "description": "表示听、声音、听觉",
+    "memoryTip": "audio(音频)是我们每天都'听'的东西",
+    "words": [
+      "audio",
+      "audience",
+      "auditorium",
+      "audit",
+      "audible",
+      "audition",
+      "auditory"
+    ]
+  },
+  {
+    "root": "son",
+    "meaning": "声音",
+    "origin": "拉丁语 sonus",
+    "description": "表示声音、声响",
+    "memoryTip": "SONY这个品牌名就来自sonus(声音)和sonny(小伙子)",
+    "words": [
+      "sound",
+      "sonic",
+      "resonate",
+      "sonata",
+      "dissonant",
+      "consonant",
+      "ultrasonic"
+    ]
+  },
+  {
+    "root": "phon",
+    "meaning": "声音",
+    "origin": "希腊语 phone",
+    "description": "表示声音、语音",
+    "memoryTip": "telephone(电话)就是远处传来的'声音'",
+    "words": [
+      "telephone",
+      "symphony",
+      "microphone",
+      "phonetics",
+      "megaphone",
+      "gramophone",
+      "cacophony"
+    ]
+  },
+  {
+    "root": "voc/vok",
+    "meaning": "声音、呼喊",
+    "origin": "拉丁语 vox/vocare",
+    "description": "表示声音、呼唤、召唤",
+    "memoryTip": "voice(嗓音)和vocal(声音的)都来自voc，vocabulary则是你用声音说出来的词",
+    "words": [
+      "voice",
+      "vocal",
+      "vocabulary",
+      "advocate",
+      "provoke",
+      "evoke",
+      "revoke",
+      "invoke"
+    ]
+  },
+  {
+    "root": "dict/dic",
+    "meaning": "说",
+    "origin": "拉丁语 dicere",
+    "description": "表示说话、断言、宣告",
+    "memoryTip": "dictionary(字典)就是告诉你词该怎么'说'的书",
+    "words": [
+      "dictionary",
+      "predict",
+      "dictate",
+      "contradict",
+      "verdict",
+      "indicate",
+      "dedicate",
+      "dictator"
+    ]
+  },
+  {
+    "root": "log/loqu/locut",
+    "meaning": "说、言语",
+    "origin": "希腊语 logos / 拉丁语 loqui",
+    "description": "表示说话、言语、推理",
+    "memoryTip": "dialogue(对话)就是两个人互相'说'",
+    "words": [
+      "dialogue",
+      "monologue",
+      "eloquent",
+      "colloquial",
+      "apology",
+      "logic",
+      "analogy",
+      "catalogue"
+    ]
+  },
+  {
+    "root": "lingu",
+    "meaning": "语言、舌头",
+    "origin": "拉丁语 lingua",
+    "description": "与语言、舌头相关",
+    "memoryTip": "language(语言)的核心就是lingu，舌头是说话的工具",
+    "words": [
+      "language",
+      "linguist",
+      "bilingual",
+      "linguistics",
+      "multilingual",
+      "sublingual"
+    ]
+  },
+  {
+    "root": "fabl/fabul/fess",
+    "meaning": "说",
+    "origin": "拉丁语 fabulari/fateri",
+    "description": "表示说话、讲故事、承认",
+    "memoryTip": "fable(寓言)就是讲出来的故事",
+    "words": [
+      "fable",
+      "fabulous",
+      "confess",
+      "profess",
+      "professor",
+      "confession",
+      "professional"
+    ]
+  },
+  {
+    "root": "nounce/nunci",
+    "meaning": "宣布、说",
+    "origin": "拉丁语 nuntiare",
+    "description": "表示宣布、报告、传达",
+    "memoryTip": "announce(宣布)就是把消息大声'说'出来",
+    "words": [
+      "announce",
+      "pronounce",
+      "denounce",
+      "renounce",
+      "pronunciation",
+      "annunciation"
+    ]
+  },
+  {
+    "root": "claim/clam",
+    "meaning": "呼喊、叫",
+    "origin": "拉丁语 clamare",
+    "description": "表示叫喊、声称、要求",
+    "memoryTip": "exclaim(呼喊)就是大声'叫'出来",
+    "words": [
+      "claim",
+      "exclaim",
+      "proclaim",
+      "acclaim",
+      "clamor",
+      "disclaim",
+      "reclaim",
+      "declaim"
+    ]
+  },
+  {
+    "root": "scrib/script",
+    "meaning": "写",
+    "origin": "拉丁语 scribere",
+    "description": "表示书写、记录、描述",
+    "memoryTip": "describe(描述)就是把东西'写'下来",
+    "words": [
+      "describe",
+      "script",
+      "prescribe",
+      "subscribe",
+      "manuscript",
+      "transcribe",
+      "inscribe",
+      "postscript"
+    ]
+  },
+  {
+    "root": "graph/gram",
+    "meaning": "写、画",
+    "origin": "希腊语 graphein",
+    "description": "表示书写、绘图、记录",
+    "memoryTip": "photograph(照片)就是用光'画'出来的图像",
+    "words": [
+      "graph",
+      "photograph",
+      "biography",
+      "geography",
+      "telegraph",
+      "autograph",
+      "program",
+      "diagram"
+    ]
+  },
+  {
+    "root": "liter",
+    "meaning": "字母、文字",
+    "origin": "拉丁语 littera",
+    "description": "与字母、文字、文学相关",
+    "memoryTip": "letter(字母/信件)直接来自liter，文字是文明的基础",
+    "words": [
+      "letter",
+      "literature",
+      "literal",
+      "literate",
+      "illiterate",
+      "literary",
+      "alliteration"
+    ]
+  },
+  {
+    "root": "mob/mot/mov",
+    "meaning": "移动",
+    "origin": "拉丁语 movere",
+    "description": "表示移动、运动、动机",
+    "memoryTip": "mobile phone(手机)就是可以移'动'的电话",
+    "words": [
+      "move",
+      "mobile",
+      "motion",
+      "motor",
+      "promote",
+      "remove",
+      "emotion",
+      "motivate",
+      "automobile"
+    ]
+  },
+  {
+    "root": "ced/ceed/cess",
+    "meaning": "走、去",
+    "origin": "拉丁语 cedere",
+    "description": "表示行走、前进、退让",
+    "memoryTip": "succeed(成功)就是一直往前'走'直到达成",
+    "words": [
+      "succeed",
+      "exceed",
+      "proceed",
+      "process",
+      "access",
+      "recede",
+      "precede",
+      "concede",
+      "excess"
+    ]
+  },
+  {
+    "root": "grad/gress",
+    "meaning": "走、步",
+    "origin": "拉丁语 gradi/gressus",
+    "description": "表示步行、台阶、等级",
+    "memoryTip": "grade(年级)就是你在学校里一级一级往上'走'",
+    "words": [
+      "grade",
+      "graduate",
+      "progress",
+      "aggressive",
+      "degrade",
+      "upgrade",
+      "gradual",
+      "congress"
+    ]
+  },
+  {
+    "root": "ven/vent",
+    "meaning": "来",
+    "origin": "拉丁语 venire",
+    "description": "表示到来、发生、出现",
+    "memoryTip": "adventure(冒险)就是即将'来'临的未知事件",
+    "words": [
+      "adventure",
+      "event",
+      "invent",
+      "prevent",
+      "convene",
+      "avenue",
+      "revenue",
+      "intervene",
+      "convenient"
+    ]
+  },
+  {
+    "root": "it",
+    "meaning": "走",
+    "origin": "拉丁语 ire",
+    "description": "表示行走、旅行、通过",
+    "memoryTip": "exit(出口)就是向外面'走'",
+    "words": [
+      "exit",
+      "transit",
+      "ambition",
+      "initial",
+      "itinerary",
+      "circuit",
+      "transition",
+      "initiate"
+    ]
+  },
+  {
+    "root": "migr",
+    "meaning": "迁移、移动",
+    "origin": "拉丁语 migrare",
+    "description": "表示迁移、移居、变换位置",
+    "memoryTip": "immigrant(移民)就是迁'移'到新国家的人",
+    "words": [
+      "migrate",
+      "immigrant",
+      "emigrate",
+      "migration",
+      "migrant",
+      "emigration"
+    ]
+  },
+  {
+    "root": "vad/vas",
+    "meaning": "走、去",
+    "origin": "拉丁语 vadere",
+    "description": "表示行走、前进、侵入",
+    "memoryTip": "invade(入侵)就是'走'进别人的领地",
+    "words": [
+      "invade",
+      "evade",
+      "pervade",
+      "invasion",
+      "evasion",
+      "pervasive"
+    ]
+  },
+  {
+    "root": "cur/curs/cours",
+    "meaning": "跑",
+    "origin": "拉丁语 currere",
+    "description": "表示奔跑、流动、发生",
+    "memoryTip": "current(水流/电流)就是正在'跑'动的",
+    "words": [
+      "current",
+      "occur",
+      "cursor",
+      "excursion",
+      "curriculum",
+      "course",
+      "currency",
+      "concur"
+    ]
+  },
+  {
+    "root": "fug",
+    "meaning": "逃、散",
+    "origin": "拉丁语 fugere",
+    "description": "表示逃跑、分散、离心",
+    "memoryTip": "refugee(难民)就是逃'跑'避难的人",
+    "words": [
+      "refuge",
+      "refugee",
+      "fugitive",
+      "centrifugal",
+      "subterfuge",
+      "febrifuge"
+    ]
+  },
+  {
+    "root": "fer",
+    "meaning": "携带、带来",
+    "origin": "拉丁语 ferre",
+    "description": "表示携带、运送、产生",
+    "memoryTip": "transfer(转移)就是从一个地方'带'到另一个地方",
+    "words": [
+      "transfer",
+      "refer",
+      "offer",
+      "prefer",
+      "differ",
+      "conference",
+      "infer",
+      "suffer",
+      "fertile"
+    ]
+  },
+  {
+    "root": "port",
+    "meaning": "携带、运送",
+    "origin": "拉丁语 portare",
+    "description": "表示搬运、携带、港口",
+    "memoryTip": "import(进口)就是把货物'运'进来",
+    "words": [
+      "import",
+      "export",
+      "transport",
+      "portable",
+      "support",
+      "report",
+      "passport",
+      "portfolio",
+      "porter"
+    ]
+  },
+  {
+    "root": "ger/gest",
+    "meaning": "携带、运送",
+    "origin": "拉丁语 gerere/gestus",
+    "description": "表示携带、产生、表达",
+    "memoryTip": "suggest(建议)就是把想法'带'到脑子里",
+    "words": [
+      "suggest",
+      "digest",
+      "gesture",
+      "register",
+      "exaggerate",
+      "congest",
+      "ingest"
+    ]
+  },
+  {
+    "root": "duc/duct",
+    "meaning": "引导、领导",
+    "origin": "拉丁语 ducere",
+    "description": "表示引导、带领、传导",
+    "memoryTip": "educate(教育)就是把学生从无知中'引导'出来",
+    "words": [
+      "educate",
+      "introduce",
+      "produce",
+      "reduce",
+      "conduct",
+      "deduce",
+      "induce",
+      "seduce",
+      "duct"
+    ]
+  },
+  {
+    "root": "ag/act/ig",
+    "meaning": "做、驱动",
+    "origin": "拉丁语 agere",
+    "description": "表示做、行动、驱动、表演",
+    "memoryTip": "act(行动)直接来自ag，actor就是'做'动作表演的人",
+    "words": [
+      "act",
+      "action",
+      "agent",
+      "agenda",
+      "react",
+      "exact",
+      "interact",
+      "active",
+      "agile"
+    ]
+  },
+  {
+    "root": "pel/puls",
+    "meaning": "推动、驱使",
+    "origin": "拉丁语 pellere",
+    "description": "表示推动、驱动、强迫",
+    "memoryTip": "compel(强迫)就是把别人往前'推'",
+    "words": [
+      "compel",
+      "expel",
+      "propel",
+      "repel",
+      "pulse",
+      "impulse",
+      "compulsory",
+      "repulsive",
+      "propeller"
+    ]
+  },
+  {
+    "root": "ject",
+    "meaning": "投、掷、扔",
+    "origin": "拉丁语 jacere",
+    "description": "表示投掷、抛射、放置",
+    "memoryTip": "project(项目)就是向前'投'出的计划",
+    "words": [
+      "project",
+      "inject",
+      "reject",
+      "object",
+      "subject",
+      "eject",
+      "adjective",
+      "projector"
+    ]
+  },
+  {
+    "root": "miss/mit",
+    "meaning": "发送、放出",
+    "origin": "拉丁语 mittere",
+    "description": "表示发送、放出、派遣",
+    "memoryTip": "message(消息)就是'发送'出来的信息",
+    "words": [
+      "message",
+      "mission",
+      "admit",
+      "commit",
+      "dismiss",
+      "permit",
+      "submit",
+      "transmit",
+      "emit",
+      "omit"
+    ]
+  },
+  {
+    "root": "tain/ten/tent/tin",
+    "meaning": "拿、握、保持",
+    "origin": "拉丁语 tenere",
+    "description": "表示握住、保持、容纳、维持",
+    "memoryTip": "contain(包含)就是把东西'拿'在容器里",
+    "words": [
+      "contain",
+      "maintain",
+      "obtain",
+      "sustain",
+      "continue",
+      "content",
+      "retain",
+      "detain",
+      "tenant"
+    ]
+  },
+  {
+    "root": "capt/cept/cip/cap",
+    "meaning": "拿、抓、取",
+    "origin": "拉丁语 capere",
+    "description": "表示抓住、获取、接收、理解",
+    "memoryTip": "capture(捕获)就是'抓住'东西",
+    "words": [
+      "capture",
+      "accept",
+      "concept",
+      "except",
+      "receive",
+      "perceive",
+      "capacity",
+      "captive",
+      "anticipate"
+    ]
+  },
+  {
+    "root": "cept/cip/cap",
+    "meaning": "拿、取",
+    "origin": "拉丁语 capere (变体)",
+    "description": "表示拿取、接收、理解，是capere的常见变体",
+    "memoryTip": "receive(接收)就是你'拿'到别人给的东西",
+    "words": [
+      "receive",
+      "accept",
+      "concept",
+      "except",
+      "perceive",
+      "deceive",
+      "recipient",
+      "municipal"
+    ]
+  },
+  {
+    "root": "hibit/habit",
+    "meaning": "拿、持有、居住",
+    "origin": "拉丁语 habere/habitare",
+    "description": "表示拥有、居住、保持状态",
+    "memoryTip": "exhibit(展览)就是把东西'拿'出来给大家看",
+    "words": [
+      "exhibit",
+      "inhabit",
+      "habit",
+      "inhibit",
+      "prohibit",
+      "habitat",
+      "habitual",
+      "cohabit"
+    ]
+  },
+  {
+    "root": "sume/sumpt",
+    "meaning": "拿、取",
+    "origin": "拉丁语 sumere",
+    "description": "表示拿起、取用、消费、承担",
+    "memoryTip": "consume(消费)就是把东西全'拿'来用光",
+    "words": [
+      "consume",
+      "assume",
+      "resume",
+      "presume",
+      "consumption",
+      "assumption",
+      "presumption"
+    ]
+  },
+  {
+    "root": "tract",
+    "meaning": "拉、拖",
+    "origin": "拉丁语 trahere",
+    "description": "表示拖拉、吸引、抽取",
+    "memoryTip": "tractor(拖拉机)就是用来'拉'的车",
+    "words": [
+      "attract",
+      "contract",
+      "distract",
+      "extract",
+      "subtract",
+      "retract",
+      "tractor",
+      "abstract",
+      "traction"
+    ]
+  },
+  {
+    "root": "struct",
+    "meaning": "建造、堆积",
+    "origin": "拉丁语 struere",
+    "description": "表示建造、结构、堆积、整理",
+    "memoryTip": "structure(结构)就是把材料堆'建'起来的框架",
+    "words": [
+      "structure",
+      "construct",
+      "destroy",
+      "instruct",
+      "obstruct",
+      "construction",
+      "infrastructure"
+    ]
+  },
+  {
+    "root": "string/strict/strain",
+    "meaning": "拉紧、绑紧",
+    "origin": "拉丁语 stringere",
+    "description": "表示拉紧、束缚、限制",
+    "memoryTip": "strict(严格的)就是把规则'拉紧'不放松",
+    "words": [
+      "strict",
+      "restrict",
+      "stringent",
+      "constrain",
+      "restrain",
+      "district",
+      "constrict",
+      "astringent"
+    ]
+  },
+  {
+    "root": "rupt",
+    "meaning": "破、断裂",
+    "origin": "拉丁语 rumpere",
+    "description": "表示破裂、断裂、爆发",
+    "memoryTip": "bankrupt(破产)就是银行(资金)断裂了",
+    "words": [
+      "bankrupt",
+      "interrupt",
+      "erupt",
+      "disrupt",
+      "corrupt",
+      "rupture",
+      "abrupt",
+      "irrupt"
+    ]
+  },
+  {
+    "root": "fract/frag",
+    "meaning": "打破、折断",
+    "origin": "拉丁语 frangere",
+    "description": "表示破碎、断裂、碎片",
+    "memoryTip": "fragment(碎片)就是打'破'后的结果",
+    "words": [
+      "fracture",
+      "fragment",
+      "fragile",
+      "fraction",
+      "refract",
+      "infraction",
+      "fragmentation"
+    ]
+  },
+  {
+    "root": "sect/seg",
+    "meaning": "切、割",
+    "origin": "拉丁语 secare",
+    "description": "表示切割、分割、部分",
+    "memoryTip": "section(部门)就是把整体'切'分出来的部分",
+    "words": [
+      "section",
+      "insect",
+      "segment",
+      "intersect",
+      "dissect",
+      "bisect",
+      "sector",
+      "secant"
+    ]
+  },
+  {
+    "root": "cid/cis",
+    "meaning": "切、杀",
+    "origin": "拉丁语 caedere",
+    "description": "表示切割、杀害、决定性地结束",
+    "memoryTip": "decide(决定)就是把所有犹豫'切'掉",
+    "words": [
+      "decide",
+      "precise",
+      "suicide",
+      "incision",
+      "concise",
+      "excise",
+      "homicide",
+      "pesticide"
+    ]
+  },
+  {
+    "root": "tomy",
+    "meaning": "切割",
+    "origin": "希腊语 tomos/temnein",
+    "description": "表示切割、解剖、分割",
+    "memoryTip": "anatomy(解剖学)就是把人切开来看的学科",
+    "words": [
+      "anatomy",
+      "atom",
+      "tome",
+      "dichotomy",
+      "epitome",
+      "lobotomy",
+      "microtome"
+    ]
+  },
+  {
+    "root": "tail",
+    "meaning": "切割",
+    "origin": "拉丁语 taliare",
+    "description": "表示切割、剪裁、分离",
+    "memoryTip": "tailor(裁缝)就是用剪刀'切'布料的人",
+    "words": [
+      "tailor",
+      "detail",
+      "retail",
+      "entail",
+      "curtail",
+      "tally"
+    ]
+  },
+  {
+    "root": "fac/fect/fic/fact",
+    "meaning": "做、制作",
+    "origin": "拉丁语 facere",
+    "description": "表示做、制作、创造、产生影响",
+    "memoryTip": "factory(工厂)就是'做'东西的地方",
+    "words": [
+      "factory",
+      "effect",
+      "affect",
+      "perfect",
+      "benefit",
+      "difficult",
+      "manufacture",
+      "fiction",
+      "facilitate"
+    ]
+  },
+  {
+    "root": "cre/creas/cret",
+    "meaning": "创造、生长",
+    "origin": "拉丁语 creare/crescere",
+    "description": "表示创造、增长、培养",
+    "memoryTip": "create(创造)就是从无到有地'生长'出来",
+    "words": [
+      "create",
+      "increase",
+      "decrease",
+      "concrete",
+      "creature",
+      "recreation",
+      "increment",
+      "crescent"
+    ]
+  },
+  {
+    "root": "labor",
+    "meaning": "劳动、工作",
+    "origin": "拉丁语 labor",
+    "description": "表示劳动、辛苦工作、努力",
+    "memoryTip": "laboratory(实验室)就是辛苦'劳动'的地方",
+    "words": [
+      "labor",
+      "laboratory",
+      "elaborate",
+      "collaborate",
+      "laborious",
+      "labored"
+    ]
+  },
+  {
+    "root": "oper",
+    "meaning": "工作、操作",
+    "origin": "拉丁语 opus/operari",
+    "description": "表示工作、操作、运作",
+    "memoryTip": "operate(操作)就是让你的手开始'工作'",
+    "words": [
+      "operate",
+      "operation",
+      "cooperate",
+      "opera",
+      "operator",
+      "operational",
+      "opus"
+    ]
+  },
+  {
+    "root": "viv/vit/vig",
+    "meaning": "生命、活",
+    "origin": "拉丁语 vivere/vita",
+    "description": "表示生命、生活、活力",
+    "memoryTip": "vitamin(维生素)是维持生'命'的元素",
+    "words": [
+      "vivid",
+      "survive",
+      "revive",
+      "vitamin",
+      "vital",
+      "vivacious",
+      "revival",
+      "convivial"
+    ]
+  },
+  {
+    "root": "anim",
+    "meaning": "生命、气息、心灵",
+    "origin": "拉丁语 anima/animus",
+    "description": "表示生命、精神、灵魂、气息",
+    "memoryTip": "animal(动物)就是有生'命'气息的存在",
+    "words": [
+      "animal",
+      "animate",
+      "animation",
+      "unanimous",
+      "magnanimous",
+      "inanimate",
+      "equanimity"
+    ]
+  },
+  {
+    "root": "bio",
+    "meaning": "生命",
+    "origin": "希腊语 bios",
+    "description": "表示生命、生物、生活方式",
+    "memoryTip": "biology(生物学)就是研究生'命'的学科",
+    "words": [
+      "biology",
+      "biography",
+      "antibiotic",
+      "symbiosis",
+      "biography",
+      "biodegradable",
+      "biosphere"
+    ]
+  },
+  {
+    "root": "nat/nas/nasc",
+    "meaning": "出生、天生",
+    "origin": "拉丁语 nasci/natus",
+    "description": "表示出生、天生、自然、本质",
+    "memoryTip": "nature(自然)就是天'生'的东西",
+    "words": [
+      "nature",
+      "native",
+      "nation",
+      "natural",
+      "pregnant",
+      "renaissance",
+      "innate",
+      "nascent"
+    ]
+  },
+  {
+    "root": "gener/gen",
+    "meaning": "出生、产生、种族",
+    "origin": "拉丁语 genus/generare",
+    "description": "表示产生、种类、种族、世代",
+    "memoryTip": "generate(产生)就是让东西'生'出来",
+    "words": [
+      "generate",
+      "generous",
+      "general",
+      "genius",
+      "gene",
+      "genetic",
+      "gender",
+      "genuine",
+      "generation"
+    ]
+  },
+  {
+    "root": "mort",
+    "meaning": "死",
+    "origin": "拉丁语 mors/mortis",
+    "description": "表示死亡、凡人、必死性",
+    "memoryTip": "mortal(凡人)就是终究会'死'的人",
+    "words": [
+      "mortal",
+      "immortal",
+      "mortgage",
+      "mortuary",
+      "mortality",
+      "mortify",
+      "rigor mortis",
+      "postmortem"
+    ]
+  },
+  {
+    "root": "necr/necro",
+    "meaning": "死、尸体",
+    "origin": "希腊语 nekros",
+    "description": "表示死亡、尸体、坏死",
+    "memoryTip": "necropolis(大墓地)就是'死'人之城",
+    "words": [
+      "necrosis",
+      "necropolis",
+      "necrology",
+      "necromancy",
+      "necrophobia"
+    ]
+  },
+  {
+    "root": "corp/corpor",
+    "meaning": "身体、团体",
+    "origin": "拉丁语 corpus",
+    "description": "表示身体、实体、团体",
+    "memoryTip": "corporation(公司)就是一个法人团体'身体'",
+    "words": [
+      "corps",
+      "corpse",
+      "corporation",
+      "incorporate",
+      "corporeal",
+      "corpus",
+      "corpulent"
+    ]
+  },
+  {
+    "root": "manu/man",
+    "meaning": "手",
+    "origin": "拉丁语 manus",
+    "description": "表示手、手工、管理",
+    "memoryTip": "manual(手册)就是用手来操作的东西",
+    "words": [
+      "manual",
+      "manage",
+      "manufacture",
+      "manuscript",
+      "manipulate",
+      "maneuver",
+      "emancipate"
+    ]
+  },
+  {
+    "root": "ped/pod",
+    "meaning": "脚",
+    "origin": "拉丁语 pes/pedis; 希腊语 pous/podos",
+    "description": "表示脚、足部、行走",
+    "memoryTip": "pedestrian(行人)就是用'脚'走路的人",
+    "words": [
+      "pedal",
+      "pedestrian",
+      "expedition",
+      "impede",
+      "centipede",
+      "tripod",
+      "podcast",
+      "pedicure"
+    ]
+  },
+  {
+    "root": "capit/capt/cipit",
+    "meaning": "头",
+    "origin": "拉丁语 caput",
+    "description": "表示头部、首要、首都",
+    "memoryTip": "capital(首都)就是国家的'头'",
+    "words": [
+      "capital",
+      "captain",
+      "decapitate",
+      "chapter",
+      "cape",
+      "capitulate",
+      "precipitate"
+    ]
+  },
+  {
+    "root": "dent/dont",
+    "meaning": "牙齿",
+    "origin": "拉丁语 dens/dentis",
+    "description": "表示牙齿、齿状物",
+    "memoryTip": "dentist(牙医)就是看'牙'的医生",
+    "words": [
+      "dentist",
+      "dental",
+      "dentifrice",
+      "indent",
+      "denture",
+      "orthodontist",
+      "trident"
+    ]
+  },
+  {
+    "root": "ocul/opt",
+    "meaning": "眼睛",
+    "origin": "拉丁语 oculus",
+    "description": "表示眼睛、视觉",
+    "memoryTip": "binoculars(双筒望远镜)就是两只'眼睛'一起看",
+    "words": [
+      "ocular",
+      "binoculars",
+      "monocle",
+      "oculist",
+      "inoculate"
+    ]
+  },
+  {
+    "root": "cord/cardi",
+    "meaning": "心",
+    "origin": "拉丁语 cor/cordis; 希腊语 kardia",
+    "description": "表示心脏、内心、情感中心",
+    "memoryTip": "record(记录)就是再次回到'心'里",
+    "words": [
+      "record",
+      "cordial",
+      "accord",
+      "discord",
+      "concord",
+      "cardiac",
+      "cardiovascular",
+      "core"
+    ]
+  },
+  {
+    "root": "derm/dermat",
+    "meaning": "皮肤",
+    "origin": "希腊语 derma",
+    "description": "表示皮肤、皮层",
+    "memoryTip": "dermatologist(皮肤科医生)就是看皮'肤'病的医生",
+    "words": [
+      "dermatology",
+      "epidermis",
+      "hypodermic",
+      "pachyderm",
+      "dermatitis",
+      "taxidermy"
+    ]
+  },
+  {
+    "root": "sangui",
+    "meaning": "血",
+    "origin": "拉丁语 sanguis",
+    "description": "表示血液、血脉",
+    "memoryTip": "sanguine(乐观的)在古代医学中，血液多的人性格乐观",
+    "words": [
+      "sanguine",
+      "sanguinary",
+      "consanguinity",
+      "exsanguinate",
+      "sangfroid"
+    ]
+  },
+  {
+    "root": "ment",
+    "meaning": "心、精神",
+    "origin": "拉丁语 mens/mentis",
+    "description": "表示心智、思想、精神状态",
+    "memoryTip": "mental(精神的)就是关于'心'智的",
+    "words": [
+      "mental",
+      "mention",
+      "comment",
+      "dementia",
+      "mentality",
+      "mentor",
+      "remind"
+    ]
+  },
+  {
+    "root": "cogn/cognit/gnos",
+    "meaning": "知道、认识",
+    "origin": "拉丁语 cognoscere; 希腊语 gignoskein",
+    "description": "表示知道、认识、认知",
+    "memoryTip": "recognize(认出)就是再次'知道'它是什么",
+    "words": [
+      "recognize",
+      "cognition",
+      "cognitive",
+      "ignore",
+      "diagnose",
+      "incognito",
+      "agnostic",
+      "prognosis"
+    ]
+  },
+  {
+    "root": "sci/scient",
+    "meaning": "知道",
+    "origin": "拉丁语 scire",
+    "description": "表示知道、知识、科学",
+    "memoryTip": "science(科学)就是系统的'知道'",
+    "words": [
+      "science",
+      "conscious",
+      "conscience",
+      "scientist",
+      "omniscient",
+      "prescient",
+      "nescient"
+    ]
+  },
+  {
+    "root": "soph",
+    "meaning": "智慧",
+    "origin": "希腊语 sophos/sophia",
+    "description": "表示智慧、聪明、哲学",
+    "memoryTip": "philosophy(哲学)就是热爱'智慧'",
+    "words": [
+      "philosophy",
+      "sophisticated",
+      "sophomore",
+      "sophist",
+      "theosophy",
+      "pansophic"
+    ]
+  },
+  {
+    "root": "sens/sent",
+    "meaning": "感觉",
+    "origin": "拉丁语 sentire/sensus",
+    "description": "表示感觉、感知、意识",
+    "memoryTip": "sense(感觉)就是你对外界的'感知'",
+    "words": [
+      "sense",
+      "sensitive",
+      "sentiment",
+      "consent",
+      "resent",
+      "consensus",
+      "nonsense",
+      "sensation",
+      "dissent"
+    ]
+  },
+  {
+    "root": "memor",
+    "meaning": "记忆",
+    "origin": "拉丁语 memor/memoria",
+    "description": "表示记忆、回忆、纪念",
+    "memoryTip": "memory(记忆)的核心就是memor，让过去的事留在心里",
+    "words": [
+      "memory",
+      "memorial",
+      "memorize",
+      "memoir",
+      "commemorate",
+      "memento",
+      "memorandum",
+      "remember"
+    ]
+  },
+  {
+    "root": "cred/creed",
+    "meaning": "相信、信任",
+    "origin": "拉丁语 credere",
+    "description": "表示相信、信任、信用",
+    "memoryTip": "credit card(信用卡)就是基于'信任'的卡",
+    "words": [
+      "credit",
+      "incredible",
+      "credential",
+      "credible",
+      "creditor",
+      "creed",
+      "discredit",
+      "accredit"
+    ]
+  },
+  {
+    "root": "fid/fide/feder",
+    "meaning": "信任、信仰",
+    "origin": "拉丁语 fidere/fides",
+    "description": "表示信任、忠诚、信仰、联盟",
+    "memoryTip": "confidence(信心)就是完全'信任'自己",
+    "words": [
+      "confidence",
+      "faithful",
+      "fidelity",
+      "confide",
+      "federal",
+      "defy",
+      "perfidy",
+      "bona fide"
+    ]
+  },
+  {
+    "root": "am/amat/amor",
+    "meaning": "爱",
+    "origin": "拉丁语 amare/amor",
+    "description": "表示爱、喜爱、友好",
+    "memoryTip": "amateur(业余爱好者)就是出于热'爱'去做事的人",
+    "words": [
+      "amateur",
+      "amiable",
+      "amorous",
+      "enamored",
+      "paramour",
+      "amity",
+      "amigo"
+    ]
+  },
+  {
+    "root": "phil/philo",
+    "meaning": "爱",
+    "origin": "希腊语 philos/philein",
+    "description": "表示爱、喜爱、友好",
+    "memoryTip": "philosophy(哲学)就是'爱'智慧的人",
+    "words": [
+      "philosophy",
+      "philanthropy",
+      "bibliophile",
+      "anglophile",
+      "philology",
+      "hydrophilic"
+    ]
+  },
+  {
+    "root": "vol/volunt",
+    "meaning": "意愿、希望",
+    "origin": "拉丁语 voluntas/velle",
+    "description": "表示意愿、希望、自愿",
+    "memoryTip": "volunteer(志愿者)就是出于自己的'意愿'去帮忙的人",
+    "words": [
+      "volunteer",
+      "voluntary",
+      "benevolent",
+      "malevolent",
+      "volition",
+      "involuntary",
+      "voluptuous"
+    ]
+  },
+  {
+    "root": "chron/chrono",
+    "meaning": "时间",
+    "origin": "希腊语 chronos",
+    "description": "表示时间、年代、时序",
+    "memoryTip": "chronology(年表)就是按'时间'排列的表",
+    "words": [
+      "chronic",
+      "chronicle",
+      "chronology",
+      "synchronize",
+      "anachronism",
+      "chronograph",
+      "chronometer"
+    ]
+  },
+  {
+    "root": "tempor",
+    "meaning": "时间",
+    "origin": "拉丁语 tempus/temporis",
+    "description": "表示时间、时期、暂时",
+    "memoryTip": "temporary(临时的)就是只在有限'时间'内的",
+    "words": [
+      "temporary",
+      "contemporary",
+      "tempo",
+      "temporal",
+      "extemporaneous",
+      "temporize"
+    ]
+  },
+  {
+    "root": "ann/enn",
+    "meaning": "年",
+    "origin": "拉丁语 annus",
+    "description": "表示年、每年、年度",
+    "memoryTip": "annual(年度)就是每'年'一次的",
+    "words": [
+      "annual",
+      "anniversary",
+      "annals",
+      "annuity",
+      "perennial",
+      "biennial",
+      "millennium"
+    ]
+  },
+  {
+    "root": "nov",
+    "meaning": "新",
+    "origin": "拉丁语 novus",
+    "description": "表示新的、新颖的",
+    "memoryTip": "novel(小说)就是讲'新'故事的书",
+    "words": [
+      "novel",
+      "novice",
+      "innovate",
+      "renovate",
+      "nova",
+      "novelty",
+      "supernova"
+    ]
+  },
+  {
+    "root": "ant/ante/anti",
+    "meaning": "前、古老",
+    "origin": "拉丁语 ante/antiquus",
+    "description": "表示前面、古老、先前",
+    "memoryTip": "antique(古董)就是很'古老'的东西",
+    "words": [
+      "antique",
+      "ancient",
+      "anticipate",
+      "ancestor",
+      "antecedent",
+      "antebellum"
+    ]
+  },
+  {
+    "root": "loc",
+    "meaning": "位置、地方",
+    "origin": "拉丁语 locus",
+    "description": "表示位置、地点、安置",
+    "memoryTip": "location(位置)的源头就是loc",
+    "words": [
+      "local",
+      "location",
+      "locate",
+      "allocate",
+      "dislocate",
+      "relocate",
+      "locomotive",
+      "collocate"
+    ]
+  },
+  {
+    "root": "pos/posit/pon",
+    "meaning": "放置",
+    "origin": "拉丁语 ponere/positus",
+    "description": "表示放置、摆放、安置",
+    "memoryTip": "position(位置)就是把东西'放'的地方",
+    "words": [
+      "position",
+      "compose",
+      "deposit",
+      "expose",
+      "impose",
+      "oppose",
+      "propose",
+      "suppose",
+      "dispose",
+      "postpone"
+    ]
+  },
+  {
+    "root": "sta/stat/st/sist",
+    "meaning": "站、立",
+    "origin": "拉丁语 stare/sistere; 希腊语 histanai",
+    "description": "表示站立、静止、稳定、状态",
+    "memoryTip": "station(车站)就是火车'站'立停靠的地方",
+    "words": [
+      "station",
+      "status",
+      "stable",
+      "standard",
+      "insist",
+      "resist",
+      "exist",
+      "assist",
+      "static",
+      "constant"
+    ]
+  },
+  {
+    "root": "terr/terrain",
+    "meaning": "土地",
+    "origin": "拉丁语 terra",
+    "description": "表示土地、地面、地球",
+    "memoryTip": "territory(领土)就是一国所占的'土地'范围",
+    "words": [
+      "territory",
+      "terrain",
+      "terrace",
+      "subterranean",
+      "mediterranean",
+      "extraterrestrial",
+      "inter"
+    ]
+  },
+  {
+    "root": "urb",
+    "meaning": "城市",
+    "origin": "拉丁语 urbs/urbis",
+    "description": "表示城市、都市",
+    "memoryTip": "urban(城市的)和suburb(郊区)都来自urb，郊区就是城市之下",
+    "words": [
+      "urban",
+      "suburb",
+      "urbane",
+      "urbanization",
+      "conurbation",
+      "exurb"
+    ]
+  },
+  {
+    "root": "polis/polit",
+    "meaning": "城市、政治",
+    "origin": "希腊语 polis",
+    "description": "表示城市、公民、政治",
+    "memoryTip": "politics(政治)源于古希腊'城'邦的管理",
+    "words": [
+      "politics",
+      "policy",
+      "police",
+      "metropolis",
+      "cosmopolitan",
+      "acropolis",
+      "political",
+      "politician"
+    ]
+  },
+  {
+    "root": "dom",
+    "meaning": "家、统治",
+    "origin": "拉丁语 domus/dominari",
+    "description": "表示家、住所、统治",
+    "memoryTip": "domestic(国内的/家庭的)就是在'家'里的",
+    "words": [
+      "domestic",
+      "domain",
+      "dominate",
+      "dominion",
+      "predominant",
+      "dome",
+      "domicile"
+    ]
+  },
+  {
+    "root": "geo",
+    "meaning": "地球、土地",
+    "origin": "希腊语 ge/gaia",
+    "description": "表示地球、土地、地理",
+    "memoryTip": "geography(地理学)就是描画'地球'的学科",
+    "words": [
+      "geography",
+      "geology",
+      "geometry",
+      "geophysics",
+      "geopolitics",
+      "geothermal",
+      "geocentric"
+    ]
+  },
+  {
+    "root": "astro/aster",
+    "meaning": "星、天体",
+    "origin": "希腊语 astron/aster",
+    "description": "表示星星、天体、宇宙",
+    "memoryTip": "astronaut(宇航员)就是在'星'际间航行的人",
+    "words": [
+      "astronomy",
+      "astronaut",
+      "asterisk",
+      "asteroid",
+      "disaster",
+      "astrology",
+      "astral"
+    ]
+  },
+  {
+    "root": "aqua/aque",
+    "meaning": "水",
+    "origin": "拉丁语 aqua",
+    "description": "表示水、水流、水性",
+    "memoryTip": "aquarium(水族馆)就是养'水'生动物的容器",
+    "words": [
+      "aquarium",
+      "aquatic",
+      "aqueduct",
+      "aqueous",
+      "aquifer",
+      "aquanaut",
+      "subaquatic"
+    ]
+  },
+  {
+    "root": "hydr/hydro",
+    "meaning": "水",
+    "origin": "希腊语 hydor",
+    "description": "表示水、液体、氢",
+    "memoryTip": "hydrogen(氢)就是能生'水'的气体",
+    "words": [
+      "hydrogen",
+      "dehydrate",
+      "hydrant",
+      "hydraulic",
+      "hydrophobia",
+      "carbohydrate",
+      "hydrotherapy"
+    ]
+  },
+  {
+    "root": "mar/mari/mer",
+    "meaning": "海",
+    "origin": "拉丁语 mare",
+    "description": "表示海洋、海事",
+    "memoryTip": "marine(海洋的)和submarine(潜水艇)都来自mar，海的世界",
+    "words": [
+      "marine",
+      "submarine",
+      "maritime",
+      "mariner",
+      "mermaid",
+      "marina",
+      "aquamarine"
+    ]
+  },
+  {
+    "root": "ign",
+    "meaning": "火",
+    "origin": "拉丁语 ignis",
+    "description": "表示火、点燃、燃烧",
+    "memoryTip": "ignite(点燃)就是让'火'烧起来",
+    "words": [
+      "ignite",
+      "ignition",
+      "igneous",
+      "ignitable",
+      "ignis fatuus"
+    ]
+  },
+  {
+    "root": "flam/flagr",
+    "meaning": "火焰、燃烧",
+    "origin": "拉丁语 flamma/flagrare",
+    "description": "表示火焰、燃烧、炎热",
+    "memoryTip": "flame(火焰)直接来自flam",
+    "words": [
+      "flame",
+      "inflammable",
+      "flagrant",
+      "conflagration",
+      "flamboyant",
+      "inflammatory"
+    ]
+  },
+  {
+    "root": "pyr/pyro",
+    "meaning": "火",
+    "origin": "希腊语 pyr/pyros",
+    "description": "表示火、热、高温",
+    "memoryTip": "pyromaniac(纵火狂)就是对'火'着迷的人",
+    "words": [
+      "pyramid",
+      "pyre",
+      "pyromania",
+      "pyrotechnics",
+      "pyrometer",
+      "antipyretic"
+    ]
+  },
+  {
+    "root": "aer/aero",
+    "meaning": "空气",
+    "origin": "希腊语 aer",
+    "description": "表示空气、大气、航空",
+    "memoryTip": "airplane(飞机)就是在'空气'中飞行的东西",
+    "words": [
+      "aerial",
+      "aerospace",
+      "aerodynamics",
+      "aerobic",
+      "aerosol",
+      "anaerobic",
+      "aeroplane"
+    ]
+  },
+  {
+    "root": "spir",
+    "meaning": "呼吸",
+    "origin": "拉丁语 spirare",
+    "description": "表示呼吸、精神、气息",
+    "memoryTip": "inspire(激励)就是把精神'呼吸'进你的身体",
+    "words": [
+      "inspire",
+      "respire",
+      "expire",
+      "spirit",
+      "conspire",
+      "perspire",
+      "aspire",
+      "aspiration"
+    ]
+  },
+  {
+    "root": "vent",
+    "meaning": "风",
+    "origin": "拉丁语 ventus",
+    "description": "表示风、通风",
+    "memoryTip": "ventilate(通风)就是让'风'吹进来",
+    "words": [
+      "ventilate",
+      "vent",
+      "ventilation",
+      "ventilator",
+      "wind"
+    ]
+  },
+  {
+    "root": "luc/lum/lumin/lustr",
+    "meaning": "光",
+    "origin": "拉丁语 lux/lucis/lumen",
+    "description": "表示光、光明、照亮、清晰",
+    "memoryTip": "illuminate(照亮)就是把'光'打到事物上",
+    "words": [
+      "illuminate",
+      "lucid",
+      "translucent",
+      "luminous",
+      "illustrate",
+      "luster",
+      "elucidate",
+      "luminary"
+    ]
+  },
+  {
+    "root": "photo/phos",
+    "meaning": "光",
+    "origin": "希腊语 phos/photos",
+    "description": "表示光、光线、摄影",
+    "memoryTip": "photograph(照片)就是用'光'画出来的图像",
+    "words": [
+      "photograph",
+      "photon",
+      "photosynthesis",
+      "phosphorus",
+      "photophobia",
+      "photoelectric"
+    ]
+  },
+  {
+    "root": "ton",
+    "meaning": "音调、声音",
+    "origin": "希腊语 tonos",
+    "description": "表示音调、声调、紧张度",
+    "memoryTip": "tone(音调)直接来自ton，单调(monotone)就是一个调",
+    "words": [
+      "tone",
+      "monotone",
+      "intonation",
+      "tonality",
+      "baritone",
+      "detonate",
+      "tonic"
+    ]
+  },
+  {
+    "root": "bell/belli",
+    "meaning": "战争",
+    "origin": "拉丁语 bellum",
+    "description": "表示战争、战斗、好战",
+    "memoryTip": "rebel(反叛)就是反过来跟你'打'仗",
+    "words": [
+      "rebel",
+      "bellicose",
+      "belligerent",
+      "antebellum",
+      "rebellion",
+      "bellicosity"
+    ]
+  },
+  {
+    "root": "bat",
+    "meaning": "打、击",
+    "origin": "拉丁语 battuere",
+    "description": "表示击打、战斗、争论",
+    "memoryTip": "battle(战斗)就是在'打'仗",
+    "words": [
+      "battle",
+      "combat",
+      "debate",
+      "battery",
+      "battalion",
+      "abate",
+      "batter"
+    ]
+  },
+  {
+    "root": "pugn",
+    "meaning": "打斗、拳击",
+    "origin": "拉丁语 pugnare/pugnus",
+    "description": "表示打斗、拳击、好斗",
+    "memoryTip": "pugnacious(好斗的)就是老是喜欢跟人'打'",
+    "words": [
+      "impugn",
+      "repugnant",
+      "pugnacious",
+      "pugilist",
+      "oppugn",
+      "pugnacity"
+    ]
+  },
+  {
+    "root": "fend/fens",
+    "meaning": "打击、防御",
+    "origin": "拉丁语 fendere/fensus",
+    "description": "表示打击、防御、抵挡",
+    "memoryTip": "defend(防卫)就是挡开攻'击'",
+    "words": [
+      "defend",
+      "offend",
+      "defense",
+      "offense",
+      "fence",
+      "defensive",
+      "offensive",
+      "fender"
+    ]
+  },
+  {
+    "root": "vict/vinc",
+    "meaning": "征服、胜利",
+    "origin": "拉丁语 vincere/victus",
+    "description": "表示征服、胜利、克服",
+    "memoryTip": "victory(胜利)的源头就是vict",
+    "words": [
+      "victory",
+      "convince",
+      "convict",
+      "evict",
+      "vanquish",
+      "invincible",
+      "province",
+      "victor"
+    ]
+  },
+  {
+    "root": "fort/forc",
+    "meaning": "力量、强大",
+    "origin": "拉丁语 fortis",
+    "description": "表示力量、强大、坚固",
+    "memoryTip": "comfort(舒适)就是带了'力量'的——com(共同)+fort(力量)，一起给你力量",
+    "words": [
+      "force",
+      "fort",
+      "effort",
+      "comfort",
+      "fortify",
+      "fortress",
+      "fortitude",
+      "reinforce"
+    ]
+  },
+  {
+    "root": "pot/poten",
+    "meaning": "能力、力量",
+    "origin": "拉丁语 potens/posse",
+    "description": "表示能力、力量、潜力",
+    "memoryTip": "potential(潜力)就是你内在的'力量'",
+    "words": [
+      "potential",
+      "potent",
+      "impotent",
+      "omnipotent",
+      "potency",
+      "potentate"
+    ]
+  },
+  {
+    "root": "val/vail",
+    "meaning": "强壮、价值",
+    "origin": "拉丁语 valere",
+    "description": "表示强壮、有价值、有效",
+    "memoryTip": "value(价值)就是东西的'力量'所在",
+    "words": [
+      "value",
+      "valid",
+      "available",
+      "prevail",
+      "equivalent",
+      "evaluate",
+      "invalid",
+      "convalesce"
+    ]
+  },
+  {
+    "root": "dom/domin",
+    "meaning": "统治、主人",
+    "origin": "拉丁语 dominus/dominari",
+    "description": "表示统治、主导、控制",
+    "memoryTip": "dominate(统治)就是做'主'人的权力",
+    "words": [
+      "dominate",
+      "dominant",
+      "domain",
+      "predominant",
+      "dominion",
+      "dominance"
+    ]
+  },
+  {
+    "root": "jur/jus/judic",
+    "meaning": "法律、正义、判断",
+    "origin": "拉丁语 jus/juris/judicare",
+    "description": "表示法律、权利、公正、判断",
+    "memoryTip": "judge(法官)就是在'法律'上作裁'判'的人",
+    "words": [
+      "judge",
+      "jury",
+      "justice",
+      "justify",
+      "prejudice",
+      "jurisdiction",
+      "injure",
+      "juror"
+    ]
+  },
+  {
+    "root": "leg/legis",
+    "meaning": "法律",
+    "origin": "拉丁语 lex/legis",
+    "description": "表示法律、法规、合法",
+    "memoryTip": "legal(合法的)直接来自leg，合'法'的",
+    "words": [
+      "legal",
+      "illegal",
+      "legislate",
+      "legitimate",
+      "privilege",
+      "allege",
+      "legislation"
+    ]
+  },
+  {
+    "root": "rect/reg",
+    "meaning": "直线、规则、统治",
+    "origin": "拉丁语 rectus/regere",
+    "description": "表示直的、正确的、规则、统治",
+    "memoryTip": "correct(正确的)就是做得'直'的",
+    "words": [
+      "correct",
+      "direct",
+      "rectify",
+      "regular",
+      "regulate",
+      "region",
+      "regime",
+      "rectangle",
+      "erect"
+    ]
+  },
+  {
+    "root": "popul/publ",
+    "meaning": "人民、大众",
+    "origin": "拉丁语 populus",
+    "description": "表示人民、大众、公共",
+    "memoryTip": "popular(流行的)就是'大众'喜欢的",
+    "words": [
+      "popular",
+      "population",
+      "public",
+      "publish",
+      "republic",
+      "populace",
+      "populous",
+      "popularize"
+    ]
+  },
+  {
+    "root": "dem/demo",
+    "meaning": "人民",
+    "origin": "希腊语 demos",
+    "description": "表示人民、民众、人口",
+    "memoryTip": "democracy(民主)就是'人民'来统治",
+    "words": [
+      "democracy",
+      "demography",
+      "epidemic",
+      "demagogue",
+      "pandemic",
+      "endemic",
+      "democrat"
+    ]
+  },
+  {
+    "root": "civ/civil",
+    "meaning": "公民、市民",
+    "origin": "拉丁语 civis",
+    "description": "表示公民、城市、文明",
+    "memoryTip": "civilization(文明)就是从'公民'社会发展出来的",
+    "words": [
+      "civil",
+      "civilization",
+      "civilian",
+      "civic",
+      "civility",
+      "civics",
+      "incivility"
+    ]
+  },
+  {
+    "root": "soci",
+    "meaning": "同伴、社会",
+    "origin": "拉丁语 socius",
+    "description": "表示同伴、结伴、社会",
+    "memoryTip": "society(社会)就是一群'同伴'在一起",
+    "words": [
+      "society",
+      "social",
+      "associate",
+      "sociology",
+      "antisocial",
+      "dissociate",
+      "consociate"
+    ]
+  },
+  {
+    "root": "uni/un",
+    "meaning": "一、单一",
+    "origin": "拉丁语 unus",
+    "description": "表示单一、统一、唯一",
+    "memoryTip": "universe(宇宙)就是把一切统'一'为一个整体",
+    "words": [
+      "unite",
+      "unique",
+      "universe",
+      "uniform",
+      "unify",
+      "unanimous",
+      "unilateral",
+      "union"
+    ]
+  },
+  {
+    "root": "mon/mono",
+    "meaning": "一、单一",
+    "origin": "希腊语 monos",
+    "description": "表示单一、独自、孤独",
+    "memoryTip": "monologue(独白)就是一个人的'话'",
+    "words": [
+      "monopoly",
+      "monotone",
+      "monologue",
+      "monarch",
+      "monogamy",
+      "monastery",
+      "monochrome"
+    ]
+  },
+  {
+    "root": "sol/soli",
+    "meaning": "单独、唯一",
+    "origin": "拉丁语 solus",
+    "description": "表示单独、孤独、唯一",
+    "memoryTip": "solo(独奏)就是'单独'一个人表演",
+    "words": [
+      "solo",
+      "sole",
+      "solitary",
+      "solitude",
+      "desolate",
+      "soliloquy",
+      "isolate"
+    ]
+  },
+  {
+    "root": "bi/bin",
+    "meaning": "二、双",
+    "origin": "拉丁语 bi/bini",
+    "description": "表示二、双、两次",
+    "memoryTip": "bicycle(自行车)就是'两个'轮子的车",
+    "words": [
+      "bicycle",
+      "bilingual",
+      "bilateral",
+      "binary",
+      "biennial",
+      "bisect",
+      "binoculars",
+      "bipolar"
+    ]
+  },
+  {
+    "root": "du/duo/diplo",
+    "meaning": "二、双",
+    "origin": "拉丁语 duo; 希腊语 diploos",
+    "description": "表示二、双、两倍",
+    "memoryTip": "double(双倍的)就是翻了'两'倍",
+    "words": [
+      "dual",
+      "duet",
+      "duplicate",
+      "duplex",
+      "diploma",
+      "diplomat",
+      "dilemma"
+    ]
+  },
+  {
+    "root": "tri",
+    "meaning": "三",
+    "origin": "拉丁语 tres; 希腊语 treis",
+    "description": "表示三、三倍、三重",
+    "memoryTip": "triangle(三角形)就是有'三'个角的形状",
+    "words": [
+      "triangle",
+      "tricycle",
+      "triple",
+      "trilogy",
+      "tripod",
+      "triplet",
+      "trident",
+      "trimester"
+    ]
+  },
+  {
+    "root": "multi",
+    "meaning": "多",
+    "origin": "拉丁语 multus",
+    "description": "表示许多、大量、多种",
+    "memoryTip": "multimedia(多媒体)就是'多种'媒体结合",
+    "words": [
+      "multiple",
+      "multiply",
+      "multitude",
+      "multimedia",
+      "multinational",
+      "multicolor",
+      "multilateral"
+    ]
+  },
+  {
+    "root": "poly",
+    "meaning": "多",
+    "origin": "希腊语 polys/polloi",
+    "description": "表示多、许多",
+    "memoryTip": "polytechnic(理工的)就是'多种'技术的",
+    "words": [
+      "polygon",
+      "polysyllabic",
+      "polygamy",
+      "polyglot",
+      "polymer",
+      "polymath",
+      "polygraph"
+    ]
+  },
+  {
+    "root": "omni",
+    "meaning": "全、所有",
+    "origin": "拉丁语 omnis",
+    "description": "表示全部、全体、无所不",
+    "memoryTip": "omnipotent(全能的)就是'所有'能力都有的",
+    "words": [
+      "omnipotent",
+      "omniscient",
+      "omnivorous",
+      "omnipresent",
+      "omnibus",
+      "omnidirectional"
+    ]
+  },
+  {
+    "root": "pan/panto",
+    "meaning": "全、泛",
+    "origin": "希腊语 pan/pantos",
+    "description": "表示全部、普遍、广泛",
+    "memoryTip": "pandemic(大流行的)就是在'全部'人群中传播的",
+    "words": [
+      "panorama",
+      "pandemic",
+      "pantheon",
+      "panacea",
+      "pan-American",
+      "pansophic"
+    ]
+  },
+  {
+    "root": "bene/bon",
+    "meaning": "好",
+    "origin": "拉丁语 bene/bonus",
+    "description": "表示好、善、有利",
+    "memoryTip": "benefit(好处)就是做'好'事带来的结果",
+    "words": [
+      "benefit",
+      "benevolent",
+      "benign",
+      "bonus",
+      "benediction",
+      "benefactor",
+      "bonanza"
+    ]
+  },
+  {
+    "root": "mal/male",
+    "meaning": "坏、恶",
+    "origin": "拉丁语 malus/male",
+    "description": "表示坏的、恶劣的、有害的",
+    "memoryTip": "malfunction(故障)就是功能出'坏'了",
+    "words": [
+      "malfunction",
+      "malice",
+      "malnourished",
+      "malaria",
+      "malevolent",
+      "malignant",
+      "maladjusted",
+      "malpractice"
+    ]
+  },
+  {
+    "root": "opti/optim",
+    "meaning": "最好",
+    "origin": "拉丁语 optimus",
+    "description": "表示最好、最优",
+    "memoryTip": "optimistic(乐观的)就是相信事情会有'最好'结果",
+    "words": [
+      "optimistic",
+      "optimize",
+      "optimal",
+      "optimum",
+      "optimist",
+      "optimization"
+    ]
+  },
+  {
+    "root": "magn/mega/maj/max",
+    "meaning": "大",
+    "origin": "拉丁语 magnus/major/maximus",
+    "description": "表示大、伟大、巨大",
+    "memoryTip": "magnificent(宏伟的)就是非常宏'大'壮丽的",
+    "words": [
+      "magnificent",
+      "magnify",
+      "magnitude",
+      "major",
+      "majority",
+      "maximum",
+      "majestic",
+      "maximal"
+    ]
+  },
+  {
+    "root": "macro",
+    "meaning": "大",
+    "origin": "希腊语 makros",
+    "description": "表示大的、宏大的、大尺度",
+    "memoryTip": "macroscopic(宏观的)就是用'大'的视角看",
+    "words": [
+      "macroscopic",
+      "macroeconomics",
+      "macrobiotic",
+      "macrocosm",
+      "macromolecule"
+    ]
+  },
+  {
+    "root": "micro",
+    "meaning": "小、微",
+    "origin": "希腊语 mikros",
+    "description": "表示小的、微小的、微观的",
+    "memoryTip": "microscope(显微镜)是看'微小'事物的工具",
+    "words": [
+      "microscope",
+      "microphone",
+      "microbe",
+      "microcosm",
+      "microeconomics",
+      "microwave",
+      "microchip"
+    ]
+  },
+  {
+    "root": "min/mini",
+    "meaning": "小",
+    "origin": "拉丁语 minus/minimus",
+    "description": "表示小的、少的、微小的",
+    "memoryTip": "minimum(最小值)就是最'小'的",
+    "words": [
+      "minimum",
+      "minor",
+      "minute",
+      "minus",
+      "diminish",
+      "miniature",
+      "minimal",
+      "administer"
+    ]
+  },
+  {
+    "root": "centr",
+    "meaning": "中心",
+    "origin": "拉丁语 centrum; 希腊语 kentron",
+    "description": "表示中心、中央",
+    "memoryTip": "center(中心)直接来自centr，事物的'中心'",
+    "words": [
+      "center",
+      "central",
+      "concentrate",
+      "eccentric",
+      "centrifugal",
+      "centripetal",
+      "decentralize"
+    ]
+  },
+  {
+    "root": "medi/med/mid",
+    "meaning": "中间",
+    "origin": "拉丁语 medius",
+    "description": "表示中间、中等、中介",
+    "memoryTip": "medium(媒介)就是处于'中间'的东西",
+    "words": [
+      "medium",
+      "mediate",
+      "medieval",
+      "immediate",
+      "intermediate",
+      "Mediterranean",
+      "median"
+    ]
+  },
+  {
+    "root": "vert/vers",
+    "meaning": "转",
+    "origin": "拉丁语 vertere/versus",
+    "description": "表示转动、翻转、转变",
+    "memoryTip": "advertisement(广告)就是把你的注意力'转'过来",
+    "words": [
+      "advertise",
+      "convert",
+      "diverse",
+      "reverse",
+      "version",
+      "universe",
+      "controversy",
+      "versatile",
+      "divert",
+      "invert"
+    ]
+  },
+  {
+    "root": "volv/volut/volu",
+    "meaning": "转、滚",
+    "origin": "拉丁语 volvere",
+    "description": "表示转动、卷绕、演化",
+    "memoryTip": "evolve(进化)就是向外'转'变",
+    "words": [
+      "evolve",
+      "involve",
+      "revolve",
+      "revolution",
+      "volume",
+      "voluble",
+      "convoluted",
+      "devolve"
+    ]
+  },
+  {
+    "root": "mut",
+    "meaning": "改变、交换",
+    "origin": "拉丁语 mutare",
+    "description": "表示改变、交换、变化",
+    "memoryTip": "mutual(相互的)就是互相'交换'的",
+    "words": [
+      "mutual",
+      "mutation",
+      "commute",
+      "transmute",
+      "immutable",
+      "permute",
+      "mutant"
+    ]
+  },
+  {
+    "root": "vari",
+    "meaning": "变化、多样",
+    "origin": "拉丁语 varius",
+    "description": "表示变化、多样、不同",
+    "memoryTip": "variety(多样性)就是有很多'变化'",
+    "words": [
+      "vary",
+      "variety",
+      "various",
+      "variable",
+      "variation",
+      "variegated",
+      "invariable"
+    ]
+  },
+  {
+    "root": "alter/ali",
+    "meaning": "其他、改变",
+    "origin": "拉丁语 alter/alius",
+    "description": "表示其他、另外、改变",
+    "memoryTip": "alternative(替代品)就是'另外'一种选择",
+    "words": [
+      "alter",
+      "alternative",
+      "alternate",
+      "alien",
+      "alias",
+      "alibi",
+      "alienate",
+      "altruism"
+    ]
+  },
+  {
+    "root": "fin",
+    "meaning": "结束、边界",
+    "origin": "拉丁语 finis",
+    "description": "表示结束、界限、最终",
+    "memoryTip": "finish(完成)就是'结束'了",
+    "words": [
+      "finish",
+      "final",
+      "finite",
+      "infinite",
+      "confine",
+      "define",
+      "finance",
+      "fine",
+      "refine"
+    ]
+  },
+  {
+    "root": "termin",
+    "meaning": "边界、终端",
+    "origin": "拉丁语 terminus",
+    "description": "表示界限、终点、终端",
+    "memoryTip": "terminal(终端)就是'边界'位置",
+    "words": [
+      "terminal",
+      "terminate",
+      "determine",
+      "exterminate",
+      "terminus",
+      "terminology",
+      "interminable"
+    ]
+  },
+  {
+    "root": "don/donat/dot",
+    "meaning": "给",
+    "origin": "拉丁语 donare",
+    "description": "表示给予、捐赠",
+    "memoryTip": "donate(捐赠)就是把东西'给'出去",
+    "words": [
+      "donate",
+      "donor",
+      "pardon",
+      "endow",
+      "condone",
+      "anecdote",
+      "dose"
+    ]
+  },
+  {
+    "root": "tribut",
+    "meaning": "给予、分派",
+    "origin": "拉丁语 tribuere",
+    "description": "表示分派、给予、贡品",
+    "memoryTip": "contribute(贡献)就是大家一起'给'",
+    "words": [
+      "contribute",
+      "distribute",
+      "attribute",
+      "tribute",
+      "tributary",
+      "retribution"
+    ]
+  },
+  {
+    "root": "meter/metr",
+    "meaning": "测量",
+    "origin": "希腊语 metron",
+    "description": "表示测量、尺度、计量",
+    "memoryTip": "thermometer(温度计)就是'测量'热度的工具",
+    "words": [
+      "meter",
+      "thermometer",
+      "kilometer",
+      "geometry",
+      "symmetry",
+      "diameter",
+      "barometer",
+      "metric"
+    ]
+  },
+  {
+    "root": "mens/meas",
+    "meaning": "测量",
+    "origin": "拉丁语 mensura/mensus",
+    "description": "表示测量、衡量、评估",
+    "memoryTip": "measure(测量)就是去'量'东西有多大",
+    "words": [
+      "measure",
+      "dimension",
+      "immense",
+      "commensurate",
+      "mensuration",
+      "measurable"
+    ]
+  },
+  {
+    "root": "pend/pens",
+    "meaning": "悬挂、称量、支付",
+    "origin": "拉丁语 pendere/pensare",
+    "description": "表示悬挂、称量、思考、支付",
+    "memoryTip": "expensive(贵的)就是需要'付'很多钱的",
+    "words": [
+      "depend",
+      "suspend",
+      "compensate",
+      "expense",
+      "pension",
+      "pendulum",
+      "append",
+      "pending",
+      "indispensable"
+    ]
+  },
+  {
+    "root": "junct/join/jug",
+    "meaning": "连接、联合",
+    "origin": "拉丁语 jungere/junctus",
+    "description": "表示连接、结合、联合",
+    "memoryTip": "join(加入)就是'连接'在一起",
+    "words": [
+      "join",
+      "junction",
+      "conjunction",
+      "adjunct",
+      "conjugal",
+      "subjugate",
+      "joint"
+    ]
+  },
+  {
+    "root": "nect/nex",
+    "meaning": "连接",
+    "origin": "拉丁语 nectere/nexus",
+    "description": "表示连接、联系、纽带",
+    "memoryTip": "connect(连接)就是把两个东西'连'起来",
+    "words": [
+      "connect",
+      "annex",
+      "nexus",
+      "disconnect",
+      "interconnect",
+      "connective"
+    ]
+  },
+  {
+    "root": "lig/li/ly",
+    "meaning": "绑、结盟",
+    "origin": "拉丁语 ligare",
+    "description": "表示捆绑、连接、结盟",
+    "memoryTip": "oblige(强迫/感激)就是把人和义务'绑'在一起",
+    "words": [
+      "oblige",
+      "religion",
+      "league",
+      "ally",
+      "alliance",
+      "liable",
+      "ligament",
+      "obligatory"
+    ]
+  },
+  {
+    "root": "her/hes",
+    "meaning": "粘、附着",
+    "origin": "拉丁语 haerere/haesus",
+    "description": "表示粘着、附着、坚持",
+    "memoryTip": "adhesive(胶粘的)就是可以'粘'住的",
+    "words": [
+      "adhere",
+      "cohere",
+      "inherent",
+      "hesitate",
+      "coherent",
+      "adhesive",
+      "cohesion"
+    ]
+  },
+  {
+    "root": "clud/clus/clos",
+    "meaning": "关闭",
+    "origin": "拉丁语 claudere/clausus",
+    "description": "表示关闭、封闭、包含",
+    "memoryTip": "include(包含)就是把东西'关'在里面",
+    "words": [
+      "include",
+      "exclude",
+      "conclude",
+      "close",
+      "disclose",
+      "enclose",
+      "closet",
+      "seclusion",
+      "recluse"
+    ]
+  },
+  {
+    "root": "flu/flux",
+    "meaning": "流",
+    "origin": "拉丁语 fluere",
+    "description": "表示流动、流畅、变迁",
+    "memoryTip": "influence(影响)就是像水一样'流'进人的心里",
+    "words": [
+      "influence",
+      "fluent",
+      "fluid",
+      "flush",
+      "fluctuate",
+      "affluent",
+      "superfluous",
+      "influx",
+      "effluent"
+    ]
+  },
+  {
+    "root": "riv",
+    "meaning": "河流、溪流",
+    "origin": "拉丁语 rivus",
+    "description": "表示河流、溪流、水道",
+    "memoryTip": "river(河流)就是一条水'流'",
+    "words": [
+      "river",
+      "derive",
+      "rival",
+      "arrive",
+      "rivulet",
+      "derivation"
+    ]
+  },
+  {
+    "root": "tend/tens/tent",
+    "meaning": "伸展、趋向",
+    "origin": "拉丁语 tendere/tensus/tentus",
+    "description": "表示伸展、倾向、延伸",
+    "memoryTip": "extend(延伸)就是向外'伸展'",
+    "words": [
+      "extend",
+      "attend",
+      "intend",
+      "pretend",
+      "tendency",
+      "tense",
+      "tension",
+      "intense",
+      "extensive",
+      "attention"
+    ]
+  },
+  {
+    "root": "flect/flex",
+    "meaning": "弯曲",
+    "origin": "拉丁语 flectere/flexus",
+    "description": "表示弯曲、灵活、反射",
+    "memoryTip": "flexible(灵活的)就是可以'弯曲'的",
+    "words": [
+      "flexible",
+      "reflect",
+      "deflect",
+      "inflect",
+      "reflex",
+      "genuflect",
+      "flexibility"
+    ]
+  },
+  {
+    "root": "plic/ply/plex/ple",
+    "meaning": "折叠、编织",
+    "origin": "拉丁语 plicare/plectere",
+    "description": "表示折叠、编织、复杂、卷入",
+    "memoryTip": "complex(复杂的)就是把很多东西'折叠'在一起",
+    "words": [
+      "complex",
+      "imply",
+      "complicate",
+      "multiply",
+      "explicit",
+      "duplicate",
+      "supply",
+      "apply",
+      "reply"
+    ]
+  },
+  {
+    "root": "equ/equi",
+    "meaning": "相等、平等",
+    "origin": "拉丁语 aequus",
+    "description": "表示相等、平等、公平",
+    "memoryTip": "equal(相等的)就是两边一样'平'等",
+    "words": [
+      "equal",
+      "equality",
+      "equation",
+      "equator",
+      "equivalent",
+      "equity",
+      "equilibrium",
+      "equitable"
+    ]
+  },
+  {
+    "root": "iso",
+    "meaning": "相等、同",
+    "origin": "希腊语 isos",
+    "description": "表示相同、相等、均匀",
+    "memoryTip": "isosceles(等腰的)就是两条腿'相等'的",
+    "words": [
+      "isometric",
+      "isotope",
+      "isosceles",
+      "isotherm",
+      "isobar",
+      "isomer"
+    ]
+  },
+  {
+    "root": "par/pair",
+    "meaning": "相等、对等",
+    "origin": "拉丁语 par",
+    "description": "表示相等、同等、平行",
+    "memoryTip": "compare(比较)就是放在一起看是不是'对等'",
+    "words": [
+      "compare",
+      "pair",
+      "parity",
+      "disparity",
+      "peer",
+      "umpire",
+      "nonpareil"
+    ]
+  },
+  {
+    "root": "form",
+    "meaning": "形状、形式",
+    "origin": "拉丁语 forma",
+    "description": "表示形状、形式、形成",
+    "memoryTip": "information(信息)就是给事物赋'形'的内容",
+    "words": [
+      "form",
+      "inform",
+      "transform",
+      "reform",
+      "uniform",
+      "perform",
+      "formal",
+      "deform",
+      "conform"
+    ]
+  },
+  {
+    "root": "morph",
+    "meaning": "形状、形态",
+    "origin": "希腊语 morphe",
+    "description": "表示形态、形状、变化",
+    "memoryTip": "metamorphosis(变形)就是形态的'变化'",
+    "words": [
+      "morphology",
+      "amorphous",
+      "metamorphosis",
+      "polymorph",
+      "anthropomorphic",
+      "dimorphic"
+    ]
+  },
+  {
+    "root": "nomin/nomen/onym",
+    "meaning": "名字",
+    "origin": "拉丁语 nomen; 希腊语 onyma",
+    "description": "表示名字、名称、命名",
+    "memoryTip": "nominate(提名)就是把'名字'报上去",
+    "words": [
+      "nominate",
+      "nominal",
+      "anonymous",
+      "synonym",
+      "antonym",
+      "acronym",
+      "pseudonym",
+      "denominate"
+    ]
+  },
+  {
+    "root": "val/vail",
+    "meaning": "价值、强大",
+    "origin": "拉丁语 valere",
+    "description": "表示价值、强壮、有效",
+    "memoryTip": "value(价值)就是事物内在的'力量'",
+    "words": [
+      "value",
+      "valid",
+      "evaluate",
+      "equivalent",
+      "prevail",
+      "invalid",
+      "valor",
+      "convalescent"
+    ]
+  },
+  {
+    "root": "prec/pret",
+    "meaning": "价格、价值",
+    "origin": "拉丁语 pretium",
+    "description": "表示价格、价值、评估",
+    "memoryTip": "precious(珍贵的)就是'价值'很高的",
+    "words": [
+      "price",
+      "precious",
+      "appreciate",
+      "depreciate",
+      "interpret",
+      "praise",
+      "appraise"
+    ]
+  },
+  {
+    "root": "part",
+    "meaning": "部分、分开",
+    "origin": "拉丁语 pars/partis",
+    "description": "表示部分、分开、参与",
+    "memoryTip": "participate(参与)就是承担一'部'分",
+    "words": [
+      "part",
+      "partial",
+      "particle",
+      "particular",
+      "participate",
+      "apart",
+      "depart",
+      "compartment",
+      "partition"
+    ]
+  },
+  {
+    "root": "divid/divis",
+    "meaning": "分开、分割",
+    "origin": "拉丁语 dividere",
+    "description": "表示分开、分割、分配",
+    "memoryTip": "individual(个体)就是不能再'分'的单位",
+    "words": [
+      "divide",
+      "individual",
+      "division",
+      "dividend",
+      "divisive",
+      "subdivide",
+      "divisible"
+    ]
+  },
+  {
+    "root": "ord/ordin",
+    "meaning": "秩序、顺序",
+    "origin": "拉丁语 ordo/ordinis",
+    "description": "表示秩序、顺序、排列",
+    "memoryTip": "order(顺序)就是事物的'秩序'排列",
+    "words": [
+      "order",
+      "ordinary",
+      "extraordinary",
+      "coordinate",
+      "subordinate",
+      "ordinance",
+      "ordinal"
+    ]
+  },
+  {
+    "root": "vi/via/voy",
+    "meaning": "道路",
+    "origin": "拉丁语 via",
+    "description": "表示道路、途径、旅途",
+    "memoryTip": "via(经由)直接是拉丁语的'道路'",
+    "words": [
+      "via",
+      "deviate",
+      "obvious",
+      "previous",
+      "trivial",
+      "voyage",
+      "convey",
+      "envoy"
+    ]
+  },
+  {
+    "root": "rot/roll",
+    "meaning": "转、滚",
+    "origin": "拉丁语 rota/rotare",
+    "description": "表示转动、滚动、旋转",
+    "memoryTip": "rotate(旋转)就是围着一个轴'转'",
+    "words": [
+      "rotate",
+      "rotary",
+      "roll",
+      "role",
+      "control",
+      "enroll",
+      "patrol"
+    ]
+  },
+  {
+    "root": "circ/circum/cycl",
+    "meaning": "圆、环",
+    "origin": "拉丁语 circus/circum; 希腊语 kyklos",
+    "description": "表示圆、环、循环、周围",
+    "memoryTip": "circle(圆形)就是一个完美的'环'",
+    "words": [
+      "circle",
+      "circular",
+      "circulate",
+      "circumference",
+      "circumstance",
+      "circuit",
+      "cycle",
+      "encyclopedia",
+      "bicycle",
+      "recycle"
+    ]
+  },
+  {
+    "root": "digit",
+    "meaning": "手指、数字",
+    "origin": "拉丁语 digitus",
+    "description": "表示手指、脚趾、数字(古人用手指数数)",
+    "memoryTip": "digital(数字的)最早就是用手'指'头数数的意思",
+    "words": [
+      "digit",
+      "digital",
+      "prestidigitation",
+      "digitalis",
+      "digitize"
+    ]
+  },
+  {
+    "root": "tect/teg",
+    "meaning": "覆盖",
+    "origin": "拉丁语 tegere/tectus",
+    "description": "表示覆盖、遮盖、保护",
+    "memoryTip": "protect(保护)就是在前面'覆盖'住",
+    "words": [
+      "protect",
+      "detect",
+      "detective",
+      "protector",
+      "tectonic",
+      "toga",
+      "integument"
+    ]
+  },
+  {
+    "root": "pac/peac",
+    "meaning": "和平、安宁",
+    "origin": "拉丁语 pax/pacis",
+    "description": "表示和平、平静、安抚",
+    "memoryTip": "peace(和平)来自pac，内心安宁",
+    "words": [
+      "peace",
+      "pacific",
+      "pacify",
+      "appease",
+      "pact",
+      "pacifist",
+      "pay"
+    ]
+  },
+  {
+    "root": "sacr/sanct/secr",
+    "meaning": "神圣",
+    "origin": "拉丁语 sacer/sanctus",
+    "description": "表示神圣的、宗教的、献祭",
+    "memoryTip": "sacred(神圣的)和sacrifice(献祭)都来自sacr",
+    "words": [
+      "sacred",
+      "sacrifice",
+      "saint",
+      "sanction",
+      "sanctuary",
+      "consecrate",
+      "execrate",
+      "sacrilege"
+    ]
+  },
+  {
+    "root": "erg/urg",
+    "meaning": "工作",
+    "origin": "希腊语 ergon",
+    "description": "表示工作、能量、活动",
+    "memoryTip": "energy(能量)就是让你能'工作'的东西",
+    "words": [
+      "energy",
+      "energetic",
+      "synergy",
+      "ergonomics",
+      "allergy",
+      "ergometer",
+      "surgery"
+    ]
+  },
+  {
+    "root": "grav/griev",
+    "meaning": "重",
+    "origin": "拉丁语 gravis",
+    "description": "表示沉重、严重、重力",
+    "memoryTip": "gravity(重力)就是地球让一切变'重'的力",
+    "words": [
+      "gravity",
+      "grave",
+      "aggravate",
+      "grief",
+      "grieve",
+      "gravitate",
+      "gravitation"
+    ]
+  },
+  {
+    "root": "lev/liev",
+    "meaning": "轻、升",
+    "origin": "拉丁语 levis/levare",
+    "description": "表示轻的、举起、升高的",
+    "memoryTip": "elevator(电梯)就是把人'升'上去的",
+    "words": [
+      "elevator",
+      "elevate",
+      "lever",
+      "relieve",
+      "alleviate",
+      "levity",
+      "relevant"
+    ]
+  },
+  {
+    "root": "cert",
+    "meaning": "确定、分辨",
+    "origin": "拉丁语 certus/cernere",
+    "description": "表示确定、辨别、确信",
+    "memoryTip": "certain(确定的)就是经过'分辨'后确认的",
+    "words": [
+      "certain",
+      "certify",
+      "certificate",
+      "ascertain",
+      "concert",
+      "disconcert"
+    ]
+  },
+  {
+    "root": "purg/pur",
+    "meaning": "纯、清洁",
+    "origin": "拉丁语 purus/purgare",
+    "description": "表示纯净、清洁、净化",
+    "memoryTip": "pure(纯净的)就是没有杂质的",
+    "words": [
+      "pure",
+      "purify",
+      "purge",
+      "purity",
+      "impure",
+      "purgatory",
+      "expurgate"
+    ]
+  },
+  {
+    "root": "chrom/chromat",
+    "meaning": "颜色",
+    "origin": "希腊语 chroma",
+    "description": "表示颜色、色彩",
+    "memoryTip": "chromatic(彩色的)就是有'颜色'的",
+    "words": [
+      "chromatic",
+      "monochrome",
+      "chromosome",
+      "polychrome",
+      "chromatography",
+      "chrome"
+    ]
+  },
+  {
+    "root": "trans/tra",
+    "meaning": "穿过、跨越",
+    "origin": "拉丁语 trans",
+    "description": "表示穿过、跨越、转移",
+    "memoryTip": "transport(运输)就是'穿过'空间运过去",
+    "words": [
+      "transport",
+      "transparent",
+      "translate",
+      "transform",
+      "transmit",
+      "transcend",
+      "transact"
+    ]
+  },
+  {
+    "root": "inter/intel",
+    "meaning": "在...之间",
+    "origin": "拉丁语 inter",
+    "description": "表示在...之间、相互",
+    "memoryTip": "international(国际的)就是国家'之间'的",
+    "words": [
+      "international",
+      "interact",
+      "interrupt",
+      "interval",
+      "interfere",
+      "intelligent",
+      "intercept",
+      "intermediate"
+    ]
+  },
+  {
+    "root": "super/sur/sum",
+    "meaning": "上、超过",
+    "origin": "拉丁语 super/supra",
+    "description": "表示在上面、超越、过度",
+    "memoryTip": "supermarket(超市)就是比普通市场更'上'一级的",
+    "words": [
+      "super",
+      "superior",
+      "supervise",
+      "supreme",
+      "surface",
+      "surplus",
+      "surpass",
+      "summit"
+    ]
+  },
+  {
+    "root": "hyper",
+    "meaning": "超过、过度",
+    "origin": "希腊语 hyper",
+    "description": "表示过度、超过、超出正常",
+    "memoryTip": "hyperactive(过度活跃的)就是'过度'活跃",
+    "words": [
+      "hyperactive",
+      "hypertension",
+      "hyperbole",
+      "hypersensitive",
+      "hyperlink",
+      "hypercritical"
+    ]
+  },
+  {
+    "root": "sub/suc/suf/sup/sus",
+    "meaning": "下、次",
+    "origin": "拉丁语 sub",
+    "description": "表示在下面、次于、低于",
+    "memoryTip": "subway(地铁)就是在地'下'的路",
+    "words": [
+      "subway",
+      "submarine",
+      "substitute",
+      "suburb",
+      "succeed",
+      "suffer",
+      "support",
+      "suspend"
+    ]
+  },
+  {
+    "root": "hypo",
+    "meaning": "下、低于",
+    "origin": "希腊语 hypo",
+    "description": "表示在下面、低于、不足",
+    "memoryTip": "hypothesis(假设)就是把观点放在'下面'等待验证",
+    "words": [
+      "hypothesis",
+      "hypothermia",
+      "hypodermic",
+      "hypocrite",
+      "hypoglycemia",
+      "hypotension"
+    ]
+  },
+  {
+    "root": "meth/method",
+    "meaning": "方法、途径",
+    "origin": "希腊语 methodos (meta + hodos)",
+    "description": "表示方法、方式、途径",
+    "memoryTip": "method(方法)就是解决问题的'途径'",
+    "words": [
+      "method",
+      "methodical",
+      "methodology",
+      "methodism"
+    ]
+  },
+  {
+    "root": "auto",
+    "meaning": "自己、自动",
+    "origin": "希腊语 autos",
+    "description": "表示自己、自动、自我",
+    "memoryTip": "automatic(自动的)就是'自己'动起来的",
+    "words": [
+      "automatic",
+      "automobile",
+      "autograph",
+      "autonomy",
+      "autobiography",
+      "automation",
+      "autocrat"
+    ]
+  },
+  {
+    "root": "tele",
+    "meaning": "远",
+    "origin": "希腊语 tele",
+    "description": "表示远的、远程的",
+    "memoryTip": "television(电视)就是从'远方'传来的影像",
+    "words": [
+      "television",
+      "telephone",
+      "telescope",
+      "telegram",
+      "telepathy",
+      "telecommunication",
+      "telemetry"
+    ]
+  },
+  {
+    "root": "atom",
+    "meaning": "不可分割",
+    "origin": "希腊语 atomos (a + temnein)",
+    "description": "表示不可分割的、极微小的",
+    "memoryTip": "atom(原子)在希腊语里是不能'切'开的意思",
+    "words": [
+      "atom",
+      "atomic",
+      "atomize",
+      "atomizer",
+      "subatomic"
+    ]
+  },
+  {
+    "root": "ultim",
+    "meaning": "最后、最终",
+    "origin": "拉丁语 ultimus",
+    "description": "表示最后的、最终的、终极的",
+    "memoryTip": "ultimate(最终的)就是'最后'的",
+    "words": [
+      "ultimate",
+      "ultimatum",
+      "ultimo",
+      "penultimate",
+      "ultimogeniture"
+    ]
+  },
+  {
+    "root": "prim/princ/proto/prin",
+    "meaning": "第一、首要",
+    "origin": "拉丁语 primus/princeps; 希腊语 protos",
+    "description": "表示第一、首要、最初",
+    "memoryTip": "primary(首要的)就是排在第一位的",
+    "words": [
+      "primary",
+      "prime",
+      "primitive",
+      "prince",
+      "principal",
+      "principle",
+      "prototype",
+      "protein",
+      "protocol"
+    ]
+  },
+  {
+    "root": "sequ/secut/sue",
+    "meaning": "跟随",
+    "origin": "拉丁语 sequi/secutus",
+    "description": "表示跟随、随后、连续",
+    "memoryTip": "sequence(序列)就是一个'跟随'一个",
+    "words": [
+      "sequence",
+      "consequence",
+      "subsequent",
+      "persecute",
+      "prosecute",
+      "execute",
+      "pursue",
+      "sue"
+    ]
+  },
+  {
+    "root": "quir/quisit/quest",
+    "meaning": "寻求、询问",
+    "origin": "拉丁语 quaerere",
+    "description": "表示寻求、询问、获取",
+    "memoryTip": "question(问题)就是你要'寻求'答案的东西",
+    "words": [
+      "question",
+      "request",
+      "require",
+      "acquire",
+      "conquer",
+      "quest",
+      "inquire",
+      "exquisite",
+      "prerequisite"
+    ]
+  },
+  {
+    "root": "serv",
+    "meaning": "服务、保存",
+    "origin": "拉丁语 servare/servire",
+    "description": "表示服务、保存、侍奉",
+    "memoryTip": "service(服务)就是为别人'服务'",
+    "words": [
+      "serve",
+      "service",
+      "servant",
+      "deserve",
+      "preserve",
+      "observe",
+      "conserve",
+      "reserve",
+      "servile"
+    ]
+  },
+  {
+    "root": "test/testi",
+    "meaning": "证明、证据",
+    "origin": "拉丁语 testis/testari",
+    "description": "表示证明、作证、检测",
+    "memoryTip": "test(测试)就是'证明'你能力的方法",
+    "words": [
+      "test",
+      "testify",
+      "testimony",
+      "contest",
+      "protest",
+      "detest",
+      "attest",
+      "testament"
+    ]
+  },
+  {
+    "root": "prob/prov",
+    "meaning": "测试、证明",
+    "origin": "拉丁语 probare/provare",
+    "description": "表示测试、证明、尝试",
+    "memoryTip": "prove(证明)就是去'测试'对不对",
+    "words": [
+      "prove",
+      "probable",
+      "approve",
+      "improve",
+      "reprove",
+      "probation",
+      "disprove",
+      "proof"
+    ]
+  },
+  {
+    "root": "ple/plen/plet",
+    "meaning": "满、充满",
+    "origin": "拉丁语 plere/plenus",
+    "description": "表示充满、完整、完成",
+    "memoryTip": "complete(完成)就是'充满'了，没有遗漏",
+    "words": [
+      "complete",
+      "plenty",
+      "supply",
+      "accomplish",
+      "complement",
+      "deplete",
+      "replete",
+      "plentiful"
+    ]
+  },
+  {
+    "root": "vac/vacu/van/void",
+    "meaning": "空",
+    "origin": "拉丁语 vacuus/vanus",
+    "description": "表示空的、空虚的、真空",
+    "memoryTip": "vacation(假期)就是'空'出来的时间",
+    "words": [
+      "vacation",
+      "vacuum",
+      "vanish",
+      "vacant",
+      "avoid",
+      "vanity",
+      "evacuate",
+      "vacuous",
+      "devoid"
+    ]
+  },
+  {
+    "root": "ver/veri",
+    "meaning": "真实",
+    "origin": "拉丁语 verus",
+    "description": "表示真实的、确实的",
+    "memoryTip": "verify(验证)就是检查是不是'真的'",
+    "words": [
+      "verify",
+      "very",
+      "verdict",
+      "veracious",
+      "veracity",
+      "veritable",
+      "verisimilitude"
+    ]
+  },
+  {
+    "root": "somn/sopor/dorm",
+    "meaning": "睡眠",
+    "origin": "拉丁语 somnus/sopor/dormire",
+    "description": "表示睡眠、休眠",
+    "memoryTip": "dormitory(宿舍)就是大家睡'觉'的地方",
+    "words": [
+      "dormitory",
+      "dormant",
+      "insomnia",
+      "somnolent",
+      "somnambulist",
+      "soporific"
+    ]
+  },
+  {
+    "root": "vor/vour",
+    "meaning": "吃",
+    "origin": "拉丁语 vorare",
+    "description": "表示吃、吞食、贪食",
+    "memoryTip": "devour(狼吞虎咽)就是大口'吃'",
+    "words": [
+      "devour",
+      "carnivore",
+      "herbivore",
+      "omnivorous",
+      "voracious",
+      "insectivore"
+    ]
+  },
+  {
+    "root": "ed",
+    "meaning": "吃",
+    "origin": "拉丁语 edere",
+    "description": "表示吃、消耗",
+    "memoryTip": "edible(可食用的)就是可以'吃'的",
+    "words": [
+      "edible",
+      "edacious",
+      "inedible",
+      "edacity",
+      "obesity"
+    ]
+  },
+  {
+    "root": "misc/mixt",
+    "meaning": "混合",
+    "origin": "拉丁语 miscere/mixtus",
+    "description": "表示混合、混杂",
+    "memoryTip": "mix(混合)直接把misc的动作表现出来",
+    "words": [
+      "mix",
+      "mixture",
+      "miscellaneous",
+      "promiscuous",
+      "admix",
+      "miscible",
+      "miscellany"
+    ]
+  },
+  {
+    "root": "lav/lau/lut",
+    "meaning": "洗",
+    "origin": "拉丁语 lavare/lutus",
+    "description": "表示洗涤、冲洗",
+    "memoryTip": "laundry(洗衣房)就是'洗'衣服的地方",
+    "words": [
+      "laundry",
+      "lavatory",
+      "lava",
+      "ablution",
+      "dilute",
+      "deluge",
+      "lavish"
+    ]
+  },
+  {
+    "root": "leg/lect/lig",
+    "meaning": "选择、收集、读",
+    "origin": "拉丁语 legere/lectus",
+    "description": "表示选择、收集、阅读",
+    "memoryTip": "select(选择)就是把好的'挑'出来",
+    "words": [
+      "select",
+      "collect",
+      "elect",
+      "lecture",
+      "neglect",
+      "intelligent",
+      "elegant",
+      "diligent",
+      "eligible"
+    ]
+  },
+  {
+    "root": "solv/solut",
+    "meaning": "解开、松开",
+    "origin": "拉丁语 solvere",
+    "description": "表示松开、溶解、解决",
+    "memoryTip": "solve(解决)就是把问题'解开'",
+    "words": [
+      "solve",
+      "solution",
+      "dissolve",
+      "resolve",
+      "absolute",
+      "soluble",
+      "insolvent",
+      "absolve",
+      "solvent"
+    ]
+  },
+  {
+    "root": "tact/tang/ting/tag",
+    "meaning": "触摸、接触",
+    "origin": "拉丁语 tangere/tactus",
+    "description": "表示触摸、接触、感染",
+    "memoryTip": "contact(联系)就是互相'接触'",
+    "words": [
+      "contact",
+      "tactile",
+      "intact",
+      "tangible",
+      "contagious",
+      "intangible",
+      "attain",
+      "contingent"
+    ]
+  },
+  {
+    "root": "cel/ceal",
+    "meaning": "隐藏",
+    "origin": "拉丁语 celare",
+    "description": "表示隐藏、遮盖",
+    "memoryTip": "conceal(隐藏)就是把东西'藏'起来",
+    "words": [
+      "conceal",
+      "occult",
+      "cellar",
+      "ceiling",
+      "clandestine",
+      "occultation"
+    ]
+  },
+  {
+    "root": "fratr/frater",
+    "meaning": "兄弟",
+    "origin": "拉丁语 frater",
+    "description": "表示兄弟、兄弟情谊",
+    "memoryTip": "fraternity(兄弟会)就是一群'兄弟'的组织",
+    "words": [
+      "fraternity",
+      "fraternal",
+      "fratricide",
+      "friar",
+      "confraternity"
+    ]
+  },
+  {
+    "root": "mater/matr",
+    "meaning": "母亲",
+    "origin": "拉丁语 mater",
+    "description": "表示母亲、母性",
+    "memoryTip": "maternal(母性的)就是关于'母亲'的",
+    "words": [
+      "maternal",
+      "matriarch",
+      "maternity",
+      "matron",
+      "alma mater",
+      "matricide",
+      "matrimony"
+    ]
+  },
+  {
+    "root": "pater/patr",
+    "meaning": "父亲",
+    "origin": "拉丁语 pater",
+    "description": "表示父亲、父性、祖国",
+    "memoryTip": "patriot(爱国者)就是热爱'父亲'之国的人",
+    "words": [
+      "patriot",
+      "paternal",
+      "patron",
+      "patriarch",
+      "expatriate",
+      "compatriot",
+      "patrimony",
+      "patronize"
+    ]
+  },
+  {
+    "root": "milit",
+    "meaning": "士兵、军事",
+    "origin": "拉丁语 miles/militis",
+    "description": "表示士兵、军事、战斗",
+    "memoryTip": "military(军事的)就和'士兵'有关",
+    "words": [
+      "military",
+      "militant",
+      "militia",
+      "militarism",
+      "demilitarize",
+      "paramilitary"
+    ]
+  },
+  {
+    "root": "monstr",
+    "meaning": "显示、指出",
+    "origin": "拉丁语 monstrare",
+    "description": "表示显示、指出、证明",
+    "memoryTip": "demonstrate(展示)就是'指出'来给人看",
+    "words": [
+      "demonstrate",
+      "monster",
+      "remonstrate",
+      "monstrous",
+      "monstrance"
+    ]
+  },
+  {
+    "root": "velop",
+    "meaning": "包裹、覆盖",
+    "origin": "拉丁语 veloper",
+    "description": "表示包裹、覆盖、发展",
+    "memoryTip": "envelop(包裹)就是用东西'包'起来",
+    "words": [
+      "envelop",
+      "develop",
+      "envelope",
+      "development",
+      "envelopment"
+    ]
+  },
+  {
+    "root": "ori/ort",
+    "meaning": "升起、起源",
+    "origin": "拉丁语 oriri/ortus",
+    "description": "表示升起、起源、开始",
+    "memoryTip": "origin(起源)就是事情的'开始'",
+    "words": [
+      "origin",
+      "original",
+      "orient",
+      "abort",
+      "disorient",
+      "aboriginal",
+      "orientation"
+    ]
+  },
+  {
+    "root": "quant",
+    "meaning": "多少、量",
+    "origin": "拉丁语 quantus",
+    "description": "表示多少、数量、定量",
+    "memoryTip": "quantity(数量)就是'多少'个",
+    "words": [
+      "quantity",
+      "quantify",
+      "quantitative",
+      "quantum",
+      "quantifier",
+      "quanta"
+    ]
+  },
+  {
+    "root": "qual",
+    "meaning": "什么、品质",
+    "origin": "拉丁语 qualis",
+    "description": "表示什么种类、品质、质量",
+    "memoryTip": "quality(质量)就是问这个有'什么'特性",
+    "words": [
+      "quality",
+      "qualify",
+      "qualitative",
+      "qualification",
+      "disqualify",
+      "qualifier"
+    ]
+  },
+  {
+    "root": "art/arti",
+    "meaning": "艺术、技巧",
+    "origin": "拉丁语 ars/artis",
+    "description": "表示艺术、技艺、技巧",
+    "memoryTip": "artist(艺术家)就是有'技艺'的人",
+    "words": [
+      "art",
+      "artist",
+      "article",
+      "artificial",
+      "artifact",
+      "artisan",
+      "artillery",
+      "articulate"
+    ]
+  },
+  {
+    "root": "techn/techno",
+    "meaning": "技术、技艺",
+    "origin": "希腊语 techne",
+    "description": "表示技术、技艺、工艺",
+    "memoryTip": "technology(技术)就是关于'技艺'的学问",
+    "words": [
+      "technology",
+      "technical",
+      "technique",
+      "technician",
+      "polytechnic",
+      "pyrotechnics"
+    ]
+  },
+  {
+    "root": "med/medic",
+    "meaning": "治疗、医学",
+    "origin": "拉丁语 mederi/medicus",
+    "description": "表示治疗、医学、药物",
+    "memoryTip": "medicine(医学)就是'治疗'疾病的学科",
+    "words": [
+      "medicine",
+      "medical",
+      "remedy",
+      "medication",
+      "medicinal",
+      "paramedic",
+      "medicate"
+    ]
+  },
+  {
+    "root": "therap",
+    "meaning": "治疗、疗法",
+    "origin": "希腊语 therapeia",
+    "description": "表示治疗、疗法、照顾",
+    "memoryTip": "therapy(疗法)就是一种'治疗'方式",
+    "words": [
+      "therapy",
+      "therapist",
+      "chemotherapy",
+      "psychotherapy",
+      "physiotherapy",
+      "therapeutic"
+    ]
+  },
+  {
+    "root": "turb",
+    "meaning": "混乱、骚动",
+    "origin": "拉丁语 turba/turbare",
+    "description": "表示混乱、骚动、扰乱",
+    "memoryTip": "disturb(打扰)就是把平静'搅乱'了",
+    "words": [
+      "disturb",
+      "turbulent",
+      "perturb",
+      "turbine",
+      "turbulence",
+      "disturbance"
+    ]
+  },
+  {
+    "root": "tranq/quiet/quies",
+    "meaning": "安静、平静",
+    "origin": "拉丁语 tranquillus/quietus/quies",
+    "description": "表示安静、平静、静止",
+    "memoryTip": "quiet(安静)就是没声音的'平静'",
+    "words": [
+      "quiet",
+      "tranquil",
+      "acquiesce",
+      "quiescent",
+      "tranquility",
+      "requiem"
+    ]
+  },
+  {
+    "root": "simil/simul/sembl",
+    "meaning": "相似、相同",
+    "origin": "拉丁语 similis/simulare",
+    "description": "表示相似、相同、模拟",
+    "memoryTip": "similar(相似的)就是看起'像'une一样",
+    "words": [
+      "similar",
+      "simulate",
+      "simultaneous",
+      "assimilate",
+      "resemble",
+      "dissimilar",
+      "facsimile",
+      "verisimilitude"
+    ]
+  },
+  {
+    "root": "stitut/stitu",
+    "meaning": "站立、设立",
+    "origin": "拉丁语 statuere/stitutus",
+    "description": "表示设立、建立、站立",
+    "memoryTip": "institute(学院/设立)就是把知识'立'起来的地方",
+    "words": [
+      "institute",
+      "constitute",
+      "substitute",
+      "destitute",
+      "restitute",
+      "prostitute",
+      "constitution"
+    ]
+  },
+  {
+    "root": "culp",
+    "meaning": "过错、责备",
+    "origin": "拉丁语 culpa",
+    "description": "表示过错、罪责、谴责",
+    "memoryTip": "guilty(有罪的)来自culp，culprit就是有'过错'的人",
+    "words": [
+      "culprit",
+      "culpable",
+      "exculpate",
+      "inculpate",
+      "culpability",
+      "mea culpa"
+    ]
+  },
+  {
+    "root": "pen/pun",
+    "meaning": "惩罚",
+    "origin": "拉丁语 poena/poenalis",
+    "description": "表示惩罚、处罚",
+    "memoryTip": "punish(惩罚)就是给人'处罚'",
+    "words": [
+      "punishment",
+      "penalty",
+      "penal",
+      "penitentiary",
+      "repent",
+      "impunity",
+      "subpoena"
+    ]
+  },
+  {
+    "root": "anthrop",
+    "meaning": "人、人类",
+    "origin": "希腊语 anthropos",
+    "description": "表示人、人类、人类学",
+    "memoryTip": "anthropology(人类学)就是研究'人'的学科",
+    "words": [
+      "anthropology",
+      "philanthropy",
+      "misanthropy",
+      "anthropoid",
+      "anthropomorphic",
+      "anthropocentric"
+    ]
+  },
+  {
+    "root": "hum/homin",
+    "meaning": "人、人类",
+    "origin": "拉丁语 homo/hominis/humanus",
+    "description": "表示人、人类、人性",
+    "memoryTip": "human(人类)就是作为'人'的存在",
+    "words": [
+      "human",
+      "humane",
+      "humanity",
+      "homicide",
+      "homage",
+      "hominid"
+    ]
+  },
+  {
+    "root": "femin",
+    "meaning": "女性",
+    "origin": "拉丁语 femina",
+    "description": "表示女性、雌性",
+    "memoryTip": "female(女性)和feminism(女权主义)都来自femin",
+    "words": [
+      "female",
+      "feminine",
+      "feminism",
+      "feminist",
+      "effeminate",
+      "femininity"
+    ]
+  },
+  {
+    "root": "vir",
+    "meaning": "男人、男性",
+    "origin": "拉丁语 vir",
+    "description": "表示男人、男性、男子气概",
+    "memoryTip": "virtue(美德)最早是指男子气概(vir的男人品质)",
+    "words": [
+      "virtue",
+      "virile",
+      "virtual",
+      "virago",
+      "triumvirate",
+      "virtuoso"
+    ]
+  },
+  {
+    "root": "ped/paed/puer",
+    "meaning": "儿童",
+    "origin": "希腊语 pais/paidos; 拉丁语 puer",
+    "description": "表示儿童、教育",
+    "memoryTip": "pedagogy(教育学)就是引导'儿童'的方法",
+    "words": [
+      "pedagogy",
+      "encyclopedia",
+      "pediatrician",
+      "pedophile",
+      "puerile",
+      "puerility"
+    ]
+  },
+  {
+    "root": "sen",
+    "meaning": "老、年长",
+    "origin": "拉丁语 senex/senis",
+    "description": "表示年老、年长、资深的",
+    "memoryTip": "senior(年长的)就是比较'老'的",
+    "words": [
+      "senior",
+      "senate",
+      "senile",
+      "senescence",
+      "senator",
+      "senility"
+    ]
+  },
+  {
+    "root": "juven/jeun",
+    "meaning": "年轻",
+    "origin": "拉丁语 juvenis",
+    "description": "表示年轻、青春、少年",
+    "memoryTip": "juvenile(青少年的)就是'年轻'人的",
+    "words": [
+      "juvenile",
+      "rejuvenate",
+      "junior",
+      "juvenescence",
+      "juvenilia"
+    ]
+  },
+  {
+    "root": "agr/agri/agro",
+    "meaning": "田地、农业",
+    "origin": "拉丁语 ager/agri; 希腊语 agros",
+    "description": "表示田地、农业、土地",
+    "memoryTip": "agriculture(农业)就是在'田地'里耕种的文化",
+    "words": [
+      "agriculture",
+      "agrarian",
+      "agronomy",
+      "agribusiness",
+      "peregrination",
+      "agroforestry",
+      "agrochemical"
+    ]
+  },
+  {
+    "root": "cult",
+    "meaning": "耕种、培养",
+    "origin": "拉丁语 colere/cultus",
+    "description": "表示耕种、培育、文化",
+    "memoryTip": "culture(文化)最早的意思是耕'种'土地，后引申为培养",
+    "words": [
+      "culture",
+      "cultivate",
+      "agriculture",
+      "cult",
+      "horticulture",
+      "aquaculture",
+      "incult"
+    ]
+  },
+  {
+    "root": "zo/zoo",
+    "meaning": "动物",
+    "origin": "希腊语 zoon",
+    "description": "表示动物、生物",
+    "memoryTip": "zoo(动物园)就是看'动物'的地方",
+    "words": [
+      "zoo",
+      "zoology",
+      "protozoa",
+      "zooplankton",
+      "paleozoic",
+      "zoological",
+      "zodiac"
+    ]
+  },
+  {
+    "root": "botan/phyt",
+    "meaning": "植物",
+    "origin": "希腊语 botane/phyton",
+    "description": "表示植物、植物学",
+    "memoryTip": "botany(植物学)就是关于'植物'的科学",
+    "words": [
+      "botany",
+      "botanical",
+      "phytoplankton",
+      "neophyte",
+      "epiphyte",
+      "sporophyte"
+    ]
+  },
+  {
+    "root": "flor/flour",
+    "meaning": "花",
+    "origin": "拉丁语 flos/floris",
+    "description": "表示花、开花、繁荣",
+    "memoryTip": "flower(花)就来自flor，flourish(繁荣)就是像'花'一样盛开",
+    "words": [
+      "flower",
+      "floral",
+      "flourish",
+      "flora",
+      "florist",
+      "efflorescence",
+      "deflower"
+    ]
+  },
+  {
+    "root": "herb",
+    "meaning": "草、植物",
+    "origin": "拉丁语 herba",
+    "description": "表示草、草本植物",
+    "memoryTip": "herb(草本)就是'草'本植物",
+    "words": [
+      "herb",
+      "herbal",
+      "herbicide",
+      "herbivore",
+      "herbaceous",
+      "herbarium"
+    ]
+  },
+  {
+    "root": "arbor",
+    "meaning": "树",
+    "origin": "拉丁语 arbor",
+    "description": "表示树木、树林",
+    "memoryTip": "arbor(乔木)就是一棵'树'",
+    "words": [
+      "arbor",
+      "arboretum",
+      "arboreal",
+      "arboriculture",
+      "arborist",
+      "grape arbor"
+    ]
+  },
+  {
+    "root": "lith/lite/petr",
+    "meaning": "石头",
+    "origin": "希腊语 lithos/petra",
+    "description": "表示石头、岩石、化石",
+    "memoryTip": "paleolithic(旧石器时代的)就是'古老的石头'时代",
+    "words": [
+      "lithograph",
+      "megalith",
+      "neolithic",
+      "petrify",
+      "petroleum",
+      "paleolithic",
+      "monolith"
+    ]
+  },
+  {
+    "root": "ferr",
+    "meaning": "铁",
+    "origin": "拉丁语 ferrum",
+    "description": "表示铁、含铁",
+    "memoryTip": "ferrous(含铁的)就表示含有'铁'元素",
+    "words": [
+      "ferrous",
+      "ferric",
+      "ferroalloy",
+      "ferroconcrete",
+      "ferromagnetic"
+    ]
+  },
+  {
+    "root": "bibl/biblio",
+    "meaning": "书",
+    "origin": "希腊语 biblion",
+    "description": "表示书、书籍、书目",
+    "memoryTip": "bibliography(参考书目)就是'书'的清单",
+    "words": [
+      "bibliography",
+      "bibliophile",
+      "bible",
+      "bibliotheca",
+      "bibliomania",
+      "bibliolatry"
+    ]
+  },
+  {
+    "root": "therm/thermo",
+    "meaning": "热、温度",
+    "origin": "希腊语 therme",
+    "description": "表示热、温度、热量",
+    "memoryTip": "thermometer(温度计)就是'测量'热度的工具",
+    "words": [
+      "thermometer",
+      "thermal",
+      "thermos",
+      "thermostat",
+      "hypothermia",
+      "geothermal",
+      "thermometer"
+    ]
+  },
+  {
+    "root": "calor",
+    "meaning": "热",
+    "origin": "拉丁语 calor/calere",
+    "description": "表示热、热量",
+    "memoryTip": "calorie(卡路里)就是'热量'单位",
+    "words": [
+      "calorie",
+      "calorific",
+      "calorimeter",
+      "cauldron",
+      "scald"
+    ]
+  },
+  {
+    "root": "frig/friger",
+    "meaning": "冷",
+    "origin": "拉丁语 frigus/frigoris",
+    "description": "表示寒冷、冷却",
+    "memoryTip": "refrigerator(冰箱)就是让东西变'冷'的机器",
+    "words": [
+      "refrigerator",
+      "frigid",
+      "fridge",
+      "refrigerate",
+      "frigidity",
+      "frigorific"
+    ]
+  },
+  {
+    "root": "sal/sali",
+    "meaning": "盐",
+    "origin": "拉丁语 sal/salis",
+    "description": "表示盐、咸的",
+    "memoryTip": "salary(工资)最早是罗马士兵买'盐'的钱",
+    "words": [
+      "salt",
+      "salary",
+      "saline",
+      "salad",
+      "salami",
+      "desalination",
+      "salify"
+    ]
+  },
+  {
+    "root": "lact",
+    "meaning": "奶、乳",
+    "origin": "拉丁语 lac/lactis",
+    "description": "表示奶、乳汁、乳制品",
+    "memoryTip": "lactose(乳糖)就是'奶'中的糖",
+    "words": [
+      "lactose",
+      "lactate",
+      "lactic",
+      "lactation",
+      "prolactin",
+      "lacteal"
+    ]
+  },
+  {
+    "root": "carn",
+    "meaning": "肉、肉体",
+    "origin": "拉丁语 caro/carnis",
+    "description": "表示肉、肉体、肉体享乐",
+    "memoryTip": "carnival(狂欢节)最早是'告别肉食'的节日",
+    "words": [
+      "carnal",
+      "carnival",
+      "carnivore",
+      "incarnate",
+      "reincarnation",
+      "carnation",
+      "carnage"
+    ]
+  },
+  {
+    "root": "oss/osteo",
+    "meaning": "骨头",
+    "origin": "拉丁语 os/ossis; 希腊语 osteon",
+    "description": "表示骨头、骨骼",
+    "memoryTip": "osteoporosis(骨质疏松症)就是'骨头'变得多孔",
+    "words": [
+      "ossify",
+      "ossuary",
+      "osteoporosis",
+      "osteopath",
+      "osteology",
+      "osseous"
+    ]
+  },
+  {
+    "root": "neur/neuro",
+    "meaning": "神经",
+    "origin": "希腊语 neuron",
+    "description": "表示神经、神经系统",
+    "memoryTip": "neuron(神经元)就是'神经'的基本单元",
+    "words": [
+      "neuron",
+      "neurology",
+      "neurosis",
+      "neurosurgery",
+      "neural",
+      "neurotransmitter"
+    ]
+  },
+  {
+    "root": "psych/psycho",
+    "meaning": "心理、灵魂",
+    "origin": "希腊语 psyche",
+    "description": "表示心理、灵魂、精神",
+    "memoryTip": "psychology(心理学)就是关于'心理'的学科",
+    "words": [
+      "psychology",
+      "psychic",
+      "psychiatry",
+      "psychoanalysis",
+      "psychopath",
+      "psychedelic",
+      "psychosis"
+    ]
+  }
+]

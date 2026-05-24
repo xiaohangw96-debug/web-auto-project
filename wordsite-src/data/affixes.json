@@ -1,0 +1,1752 @@
+[
+  {
+    "affix": "un-",
+    "type": "prefix",
+    "meaning": "不，相反",
+    "origin": "古英语",
+    "description": "表示否定、缺乏或相反的动作，是最常见的否定前缀之一",
+    "examples": [
+      "unhappy",
+      "unlock",
+      "unfair",
+      "unusual",
+      "uncertain"
+    ]
+  },
+  {
+    "affix": "re-",
+    "type": "prefix",
+    "meaning": "再次，返回",
+    "origin": "拉丁语",
+    "description": "表示再次、重新或向后返回的动作",
+    "examples": [
+      "rebuild",
+      "return",
+      "rethink",
+      "review",
+      "reactivate"
+    ]
+  },
+  {
+    "affix": "dis-",
+    "type": "prefix",
+    "meaning": "不，相反，分离",
+    "origin": "拉丁语",
+    "description": "表示否定、相反或分离、除去的意思",
+    "examples": [
+      "disagree",
+      "disappear",
+      "discover",
+      "dislike",
+      "disconnect"
+    ]
+  },
+  {
+    "affix": "inter-",
+    "type": "prefix",
+    "meaning": "在……之间，互相",
+    "origin": "拉丁语",
+    "description": "表示在两者或多者之间，或相互的关系",
+    "examples": [
+      "international",
+      "interact",
+      "interrupt",
+      "interfere",
+      "interstate"
+    ]
+  },
+  {
+    "affix": "trans-",
+    "type": "prefix",
+    "meaning": "跨越，转移，变化",
+    "origin": "拉丁语",
+    "description": "表示穿过、横跨、转移或改变状态",
+    "examples": [
+      "transport",
+      "translate",
+      "transform",
+      "transparent",
+      "transatlantic"
+    ]
+  },
+  {
+    "affix": "pre-",
+    "type": "prefix",
+    "meaning": "在……之前，预先",
+    "origin": "拉丁语",
+    "description": "表示时间或顺序上的在前、预先",
+    "examples": [
+      "preview",
+      "preheat",
+      "predict",
+      "prehistoric",
+      "precaution"
+    ]
+  },
+  {
+    "affix": "sub-",
+    "type": "prefix",
+    "meaning": "在……下面，次于",
+    "origin": "拉丁语",
+    "description": "表示在下、低于、次于或分支的意思",
+    "examples": [
+      "submarine",
+      "subway",
+      "subtitle",
+      "subconscious",
+      "substandard"
+    ]
+  },
+  {
+    "affix": "super-",
+    "type": "prefix",
+    "meaning": "超级，在上，超过",
+    "origin": "拉丁语",
+    "description": "表示在上面、超越、极好的或过度的含义",
+    "examples": [
+      "superman",
+      "supervise",
+      "superior",
+      "supermarket",
+      "supernatural"
+    ]
+  },
+  {
+    "affix": "anti-",
+    "type": "prefix",
+    "meaning": "反对，对抗，防止",
+    "origin": "希腊语",
+    "description": "表示反对、对抗、排斥或预防的含义",
+    "examples": [
+      "antibody",
+      "antiwar",
+      "antisocial",
+      "antivirus",
+      "anticlockwise"
+    ]
+  },
+  {
+    "affix": "auto-",
+    "type": "prefix",
+    "meaning": "自己，自动",
+    "origin": "希腊语",
+    "description": "表示自身的、自动的或自我驱动的",
+    "examples": [
+      "automatic",
+      "autobiography",
+      "autograph",
+      "autonomous",
+      "automobile"
+    ]
+  },
+  {
+    "affix": "bi-",
+    "type": "prefix",
+    "meaning": "两个，两次",
+    "origin": "拉丁语",
+    "description": "表示两个、两面或两次的含义",
+    "examples": [
+      "bicycle",
+      "bilingual",
+      "bimonthly",
+      "bilateral",
+      "bifocal"
+    ]
+  },
+  {
+    "affix": "co-",
+    "type": "prefix",
+    "meaning": "共同，一起",
+    "origin": "拉丁语",
+    "description": "表示共同、协作或联合的关系",
+    "examples": [
+      "cooperate",
+      "coauthor",
+      "coexist",
+      "coordinate",
+      "coworker"
+    ]
+  },
+  {
+    "affix": "de-",
+    "type": "prefix",
+    "meaning": "向下，去除，相反",
+    "origin": "拉丁语",
+    "description": "表示向下、去除、减少或相反的动作",
+    "examples": [
+      "decrease",
+      "decode",
+      "deforest",
+      "devalue",
+      "depress"
+    ]
+  },
+  {
+    "affix": "en-",
+    "type": "prefix",
+    "meaning": "使成为，放入",
+    "origin": "拉丁语/古法语",
+    "description": "表示使处于某种状态、放入或加强的意思",
+    "examples": [
+      "enable",
+      "enrich",
+      "enlarge",
+      "encourage",
+      "endanger"
+    ]
+  },
+  {
+    "affix": "ex-",
+    "type": "prefix",
+    "meaning": "向外，前任",
+    "origin": "拉丁语",
+    "description": "表示向外、离开或以前的（身份）",
+    "examples": [
+      "export",
+      "expel",
+      "expand",
+      "exclude",
+      "ex-president"
+    ]
+  },
+  {
+    "affix": "fore-",
+    "type": "prefix",
+    "meaning": "在前面，预先",
+    "origin": "古英语",
+    "description": "表示在前面的位置或预先的时间",
+    "examples": [
+      "forecast",
+      "foresee",
+      "forehead",
+      "foreground",
+      "foretell"
+    ]
+  },
+  {
+    "affix": "in-",
+    "type": "prefix",
+    "meaning": "不，无（否定）",
+    "origin": "拉丁语",
+    "description": "表示否定或缺乏，在字母 b/m/p 前变为 im-，在 l 前变为 il-，在 r 前变为 ir-",
+    "examples": [
+      "incorrect",
+      "inactive",
+      "invisible",
+      "incomplete",
+      "indirect"
+    ]
+  },
+  {
+    "affix": "im-",
+    "type": "prefix",
+    "meaning": "不，无（in-的变体）",
+    "origin": "拉丁语",
+    "description": "in- 在 b/m/p 前的变体，表示否定",
+    "examples": [
+      "impossible",
+      "impolite",
+      "immature",
+      "imbalance",
+      "immortal"
+    ]
+  },
+  {
+    "affix": "il-",
+    "type": "prefix",
+    "meaning": "不，无（in-的变体）",
+    "origin": "拉丁语",
+    "description": "in- 在字母 l 前的变体，表示否定",
+    "examples": [
+      "illegal",
+      "illogical",
+      "illegible",
+      "illiterate",
+      "illicit"
+    ]
+  },
+  {
+    "affix": "ir-",
+    "type": "prefix",
+    "meaning": "不，无（in-的变体）",
+    "origin": "拉丁语",
+    "description": "in- 在字母 r 前的变体，表示否定",
+    "examples": [
+      "irregular",
+      "irresponsible",
+      "irrelevant",
+      "irrational",
+      "irresistible"
+    ]
+  },
+  {
+    "affix": "mis-",
+    "type": "prefix",
+    "meaning": "错误，坏",
+    "origin": "古英语",
+    "description": "表示错误地、不好地或不当的含义",
+    "examples": [
+      "misunderstand",
+      "mislead",
+      "mistake",
+      "misuse",
+      "misbehave"
+    ]
+  },
+  {
+    "affix": "non-",
+    "type": "prefix",
+    "meaning": "非，不，无",
+    "origin": "拉丁语",
+    "description": "表示否定、缺乏或无，比 un- 更中性客观",
+    "examples": [
+      "nonfiction",
+      "nonstop",
+      "nonsense",
+      "nonprofit",
+      "nonalcoholic"
+    ]
+  },
+  {
+    "affix": "over-",
+    "type": "prefix",
+    "meaning": "过度，在上方",
+    "origin": "古英语",
+    "description": "表示过多、超过正常限度，或在……上方",
+    "examples": [
+      "overeat",
+      "overwork",
+      "overlook",
+      "overcoat",
+      "overcome"
+    ]
+  },
+  {
+    "affix": "post-",
+    "type": "prefix",
+    "meaning": "在……之后",
+    "origin": "拉丁语",
+    "description": "表示时间或顺序上在……之后的含义",
+    "examples": [
+      "postpone",
+      "postwar",
+      "postgraduate",
+      "postscript",
+      "postmodern"
+    ]
+  },
+  {
+    "affix": "semi-",
+    "type": "prefix",
+    "meaning": "半，部分",
+    "origin": "拉丁语",
+    "description": "表示一半或部分的意思",
+    "examples": [
+      "semicircle",
+      "semifinal",
+      "semiannual",
+      "semiautomatic",
+      "semiconductor"
+    ]
+  },
+  {
+    "affix": "under-",
+    "type": "prefix",
+    "meaning": "在下面，不足",
+    "origin": "古英语",
+    "description": "表示在下方、低于、不足或少于的意思",
+    "examples": [
+      "underline",
+      "underestimate",
+      "underground",
+      "underwater",
+      "underweight"
+    ]
+  },
+  {
+    "affix": "up-",
+    "type": "prefix",
+    "meaning": "向上，提高",
+    "origin": "古英语",
+    "description": "表示向上、提升或改善的方向",
+    "examples": [
+      "upgrade",
+      "upload",
+      "uphold",
+      "uproot",
+      "upset"
+    ]
+  },
+  {
+    "affix": "mono-",
+    "type": "prefix",
+    "meaning": "单一，一个",
+    "origin": "希腊语",
+    "description": "表示单一的、独一的或一个的含义",
+    "examples": [
+      "monopoly",
+      "monologue",
+      "monotone",
+      "monochrome",
+      "monorail"
+    ]
+  },
+  {
+    "affix": "multi-",
+    "type": "prefix",
+    "meaning": "多个，许多",
+    "origin": "拉丁语",
+    "description": "表示多个、多种或许多的意思",
+    "examples": [
+      "multiply",
+      "multimedia",
+      "multinational",
+      "multitask",
+      "multipurpose"
+    ]
+  },
+  {
+    "affix": "poly-",
+    "type": "prefix",
+    "meaning": "多，许多",
+    "origin": "希腊语",
+    "description": "表示多个或许多的意思，常用于科学术语",
+    "examples": [
+      "polygon",
+      "polytechnic",
+      "polyglot",
+      "polysyllabic",
+      "polymer"
+    ]
+  },
+  {
+    "affix": "micro-",
+    "type": "prefix",
+    "meaning": "微小",
+    "origin": "希腊语",
+    "description": "表示极小的、微观的含义",
+    "examples": [
+      "microscope",
+      "microphone",
+      "microwave",
+      "microorganism",
+      "microchip"
+    ]
+  },
+  {
+    "affix": "macro-",
+    "type": "prefix",
+    "meaning": "大的，宏观的",
+    "origin": "希腊语",
+    "description": "表示大的、宏观的或整体的含义",
+    "examples": [
+      "macroeconomics",
+      "macroscopic",
+      "macrobiotic",
+      "macrocosm",
+      "macromolecule"
+    ]
+  },
+  {
+    "affix": "neo-",
+    "type": "prefix",
+    "meaning": "新的，现代的",
+    "origin": "希腊语",
+    "description": "表示新的、现代的或复兴的形式",
+    "examples": [
+      "neonatal",
+      "neoclassical",
+      "neolithic",
+      "neologism",
+      "neocolonial"
+    ]
+  },
+  {
+    "affix": "pro-",
+    "type": "prefix",
+    "meaning": "支持，向前，代替",
+    "origin": "拉丁语/希腊语",
+    "description": "表示赞成的、向前的、代理的或领先的意思",
+    "examples": [
+      "progress",
+      "pronoun",
+      "proceed",
+      "prosper",
+      "pro-American"
+    ]
+  },
+  {
+    "affix": "tri-",
+    "type": "prefix",
+    "meaning": "三个，三次",
+    "origin": "拉丁语/希腊语",
+    "description": "表示三个、三倍或三角形",
+    "examples": [
+      "triangle",
+      "tricycle",
+      "trilogy",
+      "triple",
+      "tripod"
+    ]
+  },
+  {
+    "affix": "ultra-",
+    "type": "prefix",
+    "meaning": "极端，超出",
+    "origin": "拉丁语",
+    "description": "表示极端的、超越……之外的或超常的意思",
+    "examples": [
+      "ultraviolet",
+      "ultrasound",
+      "ultramodern",
+      "ultralight",
+      "ultraconservative"
+    ]
+  },
+  {
+    "affix": "out-",
+    "type": "prefix",
+    "meaning": "超过，向外",
+    "origin": "古英语",
+    "description": "表示超过、胜出或向外的意思",
+    "examples": [
+      "outnumber",
+      "outperform",
+      "outdoor",
+      "outlive",
+      "outweigh"
+    ]
+  },
+  {
+    "affix": "extra-",
+    "type": "prefix",
+    "meaning": "额外的，超出",
+    "origin": "拉丁语",
+    "description": "表示额外的、超出范围的或非常的意思",
+    "examples": [
+      "extraordinary",
+      "extracurricular",
+      "extravagant",
+      "extraterrestrial",
+      "extrasensory"
+    ]
+  },
+  {
+    "affix": "counter-",
+    "type": "prefix",
+    "meaning": "相反，反对，对应",
+    "origin": "拉丁语",
+    "description": "表示相反的、对立的、对应的或反击的意思",
+    "examples": [
+      "counteract",
+      "counterpart",
+      "counterclockwise",
+      "counterattack",
+      "counterbalance"
+    ]
+  },
+  {
+    "affix": "mid-",
+    "type": "prefix",
+    "meaning": "中间，中部",
+    "origin": "古英语",
+    "description": "表示中间的、中部的或一半的位置",
+    "examples": [
+      "midnight",
+      "midterm",
+      "midday",
+      "midway",
+      "midlife"
+    ]
+  },
+  {
+    "affix": "tele-",
+    "type": "prefix",
+    "meaning": "远距离的",
+    "origin": "希腊语",
+    "description": "表示远距离的通信或传输",
+    "examples": [
+      "telephone",
+      "television",
+      "telegram",
+      "telescope",
+      "telepathy"
+    ]
+  },
+  {
+    "affix": "with-",
+    "type": "prefix",
+    "meaning": "反对，向后",
+    "origin": "古英语",
+    "description": "表示反对、向后、离开或抵抗的意思",
+    "examples": [
+      "withdraw",
+      "withhold",
+      "withstand",
+      "wither",
+      "within"
+    ]
+  },
+  {
+    "affix": "per-",
+    "type": "prefix",
+    "meaning": "贯穿，彻底",
+    "origin": "拉丁语",
+    "description": "表示贯穿、完全、彻底或每……的含义",
+    "examples": [
+      "perfect",
+      "perform",
+      "persist",
+      "permanent",
+      "perceive"
+    ]
+  },
+  {
+    "affix": "com-",
+    "type": "prefix",
+    "meaning": "共同，一起",
+    "origin": "拉丁语",
+    "description": "表示共同、一起或完全的意思，是 con- 在 b/m/p 前的变体",
+    "examples": [
+      "combine",
+      "combat",
+      "complete",
+      "company",
+      "compare"
+    ]
+  },
+  {
+    "affix": "ab-",
+    "type": "prefix",
+    "meaning": "离开，偏离",
+    "origin": "拉丁语",
+    "description": "表示离开、偏离或异常的意思",
+    "examples": [
+      "abnormal",
+      "abstract",
+      "abandon",
+      "absent",
+      "abduct"
+    ]
+  },
+  {
+    "affix": "ad-",
+    "type": "prefix",
+    "meaning": "朝向，添加",
+    "origin": "拉丁语",
+    "description": "表示朝向、添加或邻近的含义",
+    "examples": [
+      "advance",
+      "admit",
+      "adopt",
+      "adapt",
+      "adhere"
+    ]
+  },
+  {
+    "affix": "ob-",
+    "type": "prefix",
+    "meaning": "反对，阻碍，朝向",
+    "origin": "拉丁语",
+    "description": "表示反对、阻碍、遮蔽或逆方向的意思",
+    "examples": [
+      "object",
+      "obstacle",
+      "obstruct",
+      "obscure",
+      "observe"
+    ]
+  },
+  {
+    "affix": "se-",
+    "type": "prefix",
+    "meaning": "分离，分开",
+    "origin": "拉丁语",
+    "description": "表示分离、分开或隔离的含义",
+    "examples": [
+      "separate",
+      "select",
+      "seclude",
+      "secret",
+      "secession"
+    ]
+  },
+  {
+    "affix": "circum-",
+    "type": "prefix",
+    "meaning": "周围，环绕",
+    "origin": "拉丁语",
+    "description": "表示在周围、环绕或绕行的意思",
+    "examples": [
+      "circumference",
+      "circumnavigate",
+      "circumstance",
+      "circumspect",
+      "circumvent"
+    ]
+  },
+  {
+    "affix": "mal-",
+    "type": "prefix",
+    "meaning": "坏的，错误的",
+    "origin": "拉丁语",
+    "description": "表示坏的、不良的或错误的意思",
+    "examples": [
+      "malfunction",
+      "malnutrition",
+      "maltreat",
+      "malpractice",
+      "maladjusted"
+    ]
+  },
+  {
+    "affix": "bene-",
+    "type": "prefix",
+    "meaning": "好的，善的",
+    "origin": "拉丁语",
+    "description": "表示好的、有利的或慈善的意思",
+    "examples": [
+      "benefit",
+      "benevolent",
+      "benefactor",
+      "beneficial",
+      "benediction"
+    ]
+  },
+  {
+    "affix": "pseudo-",
+    "type": "prefix",
+    "meaning": "假的，伪的",
+    "origin": "希腊语",
+    "description": "表示假的、伪装的或似是而非的意思",
+    "examples": [
+      "pseudonym",
+      "pseudoscience",
+      "pseudoclassical",
+      "pseudopod",
+      "pseudo-intellectual"
+    ]
+  },
+  {
+    "affix": "omni-",
+    "type": "prefix",
+    "meaning": "全部，无所不",
+    "origin": "拉丁语",
+    "description": "表示全部的、无所不在的或全能的意思",
+    "examples": [
+      "omnipotent",
+      "omniscient",
+      "omnivorous",
+      "omnipresent",
+      "omnidirectional"
+    ]
+  },
+  {
+    "affix": "retro-",
+    "type": "prefix",
+    "meaning": "向后，追溯",
+    "origin": "拉丁语",
+    "description": "表示向后的、追溯的或复古的意思",
+    "examples": [
+      "retrospect",
+      "retroactive",
+      "retrograde",
+      "retrofit",
+      "retrovirus"
+    ]
+  },
+  {
+    "affix": "hyper-",
+    "type": "prefix",
+    "meaning": "过度，超出",
+    "origin": "希腊语",
+    "description": "表示过度的、超出正常范围的或极其活跃的意思",
+    "examples": [
+      "hyperactive",
+      "hypertension",
+      "hypersensitive",
+      "hyperlink",
+      "hypercritical"
+    ]
+  },
+  {
+    "affix": "hypo-",
+    "type": "prefix",
+    "meaning": "在下面，低于",
+    "origin": "希腊语",
+    "description": "表示在……之下、低于正常水平的意思",
+    "examples": [
+      "hypothermia",
+      "hypodermic",
+      "hypotension",
+      "hypothesis",
+      "hypoglycemia"
+    ]
+  },
+  {
+    "affix": "meta-",
+    "type": "prefix",
+    "meaning": "超越，变化，关于自身",
+    "origin": "希腊语",
+    "description": "表示超越、变化、更高层次或关于自身的含义",
+    "examples": [
+      "metaphor",
+      "metamorphosis",
+      "metadata",
+      "metaphysics",
+      "metacognition"
+    ]
+  },
+  {
+    "affix": "para-",
+    "type": "prefix",
+    "meaning": "旁边，辅助，超越",
+    "origin": "希腊语",
+    "description": "表示在旁边、辅助的、超越或保护的意思",
+    "examples": [
+      "parallel",
+      "paramedic",
+      "paragraph",
+      "paranormal",
+      "parachute"
+    ]
+  },
+  {
+    "affix": "syn-",
+    "type": "prefix",
+    "meaning": "共同，一起",
+    "origin": "希腊语",
+    "description": "表示共同、同时的或综合的意思，在 b/m/p 前变为 sym-",
+    "examples": [
+      "synchronize",
+      "synthesis",
+      "synonym",
+      "syndrome",
+      "syntax"
+    ]
+  },
+  {
+    "affix": "proto-",
+    "type": "prefix",
+    "meaning": "最初的，原始的",
+    "origin": "希腊语",
+    "description": "表示最初的、原始的或最早的形式",
+    "examples": [
+      "prototype",
+      "protocol",
+      "protoplasm",
+      "protohuman",
+      "proto-language"
+    ]
+  },
+  {
+    "affix": "iso-",
+    "type": "prefix",
+    "meaning": "相等的，相同的",
+    "origin": "希腊语",
+    "description": "表示相等的、相同的或均匀的意思",
+    "examples": [
+      "isotherm",
+      "isometric",
+      "isotope",
+      "isosceles",
+      "isobar"
+    ]
+  },
+  {
+    "affix": "hetero-",
+    "type": "prefix",
+    "meaning": "不同的，异的",
+    "origin": "希腊语",
+    "description": "表示不同的、异类的或混杂的意思",
+    "examples": [
+      "heterosexual",
+      "heterogeneous",
+      "heterozygous",
+      "heterodox",
+      "heterotroph"
+    ]
+  },
+  {
+    "affix": "homo-",
+    "type": "prefix",
+    "meaning": "相同的，同类的",
+    "origin": "希腊语",
+    "description": "表示相同的、同类的或一致的意思",
+    "examples": [
+      "homogeneous",
+      "homosexual",
+      "homonym",
+      "homocentric",
+      "homozygous"
+    ]
+  },
+  {
+    "affix": "pan-",
+    "type": "prefix",
+    "meaning": "全部，全泛",
+    "origin": "希腊语",
+    "description": "表示全部的、全范围的或普遍的意思",
+    "examples": [
+      "panorama",
+      "pandemic",
+      "panacea",
+      "pan-American",
+      "pantheism"
+    ]
+  },
+  {
+    "affix": "photo-",
+    "type": "prefix",
+    "meaning": "光，摄影",
+    "origin": "希腊语",
+    "description": "表示光的或与摄影相关的意思",
+    "examples": [
+      "photograph",
+      "photosynthesis",
+      "photoelectric",
+      "photocopy",
+      "photogenic"
+    ]
+  },
+  {
+    "affix": "geo-",
+    "type": "prefix",
+    "meaning": "地球，土地",
+    "origin": "希腊语",
+    "description": "表示地球的、地质的或土地的意思",
+    "examples": [
+      "geography",
+      "geology",
+      "geometry",
+      "geothermal",
+      "geopolitics"
+    ]
+  },
+  {
+    "affix": "thermo-",
+    "type": "prefix",
+    "meaning": "热，温度",
+    "origin": "希腊语",
+    "description": "表示热量或温度的相关的意思",
+    "examples": [
+      "thermometer",
+      "thermostat",
+      "thermodynamics",
+      "thermonuclear",
+      "thermoplastic"
+    ]
+  },
+  {
+    "affix": "psycho-",
+    "type": "prefix",
+    "meaning": "心理，精神",
+    "origin": "希腊语",
+    "description": "表示心理的、精神的或灵魂的意思",
+    "examples": [
+      "psychology",
+      "psychotherapy",
+      "psychopath",
+      "psychoanalysis",
+      "psychosomatic"
+    ]
+  },
+  {
+    "affix": "socio-",
+    "type": "prefix",
+    "meaning": "社会的",
+    "origin": "拉丁语",
+    "description": "表示社会的或社会学的意思",
+    "examples": [
+      "sociology",
+      "socioeconomic",
+      "sociocultural",
+      "sociopath",
+      "sociopolitical"
+    ]
+  },
+  {
+    "affix": "-tion / -sion",
+    "type": "suffix",
+    "meaning": "行为，状态，结果",
+    "origin": "拉丁语",
+    "description": "将动词转化为抽象名词，表示动作、过程、状态或结果",
+    "examples": [
+      "education",
+      "creation",
+      "decision",
+      "expansion",
+      "conclusion"
+    ]
+  },
+  {
+    "affix": "-ment",
+    "type": "suffix",
+    "meaning": "行为，状态，结果",
+    "origin": "拉丁语/古法语",
+    "description": "将动词转化为名词，表示行为、手段、状态或结果",
+    "examples": [
+      "development",
+      "achievement",
+      "government",
+      "movement",
+      "employment"
+    ]
+  },
+  {
+    "affix": "-able / -ible",
+    "type": "suffix",
+    "meaning": "能够……的，值得……的",
+    "origin": "拉丁语",
+    "description": "将动词转化为形容词，表示能够被……的或值得……的",
+    "examples": [
+      "comfortable",
+      "reliable",
+      "visible",
+      "flexible",
+      "acceptable"
+    ]
+  },
+  {
+    "affix": "-ive",
+    "type": "suffix",
+    "meaning": "有……倾向的，具有……性质的",
+    "origin": "拉丁语",
+    "description": "将动词转化为形容词，表示具有某种倾向或性质",
+    "examples": [
+      "active",
+      "creative",
+      "effective",
+      "attractive",
+      "protective"
+    ]
+  },
+  {
+    "affix": "-ous",
+    "type": "suffix",
+    "meaning": "充满……的，具有……性质的",
+    "origin": "拉丁语",
+    "description": "将名词转化为形容词，表示具有……特征或性质的",
+    "examples": [
+      "dangerous",
+      "famous",
+      "nervous",
+      "curious",
+      "generous"
+    ]
+  },
+  {
+    "affix": "-ful",
+    "type": "suffix",
+    "meaning": "充满……的，有……特性的",
+    "origin": "古英语",
+    "description": "将名词转化为形容词，表示充满或具有……性质的",
+    "examples": [
+      "beautiful",
+      "hopeful",
+      "careful",
+      "powerful",
+      "wonderful"
+    ]
+  },
+  {
+    "affix": "-less",
+    "type": "suffix",
+    "meaning": "没有……的，不……的",
+    "origin": "古英语",
+    "description": "将名词转化为形容词，表示缺乏或没有……的",
+    "examples": [
+      "endless",
+      "careless",
+      "homeless",
+      "fearless",
+      "useless"
+    ]
+  },
+  {
+    "affix": "-ness",
+    "type": "suffix",
+    "meaning": "……的性质、状态",
+    "origin": "古英语",
+    "description": "将形容词转化为名词，表示状态、性质或程度",
+    "examples": [
+      "happiness",
+      "darkness",
+      "kindness",
+      "awareness",
+      "weakness"
+    ]
+  },
+  {
+    "affix": "-er / -or",
+    "type": "suffix",
+    "meaning": "做……的人/物",
+    "origin": "古英语（-er）/ 拉丁语（-or）",
+    "description": "将动词转化为名词，表示执行动作的人或器具",
+    "examples": [
+      "teacher",
+      "writer",
+      "actor",
+      "inventor",
+      "computer"
+    ]
+  },
+  {
+    "affix": "-ist",
+    "type": "suffix",
+    "meaning": "……主义者，从事……的人",
+    "origin": "希腊语/拉丁语",
+    "description": "表示从事某种职业、信奉某种主义或擅长某事的人",
+    "examples": [
+      "scientist",
+      "artist",
+      "dentist",
+      "pianist",
+      "journalist"
+    ]
+  },
+  {
+    "affix": "-ism",
+    "type": "suffix",
+    "meaning": "……主义，……学说，……行为",
+    "origin": "希腊语",
+    "description": "表示某种主义、学说、体系、行为方式或特征",
+    "examples": [
+      "capitalism",
+      "socialism",
+      "realism",
+      "optimism",
+      "heroism"
+    ]
+  },
+  {
+    "affix": "-ity",
+    "type": "suffix",
+    "meaning": "……的性质、状态",
+    "origin": "拉丁语",
+    "description": "将形容词转化为名词，表示性质、状态或程度",
+    "examples": [
+      "equality",
+      "reality",
+      "curiosity",
+      "ability",
+      "diversity"
+    ]
+  },
+  {
+    "affix": "-al",
+    "type": "suffix",
+    "meaning": "与……有关的，具有……性质的",
+    "origin": "拉丁语",
+    "description": "将名词转化为形容词，表示与……相关的或具有……性质的",
+    "examples": [
+      "national",
+      "natural",
+      "cultural",
+      "personal",
+      "traditional"
+    ]
+  },
+  {
+    "affix": "-ic",
+    "type": "suffix",
+    "meaning": "与……有关的，具有……性质的",
+    "origin": "希腊语/拉丁语",
+    "description": "将名词转化为形容词，表示与……相关的或像……的",
+    "examples": [
+      "electric",
+      "scientific",
+      "economic",
+      "historic",
+      "romantic"
+    ]
+  },
+  {
+    "affix": "-ize / -ise",
+    "type": "suffix",
+    "meaning": "使……化，使成为",
+    "origin": "希腊语/拉丁语",
+    "description": "将名词或形容词转化为动词，表示使成为或使……化",
+    "examples": [
+      "realize",
+      "organize",
+      "modernize",
+      "specialize",
+      "summarize"
+    ]
+  },
+  {
+    "affix": "-en",
+    "type": "suffix",
+    "meaning": "使成为，由……制成的",
+    "origin": "古英语",
+    "description": "将形容词或名词转化为动词（使成为），或表示材料（由……制成）",
+    "examples": [
+      "strengthen",
+      "broaden",
+      "weaken",
+      "wooden",
+      "golden"
+    ]
+  },
+  {
+    "affix": "-fy",
+    "type": "suffix",
+    "meaning": "使成为，使……化",
+    "origin": "拉丁语",
+    "description": "将名词或形容词转化为动词，表示使变成或使具有某种性质",
+    "examples": [
+      "simplify",
+      "beautify",
+      "clarify",
+      "purify",
+      "classify"
+    ]
+  },
+  {
+    "affix": "-ate",
+    "type": "suffix",
+    "meaning": "使成为，具有……的",
+    "origin": "拉丁语",
+    "description": "可作动词后缀（使成为）或形容词/名词后缀（具有……性质的、职务）",
+    "examples": [
+      "activate",
+      "motivate",
+      "accurate",
+      "private",
+      "graduate"
+    ]
+  },
+  {
+    "affix": "-ly",
+    "type": "suffix",
+    "meaning": "以……方式地，像……的",
+    "origin": "古英语",
+    "description": "将形容词转化为副词（……地），或将名词转化为形容词（像……的）",
+    "examples": [
+      "quickly",
+      "friendly",
+      "daily",
+      "lovely",
+      "recently"
+    ]
+  },
+  {
+    "affix": "-ward",
+    "type": "suffix",
+    "meaning": "向……方向",
+    "origin": "古英语",
+    "description": "表示朝向某个方向移动或朝向",
+    "examples": [
+      "forward",
+      "backward",
+      "upward",
+      "downward",
+      "homeward"
+    ]
+  },
+  {
+    "affix": "-wise",
+    "type": "suffix",
+    "meaning": "以……方式，在……方面",
+    "origin": "古英语",
+    "description": "表示以某种方式、在某个方向或方面",
+    "examples": [
+      "clockwise",
+      "likewise",
+      "otherwise",
+      "lengthwise",
+      "moneywise"
+    ]
+  },
+  {
+    "affix": "-th",
+    "type": "suffix",
+    "meaning": "……的状态，性质",
+    "origin": "古英语",
+    "description": "将形容词或动词转化为抽象名词，表示状态、性质或程度",
+    "examples": [
+      "growth",
+      "warmth",
+      "truth",
+      "strength",
+      "depth"
+    ]
+  },
+  {
+    "affix": "-dom",
+    "type": "suffix",
+    "meaning": "……的领域、状态",
+    "origin": "古英语",
+    "description": "表示状态、领域、地位或集体",
+    "examples": [
+      "freedom",
+      "kingdom",
+      "wisdom",
+      "boredom",
+      "officialdom"
+    ]
+  },
+  {
+    "affix": "-ship",
+    "type": "suffix",
+    "meaning": "……的状态、身份、技能",
+    "origin": "古英语",
+    "description": "表示状态、身份、关系、技能或资格",
+    "examples": [
+      "friendship",
+      "leadership",
+      "relationship",
+      "scholarship",
+      "hardship"
+    ]
+  },
+  {
+    "affix": "-hood",
+    "type": "suffix",
+    "meaning": "……的状态、时期、群体",
+    "origin": "古英语",
+    "description": "表示状态、时期、身份或群体",
+    "examples": [
+      "childhood",
+      "neighborhood",
+      "adulthood",
+      "parenthood",
+      "brotherhood"
+    ]
+  },
+  {
+    "affix": "-logy",
+    "type": "suffix",
+    "meaning": "……学，……学科",
+    "origin": "希腊语",
+    "description": "表示……学科、……学说或……研究领域",
+    "examples": [
+      "biology",
+      "psychology",
+      "ecology",
+      "technology",
+      "sociology"
+    ]
+  },
+  {
+    "affix": "-graphy",
+    "type": "suffix",
+    "meaning": "……的记录、书写、描绘",
+    "origin": "希腊语",
+    "description": "表示书写、描绘、记录的方法或学科",
+    "examples": [
+      "photography",
+      "geography",
+      "bibliography",
+      "calligraphy",
+      "biography"
+    ]
+  },
+  {
+    "affix": "-meter",
+    "type": "suffix",
+    "meaning": "……的测量仪器，米",
+    "origin": "希腊语",
+    "description": "表示测量仪器或度量单位",
+    "examples": [
+      "thermometer",
+      "speedometer",
+      "barometer",
+      "kilometer",
+      "diameter"
+    ]
+  },
+  {
+    "affix": "-scope",
+    "type": "suffix",
+    "meaning": "观察……的仪器",
+    "origin": "希腊语",
+    "description": "表示观察或检测的仪器",
+    "examples": [
+      "microscope",
+      "telescope",
+      "periscope",
+      "stethoscope",
+      "kaleidoscope"
+    ]
+  },
+  {
+    "affix": "-phone",
+    "type": "suffix",
+    "meaning": "声音相关的设备",
+    "origin": "希腊语",
+    "description": "表示与声音有关的设备或工具",
+    "examples": [
+      "telephone",
+      "microphone",
+      "megaphone",
+      "headphone",
+      "saxophone"
+    ]
+  },
+  {
+    "affix": "-cide",
+    "type": "suffix",
+    "meaning": "杀死，杀害者",
+    "origin": "拉丁语",
+    "description": "表示杀害的行为或杀害者",
+    "examples": [
+      "suicide",
+      "pesticide",
+      "homicide",
+      "insecticide",
+      "genocide"
+    ]
+  },
+  {
+    "affix": "-ee",
+    "type": "suffix",
+    "meaning": "被……的人，接受者",
+    "origin": "法语/拉丁语",
+    "description": "表示动作的接受者或被……的人",
+    "examples": [
+      "employee",
+      "trainee",
+      "refugee",
+      "addressee",
+      "interviewee"
+    ]
+  },
+  {
+    "affix": "-ery",
+    "type": "suffix",
+    "meaning": "……的地方、行为、状态",
+    "origin": "古法语",
+    "description": "表示从事某活动的地方、行为方式或集合名词",
+    "examples": [
+      "bakery",
+      "brewery",
+      "robbery",
+      "nursery",
+      "bravery"
+    ]
+  },
+  {
+    "affix": "-let",
+    "type": "suffix",
+    "meaning": "小的……",
+    "origin": "古法语",
+    "description": "表示小型的、微小的意思（指小词缀）",
+    "examples": [
+      "booklet",
+      "starlet",
+      "droplet",
+      "piglet",
+      "leaflet"
+    ]
+  },
+  {
+    "affix": "-like",
+    "type": "suffix",
+    "meaning": "像……一样的",
+    "origin": "古英语",
+    "description": "表示像……一样的、具有……特征的",
+    "examples": [
+      "childlike",
+      "lifelike",
+      "dreamlike",
+      "ladylike",
+      "warlike"
+    ]
+  },
+  {
+    "affix": "-some",
+    "type": "suffix",
+    "meaning": "有……倾向的，引起……的",
+    "origin": "古英语",
+    "description": "表示引起……的、有……倾向的或具有……特征的",
+    "examples": [
+      "handsome",
+      "troublesome",
+      "loathsome",
+      "burdensome",
+      "wholesome"
+    ]
+  },
+  {
+    "affix": "-most",
+    "type": "suffix",
+    "meaning": "最……的",
+    "origin": "古英语",
+    "description": "表示最……的，构成最高级含义的形容词",
+    "examples": [
+      "foremost",
+      "utmost",
+      "innermost",
+      "topmost",
+      "utmost"
+    ]
+  },
+  {
+    "affix": "-fold",
+    "type": "suffix",
+    "meaning": "……倍的，……重",
+    "origin": "古英语",
+    "description": "表示倍数或重叠的层数",
+    "examples": [
+      "twofold",
+      "threefold",
+      "manifold",
+      "hundredfold",
+      "tenfold"
+    ]
+  },
+  {
+    "affix": "-an / -ian",
+    "type": "suffix",
+    "meaning": "属于……的，……的人",
+    "origin": "拉丁语",
+    "description": "表示属于某一国家、地区、学派或具有某种特征的人",
+    "examples": [
+      "American",
+      "Canadian",
+      "musician",
+      "historian",
+      "librarian"
+    ]
+  },
+  {
+    "affix": "-ant / -ent",
+    "type": "suffix",
+    "meaning": "做……的人，具有……性质的",
+    "origin": "拉丁语",
+    "description": "表示做……的人或具有某种性质的",
+    "examples": [
+      "assistant",
+      "student",
+      "important",
+      "different",
+      "president"
+    ]
+  },
+  {
+    "affix": "-ary / -ory",
+    "type": "suffix",
+    "meaning": "与……有关的，……的场所",
+    "origin": "拉丁语",
+    "description": "表示与……有关的（形容词）或……的场所（名词）",
+    "examples": [
+      "library",
+      "factory",
+      "ordinary",
+      "laboratory",
+      "dictionary"
+    ]
+  },
+  {
+    "affix": "-ure",
+    "type": "suffix",
+    "meaning": "……的行为、结果、状态",
+    "origin": "拉丁语/法语",
+    "description": "表示动作、过程、结果或状态，以及职务",
+    "examples": [
+      "failure",
+      "pleasure",
+      "measure",
+      "closure",
+      "exposure"
+    ]
+  },
+  {
+    "affix": "-age",
+    "type": "suffix",
+    "meaning": "……的行为、状态、集合",
+    "origin": "拉丁语/法语",
+    "description": "表示动作、状态、费用或集合名词",
+    "examples": [
+      "marriage",
+      "storage",
+      "baggage",
+      "shortage",
+      "village"
+    ]
+  },
+  {
+    "affix": "-ance / -ence",
+    "type": "suffix",
+    "meaning": "……的状态、性质、行为",
+    "origin": "拉丁语/法语",
+    "description": "将动词或形容词转化为名词，表示状态、性质或行为",
+    "examples": [
+      "importance",
+      "distance",
+      "confidence",
+      "patience",
+      "performance"
+    ]
+  },
+  {
+    "affix": "-cy",
+    "type": "suffix",
+    "meaning": "……的状态、职位、性质",
+    "origin": "拉丁语/希腊语",
+    "description": "表示状态、性质、职位或职务",
+    "examples": [
+      "accuracy",
+      "privacy",
+      "democracy",
+      "frequency",
+      "bankruptcy"
+    ]
+  },
+  {
+    "affix": "-tude",
+    "type": "suffix",
+    "meaning": "……的状态、性质",
+    "origin": "拉丁语",
+    "description": "将形容词转化为名词，表示状态、性质或程度",
+    "examples": [
+      "attitude",
+      "gratitude",
+      "altitude",
+      "latitude",
+      "fortitude"
+    ]
+  },
+  {
+    "affix": "-ing",
+    "type": "suffix",
+    "meaning": "正进行的动作，与……有关的事物",
+    "origin": "古英语",
+    "description": "构成现在分词或动名词，表示正在进行的动作或与某事物相关",
+    "examples": [
+      "building",
+      "learning",
+      "interesting",
+      "swimming",
+      "shopping"
+    ]
+  },
+  {
+    "affix": "-ed",
+    "type": "suffix",
+    "meaning": "已……的，有……特征的",
+    "origin": "古英语",
+    "description": "构成过去式/过去分词，或将名词转化为形容词表示具有……特征",
+    "examples": [
+      "excited",
+      "interested",
+      "crowned",
+      "talented",
+      "skilled"
+    ]
+  },
+  {
+    "affix": "-y",
+    "type": "suffix",
+    "meaning": "有……特征的，充满……的",
+    "origin": "古英语",
+    "description": "将名词转化为形容词，表示充满……的或具有……特征的",
+    "examples": [
+      "rainy",
+      "dirty",
+      "healthy",
+      "bloody",
+      "thirsty"
+    ]
+  },
+  {
+    "affix": "-ish",
+    "type": "suffix",
+    "meaning": "有点……的，像……的",
+    "origin": "古英语",
+    "description": "表示有点……的、稍微……的、像……的或大约的",
+    "examples": [
+      "childish",
+      "reddish",
+      "selfish",
+      "foolish",
+      "fortyish"
+    ]
+  },
+  {
+    "affix": "-ify",
+    "type": "suffix",
+    "meaning": "使成为，使……化",
+    "origin": "拉丁语",
+    "description": "将名词或形容词转化为动词，表示使变成某种状态",
+    "examples": [
+      "beautify",
+      "amplify",
+      "purify",
+      "solidify",
+      "diversify"
+    ]
+  },
+  {
+    "affix": "-ette",
+    "type": "suffix",
+    "meaning": "小的，女性的",
+    "origin": "法语",
+    "description": "表示小型的（指小词缀）或女性版本的意思",
+    "examples": [
+      "kitchenette",
+      "cigarette",
+      "cassette",
+      "suffragette",
+      "bachelorette"
+    ]
+  },
+  {
+    "affix": "-itis",
+    "type": "suffix",
+    "meaning": "炎症，过度沉迷",
+    "origin": "希腊语",
+    "description": "用于医学上表示炎症，也可比喻过度沉迷于某事",
+    "examples": [
+      "bronchitis",
+      "arthritis",
+      "appendicitis",
+      "tonsillitis",
+      "gastritis"
+    ]
+  },
+  {
+    "affix": "-oid",
+    "type": "suffix",
+    "meaning": "像……的，类似于……的",
+    "origin": "希腊语",
+    "description": "表示形状、外观上类似于某物的",
+    "examples": [
+      "humanoid",
+      "android",
+      "asteroid",
+      "ovoid",
+      "cuboid"
+    ]
+  },
+  {
+    "affix": "-ose",
+    "type": "suffix",
+    "meaning": "充满……的，多……的",
+    "origin": "拉丁语",
+    "description": "表示充满……的或具有某种性质的",
+    "examples": [
+      "verbose",
+      "grandiose",
+      "morose",
+      "bellicose",
+      "globose"
+    ]
+  },
+  {
+    "affix": "-proof",
+    "type": "suffix",
+    "meaning": "防……的，耐……的",
+    "origin": "拉丁语/法语",
+    "description": "表示防护、抵抗或不受……影响的",
+    "examples": [
+      "waterproof",
+      "fireproof",
+      "bulletproof",
+      "foolproof",
+      "shockproof"
+    ]
+  }
+]
