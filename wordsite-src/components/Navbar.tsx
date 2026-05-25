@@ -17,8 +17,6 @@ const navLinks = [
   { href: '/favorites', label: '收藏' },
 ]
 
-const basePath = '/web-auto-project/wordsite'
-
 export default function Navbar() {
   const pathname = usePathname()
   const { theme, toggle } = useTheme()
@@ -38,8 +36,8 @@ export default function Navbar() {
   }, [])
 
   const isActive = (href: string) => {
-    if (href === '/') return pathname === basePath || pathname === '/'
-    return pathname.startsWith(href) || pathname.startsWith(basePath + href)
+    if (href === '/') return pathname === '/'
+    return pathname.startsWith(href)
   }
 
   return (

@@ -9,7 +9,10 @@ export const metadata: Metadata = {
     '通过词根、词缀、词源拆解记忆单词，为专升本考试打造的智能英语词汇学习网站。150+词根、100+词缀、2000+高频词汇。',
   authors: [{ name: 'WordSite' }],
   keywords: ['专升本', '英语单词', '词根', '词缀', '背单词', '词汇学习', '英语考试', '词根记忆法'],
-  manifest: '/web-auto-project/wordsite/manifest.json',
+  metadataBase: process.env.NEXT_PUBLIC_SITE_URL
+    ? new URL(process.env.NEXT_PUBLIC_SITE_URL)
+    : undefined,
+  manifest: '/manifest.json',
   appleWebApp: {
     capable: true,
     title: '词根背单词',
